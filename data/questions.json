@@ -1,0 +1,461 @@
+[
+  {
+    "id": "dopa-001",
+    "type": "choice",
+    "topic": "dopamine",
+    "topicName": "多巴胺管理",
+    "question": "Huberman 提到，14°C 冷水浴对多巴胺的影响有什么独特之处？",
+    "options": [
+      "峰值最高，超过安非他命",
+      "缓慢上升，持续 2-3 小时且无后续崩溃",
+      "需要每天连续做才能见效",
+      "只在运动后效果显著"
+    ],
+    "answer": 1,
+    "explanation": "14°C 冷水使多巴胺升至 2.5 倍基线，特点是缓慢上升且持续 2-3 小时，几乎没有后续崩溃，与安非他命的高峰急跌形成鲜明对比。",
+    "source": "control-your-dopamine"
+  },
+  {
+    "id": "dopa-002",
+    "type": "choice",
+    "topic": "dopamine",
+    "topicName": "多巴胺管理",
+    "question": "下列活动中，哪一项的多巴胺倍数最高？",
+    "options": ["巧克力", "性行为", "尼古丁", "安非他命"],
+    "answer": 3,
+    "explanation": "安非他命可使多巴胺达到基线 10 倍，但伴随极强的崩溃。巧克力 1.5x、性行为 2x、尼古丁 2.5x。",
+    "source": "control-your-dopamine"
+  },
+  {
+    "id": "dopa-003",
+    "type": "truefalse",
+    "topic": "dopamine",
+    "topicName": "多巴胺管理",
+    "question": "多巴胺是大脑里的\"快乐分子\"，越多越快乐。",
+    "answer": false,
+    "explanation": "多巴胺是\"想要更多\"的驱动信号，不是快乐分子本身。多巴胺峰值越高，之后基线跌得越深。",
+    "source": "control-your-dopamine"
+  },
+  {
+    "id": "dopa-004",
+    "type": "choice",
+    "topic": "dopamine",
+    "topicName": "多巴胺管理",
+    "question": "为什么 Huberman 反对运动前叠加咖啡 + 音乐 + 能量饮料？",
+    "options": [
+      "因为这样会让心率过快",
+      "因为多巴胺只有一种货币，叠加消耗的是同一个账户",
+      "因为咖啡因会抑制肌肉生长",
+      "因为这种组合会引起血糖波动"
+    ],
+    "answer": 1,
+    "explanation": "多巴胺资源是共享的，多种刺激同时叠加会快速透支多巴胺，导致基线下移。Huberman 建议间歇性奖赏。",
+    "source": "control-your-dopamine"
+  },
+  {
+    "id": "dopa-005",
+    "type": "truefalse",
+    "topic": "dopamine",
+    "topicName": "多巴胺管理",
+    "question": "Huberman 推荐运动后立即奖励自己，强化大脑动机。",
+    "answer": false,
+    "explanation": "Huberman 建议\"从努力本身获取多巴胺\"，反对在运动后立即给奖励，否则会让大脑只为奖励而努力，而非享受过程。",
+    "source": "control-your-dopamine"
+  },
+  {
+    "id": "dopa-006",
+    "type": "choice",
+    "topic": "dopamine",
+    "topicName": "多巴胺管理",
+    "question": "Huberman 推荐的间歇性奖赏方式是什么？",
+    "options": [
+      "每周固定一天放纵",
+      "像赌场一样，随机决定今天健身要不要听音乐",
+      "每运动 10 次奖励自己一顿大餐",
+      "彻底戒掉所有附加刺激"
+    ],
+    "answer": 1,
+    "explanation": "间歇性奖赏是关键：随机变动让大脑保持对刺激的敏感度，避免每次都\"加料\"造成耐受。",
+    "source": "control-your-dopamine"
+  },
+
+  {
+    "id": "sleep-001",
+    "type": "choice",
+    "topic": "sleep",
+    "topicName": "睡眠科学",
+    "question": "Huberman 认为决定睡眠质量的两大基础力量是什么？",
+    "options": [
+      "饮食 + 运动",
+      "腺苷压力 + 昼夜节律",
+      "褪黑素 + 血清素",
+      "压力 + 心率变异性"
+    ],
+    "answer": 1,
+    "explanation": "腺苷压力（清醒时间越长越想睡）+ 昼夜节律（光照决定的生物钟），两者协同才能既容易入睡又一觉到天亮。",
+    "source": "master-your-sleep"
+  },
+  {
+    "id": "sleep-002",
+    "type": "choice",
+    "topic": "sleep",
+    "topicName": "睡眠科学",
+    "question": "下列哪项最能直接校准昼夜节律？",
+    "options": [
+      "睡前服用褪黑素",
+      "晚上调暗屏幕",
+      "起床后 2-10 分钟接触自然光",
+      "晚饭吃富含色氨酸的食物"
+    ],
+    "answer": 2,
+    "explanation": "晨起的自然光是设定生物钟的最强信号——比室内光强百倍以上，2-10 分钟即可。",
+    "source": "master-your-sleep"
+  },
+  {
+    "id": "sleep-003",
+    "type": "truefalse",
+    "topic": "sleep",
+    "topicName": "睡眠科学",
+    "question": "下午 4 点喝咖啡对睡眠几乎没有影响。",
+    "answer": false,
+    "explanation": "咖啡因半衰期 5-6 小时，下午摄入仍会显著阻塞腺苷。Huberman 建议 14:00 后停止咖啡因。",
+    "source": "master-your-sleep"
+  },
+  {
+    "id": "sleep-004",
+    "type": "choice",
+    "topic": "sleep",
+    "topicName": "睡眠科学",
+    "question": "Huberman 的睡眠最小可执行方案中，傍晚要做什么？",
+    "options": [
+      "做高强度运动",
+      "再次接触自然光（如日落时段）",
+      "服用褪黑素",
+      "看蓝光屏幕加快入睡"
+    ],
+    "answer": 1,
+    "explanation": "傍晚自然光与晨光形成节律对照，告诉大脑\"白天结束了\"，帮助褪黑素按时分泌。",
+    "source": "master-your-sleep"
+  },
+  {
+    "id": "sleep-005",
+    "type": "choice",
+    "topic": "sleep",
+    "topicName": "睡眠科学",
+    "question": "影响入睡的最关键因素，Huberman 认为不是屏幕，而是？",
+    "options": ["室温", "光照时机", "床垫硬度", "枕头高度"],
+    "answer": 1,
+    "explanation": "光线本身不是问题，错误的时机才是——白天该亮的时候不亮、晚上该暗的时候不暗，会扰乱生物钟。",
+    "source": "master-your-sleep"
+  },
+
+  {
+    "id": "habit-001",
+    "type": "choice",
+    "topic": "habits",
+    "topicName": "习惯养成",
+    "question": "James Clear 在《原子习惯》中提出的行为改变四定律不包括以下哪一项？",
+    "options": ["让它显而易见", "让它有吸引力", "让它简单易行", "让它充满挑战"],
+    "answer": 3,
+    "explanation": "四定律是：显而易见、有吸引力、简单易行、令人满足。挑战性不是其中之一，反而越简单越好。",
+    "source": "build-better-habits"
+  },
+  {
+    "id": "habit-002",
+    "type": "truefalse",
+    "topic": "habits",
+    "topicName": "习惯养成",
+    "question": "James Clear 认为意志力是养成习惯最重要的因素。",
+    "answer": false,
+    "explanation": "他强调环境才是真正的行为设计师——重新设计你的空间，远比依赖意志力有效。",
+    "source": "build-better-habits"
+  },
+  {
+    "id": "habit-003",
+    "type": "choice",
+    "topic": "habits",
+    "topicName": "习惯养成",
+    "question": "读者 Mitch 的成功案例采用的策略是？",
+    "options": [
+      "每天去健身房至少练 1 小时",
+      "请私教强化纪律",
+      "去健身房只待 5 分钟就走",
+      "和朋友约定打卡奖励"
+    ],
+    "answer": 2,
+    "explanation": "Mitch 起初只允许自己待 5 分钟，6 周后自然练满 1 小时。先学会出现，再谈表现。",
+    "source": "build-better-habits"
+  },
+  {
+    "id": "habit-004",
+    "type": "choice",
+    "topic": "habits",
+    "topicName": "习惯养成",
+    "question": "James Clear 关于\"坏日子\"的核心建议是？",
+    "options": [
+      "彻底休息一天",
+      "做最低限度版本，永不连续错过两次",
+      "请教练补练弥补",
+      "增加第二天的训练量"
+    ],
+    "answer": 1,
+    "explanation": "顶尖与普通的差距不在好日子，而在坏日子——状态差也做最小版本，永不连续错过两次。",
+    "source": "build-better-habits"
+  },
+  {
+    "id": "habit-005",
+    "type": "truefalse",
+    "topic": "habits",
+    "topicName": "习惯养成",
+    "question": "James Clear 主张关注\"我想达成什么\"远比\"我想成为什么样的人\"更有效。",
+    "answer": false,
+    "explanation": "正好相反。他主张以身份为锚——每个行动都是为身份投票，几个月后你会自然认同：\"这就是我\"。",
+    "source": "build-better-habits"
+  },
+  {
+    "id": "habit-006",
+    "type": "choice",
+    "topic": "habits",
+    "topicName": "习惯养成",
+    "question": "James Clear 个人对抗手机干扰的方法不包括？",
+    "options": [
+      "上午把手机放另一个房间",
+      "删除社交和邮件 App",
+      "把密码交给助理保管",
+      "把手机调到飞行模式整周"
+    ],
+    "answer": 3,
+    "explanation": "他提到了前三项，没有提到飞行模式整周——他的策略是\"增加摩擦\"而非\"切断\"。",
+    "source": "build-better-habits"
+  },
+
+  {
+    "id": "gut-001",
+    "type": "choice",
+    "topic": "gut",
+    "topicName": "肠道健康",
+    "question": "Dr. Will Bulsiewicz 描述的肠道三层防线，从最内层到最外层依次是？",
+    "options": [
+      "免疫系统 → 肠道屏障 → 微生物",
+      "微生物 → 肠道屏障 → 免疫系统",
+      "肠道屏障 → 微生物 → 免疫系统",
+      "免疫系统 → 微生物 → 肠道屏障"
+    ],
+    "answer": 1,
+    "explanation": "三层防线：38 万亿微生物 → 肠道屏障 → 免疫系统。前两层崩溃，免疫系统进入永久战争模式。",
+    "source": "repair-damaged-gut"
+  },
+  {
+    "id": "gut-002",
+    "type": "truefalse",
+    "topic": "gut",
+    "topicName": "肠道健康",
+    "question": "目前科学已知最强的天然抗炎物质是益生菌。",
+    "answer": false,
+    "explanation": "是膳食纤维发酵后产生的短链脂肪酸（尤其是丁酸盐 butyrate），不是益生菌本身。",
+    "source": "repair-damaged-gut"
+  },
+  {
+    "id": "gut-003",
+    "type": "choice",
+    "topic": "gut",
+    "topicName": "肠道健康",
+    "question": "关于酒精与肠道屏障，Bulsiewicz 强调的事实是？",
+    "options": [
+      "适量红酒对肠道有益",
+      "只有大量饮酒才有害",
+      "血液中可检测到的任何酒精量都意味着肠道屏障正在被破坏",
+      "啤酒对肠道屏障无影响"
+    ],
+    "answer": 2,
+    "explanation": "他的原话直接而尖锐：哪怕血液中只是可检测到的酒精量，肠道屏障就已经在被破坏。",
+    "source": "repair-damaged-gut"
+  },
+  {
+    "id": "gut-004",
+    "type": "choice",
+    "topic": "gut",
+    "topicName": "肠道健康",
+    "question": "推荐的晨间补剂三件套是？",
+    "options": [
+      "维生素 C + 锌 + 镁",
+      "维生素 D + Omega-3 + 姜黄素",
+      "B 族维生素 + 益生菌 + 钙",
+      "维生素 E + 铁 + 硒"
+    ],
+    "answer": 1,
+    "explanation": "维生素 D + Omega-3 + 姜黄素（curcumin），分别支持免疫、抗炎和阻断炎症通路。",
+    "source": "repair-damaged-gut"
+  },
+  {
+    "id": "gut-005",
+    "type": "choice",
+    "topic": "gut",
+    "topicName": "肠道健康",
+    "question": "肠道屏障多久能重建一次？",
+    "options": ["每天", "3-5 天", "2-3 周", "1 个月"],
+    "answer": 1,
+    "explanation": "肠道上皮细胞每 3-5 天就完成一轮更新——这意味着修复随时可以从今天开始。",
+    "source": "repair-damaged-gut"
+  },
+  {
+    "id": "gut-006",
+    "type": "truefalse",
+    "topic": "gut",
+    "topicName": "肠道健康",
+    "question": "心理压力可以通过脑-肠轴直接破坏肠道屏障。",
+    "answer": true,
+    "explanation": "持续压力（如 996）正是肠道的\"隐形杀手\"，通过脑-肠轴影响微生物群和肠壁。",
+    "source": "repair-damaged-gut"
+  },
+
+  {
+    "id": "imm-001",
+    "type": "choice",
+    "topic": "immune",
+    "topicName": "免疫力",
+    "question": "关于阳光与褪黑素，下列哪条最反常识？",
+    "options": [
+      "褪黑素只在松果体中产生",
+      "95% 的褪黑素其实来自线粒体",
+      "蓝光可以促进褪黑素",
+      "褪黑素只能靠口服补充"
+    ],
+    "answer": 1,
+    "explanation": "体内 95% 褪黑素来自线粒体，被红外线激活产生；松果体只占少部分。",
+    "source": "enhance-immune-system"
+  },
+  {
+    "id": "imm-002",
+    "type": "truefalse",
+    "topic": "immune",
+    "topicName": "免疫力",
+    "question": "运动量越大，免疫力越强。",
+    "answer": false,
+    "explanation": "运动与免疫呈 J 型曲线：不动炎症高，中等运动炎症最低，过度训练反而免疫崩溃。",
+    "source": "enhance-immune-system"
+  },
+  {
+    "id": "imm-003",
+    "type": "choice",
+    "topic": "immune",
+    "topicName": "免疫力",
+    "question": "睡眠不足 6 小时，感冒风险增加多少倍？",
+    "options": ["1.5 倍", "2.5 倍", "4.2 倍", "10 倍"],
+    "answer": 2,
+    "explanation": "数据来自经典睡眠免疫研究：< 6 小时使感冒风险增加约 4.2 倍。",
+    "source": "enhance-immune-system"
+  },
+  {
+    "id": "imm-004",
+    "type": "choice",
+    "topic": "immune",
+    "topicName": "免疫力",
+    "question": "森林浴的免疫效果，研究发现可持续多久？",
+    "options": ["当天", "3 天", "30 天", "1 年"],
+    "answer": 2,
+    "explanation": "日本研究：2-3 天的森林浴使 NK 细胞活性升高，效果可持续约 30 天。",
+    "source": "enhance-immune-system"
+  },
+  {
+    "id": "imm-005",
+    "type": "truefalse",
+    "topic": "immune",
+    "topicName": "免疫力",
+    "question": "1918 年大流感期间，使用水疗的医院死亡率比常规治疗低。",
+    "answer": true,
+    "explanation": "确有此记载——百年前的智慧今天才有了科学解释（冷热刺激激活 NK 细胞与干扰素）。",
+    "source": "enhance-immune-system"
+  },
+  {
+    "id": "imm-006",
+    "type": "choice",
+    "topic": "immune",
+    "topicName": "免疫力",
+    "question": "NEW START 框架中，N、E、W、S 分别代表？",
+    "options": [
+      "Nutrition / Exercise / Water / Sunlight",
+      "Nature / Energy / Wind / Sleep",
+      "Network / Effort / Will / Stress",
+      "Nutrients / Endurance / Walk / Smile"
+    ],
+    "answer": 0,
+    "explanation": "NEW START：Nutrition、Exercise、Water、Sunlight、Temperance、Air、Rest、Trust。",
+    "source": "enhance-immune-system"
+  },
+
+  {
+    "id": "learn-001",
+    "type": "choice",
+    "topic": "learning",
+    "topicName": "学习与神经可塑性",
+    "question": "MIT 脑电实验发现，学生用 AI 写论文出现了什么问题？",
+    "options": [
+      "论文质量明显下降",
+      "大脑\"生成负荷\"断崖式下降，知识没进入大脑",
+      "写作时间反而更长",
+      "AI 写出的论文容易被识破"
+    ],
+    "answer": 1,
+    "explanation": "脑电图显示，AI 帮写时学生的生成负荷剧降——论文写出来了，但知识没在大脑里建模。",
+    "source": "enhance-learning-speed"
+  },
+  {
+    "id": "learn-002",
+    "type": "choice",
+    "topic": "learning",
+    "topicName": "学习与神经可塑性",
+    "question": "Huberman 个人推崇的 AI 学习方式是？",
+    "options": [
+      "让 AI 帮自己写完论文",
+      "把材料喂给 AI 出题，再脱离材料散步回忆",
+      "让 AI 把书翻译成中文以方便记忆",
+      "把所有笔记交给 AI 自动整理"
+    ],
+    "answer": 1,
+    "explanation": "他用 AI 增强而非替代认知：让 AI 出题考自己，再不看材料散步回忆，AI 还会找出薄弱点。",
+    "source": "enhance-learning-speed"
+  },
+  {
+    "id": "learn-003",
+    "type": "truefalse",
+    "topic": "learning",
+    "topicName": "学习与神经可塑性",
+    "question": "你每天使用的技术只是\"工具\"，并不会真正改变大脑结构。",
+    "answer": false,
+    "explanation": "Dr. Poppy Crum：每一项技术都在物理性地重新分配神经元；1940 年代的脑地图早已过时。",
+    "source": "enhance-learning-speed"
+  },
+  {
+    "id": "learn-004",
+    "type": "choice",
+    "topic": "learning",
+    "topicName": "学习与神经可塑性",
+    "question": "让从不玩游戏的人玩 40 小时《使命召唤》后，研究发现什么？",
+    "options": [
+      "记忆力短期下降",
+      "视觉对比敏感度和概率推理速度显著提升，且 1 年后仍保留",
+      "情绪明显变差",
+      "睡眠质量改善"
+    ],
+    "answer": 1,
+    "explanation": "动作游戏在受控实验中提升视觉处理与概率推理，效果在 1 年后仍可测量。",
+    "source": "enhance-learning-speed"
+  },
+  {
+    "id": "learn-005",
+    "type": "choice",
+    "topic": "learning",
+    "topicName": "学习与神经可塑性",
+    "question": "Huberman 提出的判断 AI 使用是否健康的标准是？",
+    "options": [
+      "速度越快越好",
+      "我是在让大脑变强，还是让大脑放假？",
+      "是否节省了时间",
+      "AI 输出的结果是否准确"
+    ],
+    "answer": 1,
+    "explanation": "用之前问自己：增强认知（变强）还是替代认知（放假）。这是一条简单但关键的判断。",
+    "source": "enhance-learning-speed"
+  }
+]

@@ -1,0 +1,372 @@
+{
+  "topics": [
+    { "id": "dopamine", "name": "多巴胺管理", "source": "Huberman Lab · Andrew Huberman" },
+    { "id": "sleep", "name": "睡眠科学", "source": "Huberman Lab · Andrew Huberman" },
+    { "id": "habits", "name": "习惯养成", "source": "《原子习惯》· James Clear" },
+    { "id": "gut", "name": "肠道健康", "source": "Dr. Will Bulsiewicz" },
+    { "id": "immune", "name": "免疫力 (NEW START)", "source": "ICU 呼吸科医生 · NEW START 框架" },
+    { "id": "learning", "name": "学习与神经可塑性", "source": "Huberman Lab · Dr. Poppy Crum" }
+  ],
+  "cards": [
+    {
+      "topic": "dopamine",
+      "title": "多巴胺不是\"快乐分子\"",
+      "displayType": "comparison",
+      "content": "它驱动的是\"想要更多\"，不是快乐本身。误解这一点，就会越追越空。",
+      "richData": {
+        "leftTitle": "误解",
+        "leftItems": [
+          "多巴胺 = 快乐分子",
+          "越多越快乐",
+          "追到目标 = 满足"
+        ],
+        "rightTitle": "真相",
+        "rightItems": [
+          "多巴胺 = 想要更多的信号",
+          "峰值越高 → 之后跌得越深",
+          "追到之后基线下移，更空虚"
+        ]
+      },
+      "source": "Huberman Lab"
+    },
+    {
+      "topic": "dopamine",
+      "title": "各活动的多巴胺倍数",
+      "displayType": "chart",
+      "content": "倍数高 ≠ 健康。倍数高 + 急跌 = 成瘾路径。",
+      "richData": {
+        "bars": [
+          { "label": "巧克力", "value": 1.5, "display": "1.5x" },
+          { "label": "性行为", "value": 2.0, "display": "2x" },
+          { "label": "尼古丁", "value": 2.5, "display": "2.5x" },
+          { "label": "冷水浴 14°C", "value": 2.5, "display": "2.5x" },
+          { "label": "安非他命", "value": 10.0, "display": "10x" }
+        ]
+      },
+      "actionItem": "选择缓释型刺激（如冷水浴）替代急峰急跌的化学刺激"
+    },
+    {
+      "topic": "dopamine",
+      "title": "叠加刺激的陷阱",
+      "displayType": "flow",
+      "content": "多巴胺账户只有一个，叠加只是透支同一笔余额。",
+      "richData": {
+        "steps": [
+          "咖啡 + 音乐 + 能量饮料 + 短视频",
+          "多种刺激同时拉爆账户",
+          "基线下移",
+          "什么都提不起兴趣（\"工作狂越来越累\" / \"刷手机越刷越空\"）"
+        ]
+      },
+      "actionItem": "像赌场一样使用间歇性奖赏：随机决定今天健身要不要听音乐"
+    },
+    {
+      "topic": "dopamine",
+      "title": "冷水浴：天然多巴胺工具",
+      "displayType": "bigNumber",
+      "content": "Huberman 个人首推。14°C 冷水，多巴胺缓慢上升至 2.5 倍，无后续崩溃。",
+      "richData": { "number": "2-3h", "label": "多巴胺持续提升时长（无崩溃）" },
+      "actionItem": "尝试 1-3 分钟冷水冲淋（耐受后再尝试冷浸）"
+    },
+    {
+      "topic": "dopamine",
+      "title": "最高段位：从努力本身获取多巴胺",
+      "displayType": "checklist",
+      "content": "训练大脑把\"痛苦\"识别为奖赏，而不是事后用奖励买单。",
+      "richData": {
+        "items": [
+          "运动前不叠加咖啡 / 音乐 / 能量饮料",
+          "运动后不立即给奖励",
+          "把注意力放在过程的难和痛上，告诉大脑：这本身就是奖励",
+          "随机改变奖励出现的位置和时机"
+        ]
+      }
+    },
+
+    {
+      "topic": "sleep",
+      "title": "睡眠的两大基础力量",
+      "displayType": "formula",
+      "content": "两者协调一致 → 入睡快 + 一觉到天亮 + 自然醒。",
+      "richData": { "formula": "腺苷压力  ×  昼夜节律" },
+      "actionItem": "想睡好：不只看你做了什么，更看你做的时机对不对"
+    },
+    {
+      "topic": "sleep",
+      "title": "Huberman 睡眠最小可执行方案",
+      "displayType": "checklist",
+      "content": "试 7 天，多数人会感到明显变化。",
+      "richData": {
+        "items": [
+          "起床后 2-10 分钟：户外接触自然光",
+          "下午 14:00 后停止咖啡因",
+          "傍晚（日落前后）：再到户外晒一次",
+          "睡前 1 小时：调暗屏幕和室内灯光"
+        ]
+      },
+      "actionItem": "重点不是哪条最强，而是 4 条全做。一致性胜过强度。"
+    },
+    {
+      "topic": "sleep",
+      "title": "屏幕不是元凶，时机才是",
+      "displayType": "comparison",
+      "content": "把\"少看屏幕\"换成\"对的时间晒对的光\"。",
+      "richData": {
+        "leftTitle": "常见误区",
+        "leftItems": ["屏幕蓝光 = 失眠", "晚上戴防蓝光眼镜就能解决", "白天屋里光线不重要"],
+        "rightTitle": "真正关键",
+        "rightItems": ["晨光是设定生物钟的最强信号", "白天暴露不足 = 晚上不困", "傍晚自然光告诉大脑\"该收工了\""]
+      }
+    },
+
+    {
+      "topic": "habits",
+      "title": "行为改变四定律",
+      "displayType": "table",
+      "content": "建立好习惯：四条全部正向；戒掉坏习惯：四条全部反向。",
+      "richData": {
+        "headers": ["定律", "建立好习惯", "戒掉坏习惯"],
+        "rows": [
+          ["显而易见", "把它放在视线内", "把它从视线移走"],
+          ["有吸引力", "和喜欢的事捆绑", "去除诱因"],
+          ["简单易行", "降低启动门槛", "增加摩擦"],
+          ["令人满足", "立即奖励", "立即代价"]
+        ]
+      }
+    },
+    {
+      "topic": "habits",
+      "title": "环境是真正的行为设计师",
+      "displayType": "comparison",
+      "content": "重新设计你的空间，比依赖意志力高效得多。",
+      "richData": {
+        "leftTitle": "依赖意志力",
+        "leftItems": ["每天告诉自己\"今天要跑步\"", "睡前提醒自己\"少看手机\"", "硬扛诱惑"],
+        "rightTitle": "重新设计空间",
+        "rightItems": ["跑鞋放门口", "吉他放客厅", "上午把手机放到另一间屋"]
+      }
+    },
+    {
+      "topic": "habits",
+      "title": "Mitch 故事：5 分钟法则",
+      "displayType": "flow",
+      "content": "先学会出现，再谈表现。这就是\"启动的艺术\"。",
+      "richData": {
+        "steps": [
+          "规定自己到健身房只能待 5 分钟",
+          "5 分钟很容易做到，几乎没有阻力",
+          "去 6 周后，自然练满 1 小时",
+          "习惯启动了"
+        ]
+      },
+      "actionItem": "把目标缩小到\"2 分钟版本\"——读 1 页 / 跑 1 分钟 / 写 1 句话"
+    },
+    {
+      "topic": "habits",
+      "title": "永不连续错过两次",
+      "displayType": "bigNumber",
+      "content": "顶尖与普通的差距，不在好日子，而在坏日子。",
+      "richData": { "number": "≤ 1 次", "label": "可以错过的连续次数（再多就崩塌）" },
+      "actionItem": "状态再差，也做\"两组深蹲\"——绝不交白卷"
+    },
+    {
+      "topic": "habits",
+      "title": "身份 > 目标",
+      "displayType": "comparison",
+      "content": "每次行动都是为身份投票。3 个月后你会自然认同：\"这就是我\"。",
+      "richData": {
+        "leftTitle": "结果导向（容易放弃）",
+        "leftItems": ["我想减 10 斤", "我想读完 30 本书", "我想戒掉短视频"],
+        "rightTitle": "身份导向（更持久）",
+        "rightItems": ["我是个会运动的人", "我是个读书的人", "我是个保护注意力的人"]
+      }
+    },
+
+    {
+      "topic": "gut",
+      "title": "肠道三层防线",
+      "displayType": "flow",
+      "content": "前两层一旦失守，免疫系统就进入永久战争模式 = 慢性炎症。",
+      "richData": {
+        "steps": [
+          "第一层：38 万亿微生物（菌群多样性）",
+          "第二层：肠道屏障（上皮+黏液层）",
+          "第三层：免疫系统",
+          "若前两层崩溃 → 慢性低度炎症（关联 130+ 疾病）"
+        ]
+      }
+    },
+    {
+      "topic": "gut",
+      "title": "膳食纤维 → 丁酸盐",
+      "displayType": "formula",
+      "content": "目前科学已知最强的天然抗炎物质，来自纤维发酵。",
+      "richData": { "formula": "膳食纤维 → 好菌发酵 → 短链脂肪酸（丁酸盐）" },
+      "actionItem": "每餐增加一种深色蔬菜或全谷物——95% 的人纤维严重不足"
+    },
+    {
+      "topic": "gut",
+      "title": "酒精 = 直接拆肠墙",
+      "displayType": "bigNumber",
+      "content": "Bulsiewicz 原话：血液中任何可检测到的酒精量，都意味着肠道屏障正在被破坏。",
+      "richData": { "number": "0", "label": "对肠道安全的酒精量" }
+    },
+    {
+      "topic": "gut",
+      "title": "晨间补剂三件套",
+      "displayType": "checklist",
+      "content": "Bulsiewicz 推荐的最小化补剂方案。",
+      "richData": {
+        "items": [
+          "维生素 D3（多数人不足）",
+          "Omega-3（抗炎，建议鱼油低温保存）",
+          "姜黄素（curcumin，阻断特定炎症通路）"
+        ]
+      }
+    },
+    {
+      "topic": "gut",
+      "title": "肠道屏障 3-5 天可重建",
+      "displayType": "bigNumber",
+      "content": "上皮细胞快速更新——修复随时可以从今天开始。",
+      "richData": { "number": "3-5 天", "label": "肠道屏障一次完整更新周期" }
+    },
+    {
+      "topic": "gut",
+      "title": "脑-肠轴：心理压力直接伤肠",
+      "displayType": "flow",
+      "content": "持续高压（如 996）= 肠道的隐形杀手。",
+      "richData": {
+        "steps": [
+          "持续工作压力 / 心理创伤",
+          "下丘脑-垂体-肾上腺轴持续激活",
+          "肠道微生物群失衡 + 屏障变薄",
+          "腹胀 / 疲劳 / 注意力差 / 皮肤问题"
+        ]
+      }
+    },
+
+    {
+      "topic": "immune",
+      "title": "NEW START 八字诀",
+      "displayType": "table",
+      "content": "ICU 呼吸科医生总结的循证免疫框架。",
+      "richData": {
+        "headers": ["字母", "含义", "实践"],
+        "rows": [
+          ["N", "Nutrition 营养", "深色蔬果、姜黄、大蒜、发酵食品"],
+          ["E", "Exercise 运动", "中等强度（J型曲线最佳点）"],
+          ["W", "Water 水", "充足饮水 + 冷水/热水疗"],
+          ["S", "Sunlight 阳光", "红外线激活线粒体褪黑素"],
+          ["T", "Temperance 节制", "戒酒、少糖"],
+          ["A", "Air 空气", "森林浴、植物杀菌素"],
+          ["R", "Rest 休息", "≥7 小时睡眠"],
+          ["T", "Trust 信任", "情绪连接 / 信仰"]
+        ]
+      }
+    },
+    {
+      "topic": "immune",
+      "title": "阳光最被低估的力量",
+      "displayType": "bigNumber",
+      "content": "红外线穿透皮肤 8 厘米，激活线粒体产生褪黑素。",
+      "richData": { "number": "95%", "label": "体内褪黑素来自线粒体（不是松果体）" },
+      "actionItem": "每天到户外晒 10-20 分钟，避免全程隔玻璃"
+    },
+    {
+      "topic": "immune",
+      "title": "运动免疫的 J 型曲线",
+      "displayType": "chart",
+      "content": "中等运动免疫最佳，过度训练反而崩盘。",
+      "richData": {
+        "bars": [
+          { "label": "完全不动", "value": 70, "display": "高炎症" },
+          { "label": "中等运动", "value": 30, "display": "最低炎症" },
+          { "label": "过度训练", "value": 85, "display": "免疫暴跌" }
+        ]
+      },
+      "actionItem": "饭后散步、太极、快走就够了，不必跑马拉松"
+    },
+    {
+      "topic": "immune",
+      "title": "睡眠不足 = 感冒倍增器",
+      "displayType": "bigNumber",
+      "content": "经典睡眠免疫研究：< 6 小时 → 感冒风险 4.2 倍。",
+      "richData": { "number": "4.2x", "label": "感冒风险增加（不足 6h 睡眠）" },
+      "actionItem": "打疫苗前保证充足睡眠——抗体反应可翻倍"
+    },
+    {
+      "topic": "immune",
+      "title": "森林浴的长尾效应",
+      "displayType": "flow",
+      "content": "树木释放的植物杀菌素是天然免疫增强剂。",
+      "richData": {
+        "steps": [
+          "森林浴 2-3 天",
+          "NK 细胞活性显著升高",
+          "效果持续约 30 天",
+          "城市公园也有效"
+        ]
+      }
+    },
+
+    {
+      "topic": "learning",
+      "title": "技术正在物理地重塑你的大脑",
+      "displayType": "flow",
+      "content": "Poppy Crum：你不是\"用工具\"，是被工具重新接线。",
+      "richData": {
+        "steps": [
+          "每天用大拇指划手机",
+          "大脑里大拇指的代表区不断扩张",
+          "1940 年代的脑地图早已过时",
+          "你接触的每一项技术都在重塑神经元分布"
+        ]
+      }
+    },
+    {
+      "topic": "learning",
+      "title": "MIT 实验：AI 替写 = 知识没进大脑",
+      "displayType": "comparison",
+      "content": "脑电图证据：AI 替写时\"生成负荷\"断崖式下降。",
+      "richData": {
+        "leftTitle": "替代认知（让大脑放假）",
+        "leftItems": [
+          "把题目丢给 AI 让它直接给答案",
+          "让 AI 帮自己整段写论文",
+          "把笔记交给 AI 自动总结后不再回看"
+        ],
+        "rightTitle": "增强认知（让大脑变强）",
+        "rightItems": [
+          "把材料喂给 AI，让 AI 出题考自己",
+          "脱离材料散步回忆答案",
+          "AI 找出薄弱点 → 针对性加练"
+        ]
+      },
+      "actionItem": "用之前问自己：我是在让大脑变强，还是让大脑放假？"
+    },
+    {
+      "topic": "learning",
+      "title": "Huberman 的 AI 学习法",
+      "displayType": "checklist",
+      "content": "把 AI 作为\"出题官 + 教练\"，不是写手。",
+      "richData": {
+        "items": [
+          "把论文 / 书章 / 播客逐字稿喂给 AI",
+          "让 AI 出 10-20 道题考你",
+          "脱离原文，散步时回忆答案",
+          "回来对答案，让 AI 找出薄弱点",
+          "针对薄弱点加练 / 再读"
+        ]
+      }
+    },
+    {
+      "topic": "learning",
+      "title": "动作游戏的认知红利",
+      "displayType": "bigNumber",
+      "content": "受控实验：从不玩游戏的人玩 40 小时《使命召唤》后……",
+      "richData": { "number": "1 年", "label": "视觉对比敏感度 / 概率推理速度提升仍可测量" },
+      "actionItem": "游戏不全是\"电子鸦片\"——关键看你怎么用"
+    }
+  ]
+}

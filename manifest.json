@@ -1,0 +1,17 @@
+{
+  "name": "知识记忆",
+  "short_name": "知识记忆",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#06080d",
+  "theme_color": "#06080d",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

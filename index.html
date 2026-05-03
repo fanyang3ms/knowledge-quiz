@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#06080d" />
+  <title>知识记忆</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <main id="screen"></main>
+    <nav id="tabbar">
+      <button data-tab="library" class="active">
+        <span class="icon">📚</span><span>知识库</span>
+      </button>
+      <button data-tab="quiz">
+        <span class="icon">✏️</span><span>刷题</span>
+      </button>
+      <button data-tab="review">
+        <span class="icon">🔁</span><span>错题本</span>
+      </button>
+      <button data-tab="stats">
+        <span class="icon">📊</span><span>统计</span>
+      </button>
+    </nav>
+  </div>
+  <script src="app.js" type="module"></script>
+</body>
+</html>
