@@ -1,0 +1,1209 @@
+{
+  "topics": [
+    { "id": "adhdmed", "name": "ADHD药物", "source": "adhd-medicine" },
+    { "id": "adhdparent", "name": "ADHD儿童养育", "source": "adhd-parenting" },
+    { "id": "phoneadd", "name": "手机与亲密关系", "source": "phone-addiction" },
+    { "id": "emotion", "name": "情绪调节", "source": "regulate-emotions" },
+    { "id": "vitality", "name": "9分钟运动公式", "source": "best-vitality" },
+    { "id": "meditation", "name": "冥想训练", "source": "meditation-tools" }
+  ],
+  "questions": [
+    {
+      "id": "adhdmed-001",
+      "type": "choice",
+      "topic": "adhdmed",
+      "topicName": "ADHD药物",
+      "question": "ADHD药物按作用机制分为哪两大类？",
+      "options": ["短效药和长效药", "兴奋剂和非兴奋剂", "处方药和非处方药", "中枢类和外周类"],
+      "answer": 1,
+      "explanation": "原文明确指出ADHD药物分兴奋剂（如利他林、Adderall、Vyvanse）和非兴奋剂（如择思达、胍法辛）两大类。",
+      "source": "adhd-medicine"
+    },
+    {
+      "id": "adhdmed-002",
+      "type": "choice",
+      "topic": "adhdmed",
+      "topicName": "ADHD药物",
+      "question": "以下哪种药物被描述为\"目前最佳平衡点\"？",
+      "options": ["利他林", "Adderall", "Vyvanse", "择思达"],
+      "answer": 2,
+      "explanation": "原文说Vyvanse缓释设计，药效平稳12-16小时，是\"目前最佳平衡点\"。",
+      "source": "adhd-medicine"
+    },
+    {
+      "id": "adhdmed-003",
+      "type": "choice",
+      "topic": "adhdmed",
+      "topicName": "ADHD药物",
+      "question": "Vyvanse的药效可持续多少小时？",
+      "options": ["4-6小时", "8-10小时", "12-16小时", "18-24小时"],
+      "answer": 2,
+      "explanation": "原文明确标注Vyvanse缓释设计，药效平稳12-16小时。",
+      "source": "adhd-medicine"
+    },
+    {
+      "id": "adhdmed-004",
+      "type": "choice",
+      "topic": "adhdmed",
+      "topicName": "ADHD药物",
+      "question": "在三种兴奋剂中，哪种被描述为成瘾和精神病风险最高？",
+      "options": ["利他林", "Adderall", "Vyvanse", "择思达"],
+      "answer": 1,
+      "explanation": "原文写到Adderall效力最强，但成瘾和精神病风险也最高。",
+      "source": "adhd-medicine"
+    },
+    {
+      "id": "adhdmed-005",
+      "type": "choice",
+      "topic": "adhdmed",
+      "topicName": "ADHD药物",
+      "question": "哪种非兴奋剂药物被推荐用于合并焦虑的孩子？",
+      "options": ["胍法辛", "择思达", "安非他酮", "莫达非尼"],
+      "answer": 1,
+      "explanation": "原文说择思达\"合并焦虑的孩子首选，零成瘾风险\"。",
+      "source": "adhd-medicine"
+    },
+    {
+      "id": "adhdmed-006",
+      "type": "choice",
+      "topic": "adhdmed",
+      "topicName": "ADHD药物",
+      "question": "胍法辛的主要适用场景是什么？",
+      "options": ["合并抑郁的孩子", "合并焦虑的孩子", "多动冲动为主的孩子", "注意力不集中为主的孩子"],
+      "answer": 2,
+      "explanation": "原文指出胍法辛适合多动冲动为主的孩子，帮大脑\"装刹车\"。",
+      "source": "adhd-medicine"
+    },
+    {
+      "id": "adhdmed-007",
+      "type": "choice",
+      "topic": "adhdmed",
+      "topicName": "ADHD药物",
+      "question": "安非他酮适合哪类孩子？",
+      "options": ["单纯多动的孩子", "合并焦虑的孩子", "同时有抑郁的孩子", "睡眠障碍的孩子"],
+      "answer": 2,
+      "explanation": "原文明确标注安非他酮\"同时有抑郁的孩子，一药双效\"。",
+      "source": "adhd-medicine"
+    },
+    {
+      "id": "adhdmed-008",
+      "type": "truefalse",
+      "topic": "adhdmed",
+      "topicName": "ADHD药物",
+      "question": "儿时按处方服用ADHD药物，会增加成年后物质滥用风险。",
+      "answer": false,
+      "explanation": "原文反直觉地指出：儿时按处方用药，成年后物质滥用风险反而更低。",
+      "source": "adhd-medicine"
+    },
+    {
+      "id": "adhdmed-009",
+      "type": "truefalse",
+      "topic": "adhdmed",
+      "topicName": "ADHD药物",
+      "question": "大规模研究显示，ADHD用药组的心脏猝死风险甚至低于未用药组。",
+      "answer": true,
+      "explanation": "原文说\"大规模研究显示用药组甚至低于未用药组\"，心脏猝死风险极低。",
+      "source": "adhd-medicine"
+    },
+    {
+      "id": "adhdmed-010",
+      "type": "choice",
+      "topic": "adhdmed",
+      "topicName": "ADHD药物",
+      "question": "ADHD药物对身高的影响约为多少厘米？",
+      "options": ["约1cm", "约2cm", "约5cm", "没有影响"],
+      "answer": 1,
+      "explanation": "原文说\"身高影响约2cm，暑假停药可追回\"。",
+      "source": "adhd-medicine"
+    },
+    {
+      "id": "adhdmed-011",
+      "type": "truefalse",
+      "topic": "adhdmed",
+      "topicName": "ADHD药物",
+      "question": "利他林是三种兴奋剂中精神病风险最低的。",
+      "answer": true,
+      "explanation": "原文描述利他林\"最老牌，短效灵活，精神病风险最低\"。",
+      "source": "adhd-medicine"
+    },
+    {
+      "id": "adhdmed-012",
+      "type": "choice",
+      "topic": "adhdmed",
+      "topicName": "ADHD药物",
+      "question": "原文强调最好的ADHD方案等于什么组合？",
+      "options": ["对的药 + 足够剂量", "对的药 + 行为训练 + 家庭支持", "兴奋剂 + 非兴奋剂联合", "药物 + 特殊教育"],
+      "answer": 1,
+      "explanation": "原文总结：最好的方案 = 对的药 + 行为训练 + 家庭支持。",
+      "source": "adhd-medicine"
+    },
+    {
+      "id": "adhdmed-013",
+      "type": "truefalse",
+      "topic": "adhdmed",
+      "topicName": "ADHD药物",
+      "question": "兴奋剂类ADHD药物仅有约10年的临床使用历史。",
+      "answer": false,
+      "explanation": "原文明确说兴奋剂有\"50+年临床验证\"，并非仅10年。",
+      "source": "adhd-medicine"
+    },
+    {
+      "id": "adhdpar-001",
+      "type": "choice",
+      "topic": "adhdparent",
+      "topicName": "ADHD儿童养育",
+      "question": "全球儿童ADHD患病率约为多少？",
+      "options": ["2.3%", "4.5%", "6.9%", "10.2%"],
+      "answer": 2,
+      "explanation": "原文明确数据：全球6.9%的儿童有ADHD，中国约2000万孩子受影响。",
+      "source": "adhd-parenting"
+    },
+    {
+      "id": "adhdpar-002",
+      "type": "choice",
+      "topic": "adhdparent",
+      "topicName": "ADHD儿童养育",
+      "question": "ADHD的遗传率约为多少？",
+      "options": ["约30%", "约50%", "约65%", "约76%"],
+      "answer": 3,
+      "explanation": "原文明确指出\"遗传率高达76%\"。",
+      "source": "adhd-parenting"
+    },
+    {
+      "id": "adhdpar-003",
+      "type": "choice",
+      "topic": "adhdparent",
+      "topicName": "ADHD儿童养育",
+      "question": "研究权威Barkley如何描述ADHD孩子的核心困难？",
+      "options": ["大脑发育迟缓", "大脑\"刹车系统\"发育慢了", "大脑缺乏多巴胺", "大脑前额叶受损"],
+      "answer": 1,
+      "explanation": "原文引用Barkley的说法：这是大脑\"刹车系统\"发育慢了，就像油门灵但刹车不好的车。",
+      "source": "adhd-parenting"
+    },
+    {
+      "id": "adhdpar-004",
+      "type": "truefalse",
+      "topic": "adhdparent",
+      "topicName": "ADHD儿童养育",
+      "question": "ADHD会随着年龄增长自然痊愈，大多数孩子成年后症状消失。",
+      "answer": false,
+      "explanation": "原文指出\"长大自然好\"是致命误区，60-70%会持续到成年。",
+      "source": "adhd-parenting"
+    },
+    {
+      "id": "adhdpar-005",
+      "type": "choice",
+      "topic": "adhdparent",
+      "topicName": "ADHD儿童养育",
+      "question": "ADHD孩子能专注玩游戏却不能专注写作业，这是因为什么？",
+      "options": ["孩子故意捣乱", "游戏有即时反馈而写作业没有", "写作业太难了", "孩子视力有问题"],
+      "answer": 1,
+      "explanation": "原文解释：游戏有即时反馈，写作业没有，这恰恰是ADHD的特征，而非态度问题。",
+      "source": "adhd-parenting"
+    },
+    {
+      "id": "adhdpar-006",
+      "type": "choice",
+      "topic": "adhdparent",
+      "topicName": "ADHD儿童养育",
+      "question": "番茄钟法用于ADHD孩子写作业时，推荐的节奏是？",
+      "options": ["写25分钟休息5分钟", "写15分钟休息5分钟", "写10分钟休息3分钟", "写20分钟休息10分钟"],
+      "answer": 2,
+      "explanation": "原文建议：番茄钟——写10分钟休息3分钟，适合ADHD孩子短暂专注的特点。",
+      "source": "adhd-parenting"
+    },
+    {
+      "id": "adhdpar-007",
+      "type": "truefalse",
+      "topic": "adhdparent",
+      "topicName": "ADHD儿童养育",
+      "question": "Barkley的研究发现，ADHD孩子能感受\"现在\"和\"以后\"，只是选择不去想。",
+      "answer": false,
+      "explanation": "原文说Barkley发现ADHD孩子只能感受到\"现在\"，看不到\"以后\"，这是神经层面的局限，而非主观选择。",
+      "source": "adhd-parenting"
+    },
+    {
+      "id": "adhdpar-008",
+      "type": "choice",
+      "topic": "adhdparent",
+      "topicName": "ADHD儿童养育",
+      "question": "以下哪项是原文推荐的ADHD写作业实操法？",
+      "options": ["每天写作业前先运动30分钟", "任务切片：先写这5道题", "白噪音辅助专注", "父母全程陪同监督"],
+      "answer": 1,
+      "explanation": "原文推荐任务切片：'先写这5道题'比'写完作业'有效10倍。",
+      "source": "adhd-parenting"
+    },
+    {
+      "id": "adhdpar-009",
+      "type": "choice",
+      "topic": "adhdparent",
+      "topicName": "ADHD儿童养育",
+      "question": "原文推荐用积分制激励时，建议如何操作？",
+      "options": ["一周结算一次大奖励", "每天完成全部作业才给分", "写完一组给1分，攒够兑换奖励", "父母打分，满分100分"],
+      "answer": 2,
+      "explanation": "原文建议积分制：写完一组给1分，攒够兑换奖励，利用即时正反馈原理。",
+      "source": "adhd-parenting"
+    },
+    {
+      "id": "adhdpar-010",
+      "type": "truefalse",
+      "topic": "adhdparent",
+      "topicName": "ADHD儿童养育",
+      "question": "原文说，每个班级平均大约有2-3个ADHD孩子，但大多数没被识别。",
+      "answer": true,
+      "explanation": "原文原话：每个班大约2-3个，但大多数没被识别。",
+      "source": "adhd-parenting"
+    },
+    {
+      "id": "adhdpar-011",
+      "type": "choice",
+      "topic": "adhdparent",
+      "topicName": "ADHD儿童养育",
+      "question": "中国约有多少孩子受ADHD影响？",
+      "options": ["约500万", "约1000万", "约2000万", "约5000万"],
+      "answer": 2,
+      "explanation": "原文数据：中国约2000万孩子受ADHD影响。",
+      "source": "adhd-parenting"
+    },
+    {
+      "id": "adhdpar-012",
+      "type": "truefalse",
+      "topic": "adhdparent",
+      "topicName": "ADHD儿童养育",
+      "question": "原文建议，家长应该一次把所有写作业策略全部用上才有效。",
+      "answer": false,
+      "explanation": "原文建议：不需要一次全做到，每周专注一件事，7周一个循环。",
+      "source": "adhd-parenting"
+    },
+    {
+      "id": "phone-001",
+      "type": "choice",
+      "topic": "phoneadd",
+      "topicName": "手机与亲密关系",
+      "question": "原文提到，极端用户每天刷手机多少小时？",
+      "options": ["3-5小时", "5-7小时", "8-10小时", "10-12小时"],
+      "answer": 2,
+      "explanation": "原文数据：极端用户每天刷8-10小时，15-20%年轻人几乎全天在刷。",
+      "source": "phone-addiction"
+    },
+    {
+      "id": "phone-002",
+      "type": "choice",
+      "topic": "phoneadd",
+      "topicName": "手机与亲密关系",
+      "question": "短视频大约每隔多少秒重置一次大脑注意力？",
+      "options": ["30秒", "60秒", "90秒", "120秒"],
+      "answer": 1,
+      "explanation": "原文明确：短视频每60秒重置一次大脑，注意力被切碎。",
+      "source": "phone-addiction"
+    },
+    {
+      "id": "phone-003",
+      "type": "choice",
+      "topic": "phoneadd",
+      "topicName": "手机与亲密关系",
+      "question": "大约有多少比例的年轻人几乎全天都在刷手机？",
+      "options": ["5-10%", "10-15%", "15-20%", "25-30%"],
+      "answer": 2,
+      "explanation": "原文数据：15-20%年轻人\"几乎全天在刷\"。",
+      "source": "phone-addiction"
+    },
+    {
+      "id": "phone-004",
+      "type": "truefalse",
+      "topic": "phoneadd",
+      "topicName": "手机与亲密关系",
+      "question": "原文认为18-30岁人群亲密时间减少的主要原因是工作压力太大。",
+      "answer": false,
+      "explanation": "原文明确说元凶不是工作，是手机，大脑被手机训练得无法慢下来。",
+      "source": "phone-addiction"
+    },
+    {
+      "id": "phone-005",
+      "type": "choice",
+      "topic": "phoneadd",
+      "topicName": "手机与亲密关系",
+      "question": "原文提到的20秒拥抱的作用是什么方面的改善？",
+      "options": ["提高工作效率", "改善睡眠质量", "激活副交感神经进入亲近状态", "减少手机使用时间"],
+      "answer": 2,
+      "explanation": "原文指出副交感神经无法启动会导致身体一直警觉，无法进入亲近状态；20秒拥抱是帮助激活亲密连接的5个30秒动作之一。",
+      "source": "phone-addiction"
+    },
+    {
+      "id": "phone-006",
+      "type": "truefalse",
+      "topic": "phoneadd",
+      "topicName": "手机与亲密关系",
+      "question": "原文内容来源于The Diary of a CEO播客，嘉宾是美国泌尿科主任医师Dr. Reena Malik。",
+      "answer": true,
+      "explanation": "原文注明来源：The Diary of a CEO播客 × 美国泌尿科主任医师Dr. Reena Malik。",
+      "source": "phone-addiction"
+    },
+    {
+      "id": "phone-007",
+      "type": "choice",
+      "topic": "phoneadd",
+      "topicName": "手机与亲密关系",
+      "question": "手机使用导致身体一直处于警觉状态，从神经系统角度看是因为什么？",
+      "options": ["交感神经过度激活", "副交感神经无法启动", "迷走神经受损", "以上都是"],
+      "answer": 1,
+      "explanation": "原文说：副交感神经无法启动→身体一直警觉→根本进入不了亲近状态。",
+      "source": "phone-addiction"
+    },
+    {
+      "id": "phone-008",
+      "type": "choice",
+      "topic": "phoneadd",
+      "topicName": "手机与亲密关系",
+      "question": "原文推荐的5个救命动作中，\"6秒亲吻\"属于哪类干预？",
+      "options": ["减少手机使用时间", "增加身体接触和情感连接", "改善睡眠卫生", "减少工作压力"],
+      "answer": 1,
+      "explanation": "原文将6秒亲吻列为30秒内就能做的救命动作，属于增加伴侣身体接触和情感连接的行动。",
+      "source": "phone-addiction"
+    },
+    {
+      "id": "phone-009",
+      "type": "truefalse",
+      "topic": "phoneadd",
+      "topicName": "手机与亲密关系",
+      "question": "原文提到Gottman研究，并打了相关标签。",
+      "answer": true,
+      "explanation": "原文标签中包含#Gottman，说明内容关联Gottman关系研究。",
+      "source": "phone-addiction"
+    },
+    {
+      "id": "phone-010",
+      "type": "choice",
+      "topic": "phoneadd",
+      "topicName": "手机与亲密关系",
+      "question": "原文关于睡前刷手机的描述最贴近哪个表达？",
+      "options": ["睡前刷手机是休闲放松的好方式", "睡前各刷各的是\"大脑被训练得无法慢下来\"的表现", "睡前刷手机只影响睡眠，不影响关系", "偶尔睡前刷手机没有问题"],
+      "answer": 1,
+      "explanation": "原文说：睡前各刷各的，你以为是'累了'，其实是大脑被手机训练得无法慢下来了。",
+      "source": "phone-addiction"
+    },
+    {
+      "id": "emotion-001",
+      "type": "choice",
+      "topic": "emotion",
+      "topicName": "情绪调节",
+      "question": "耶鲁情绪智能中心的研究历时多少年？",
+      "options": ["10年", "20年", "30年", "40年"],
+      "answer": 2,
+      "explanation": "原文明确：耶鲁情绪智能中心30年研究，结论是情绪没有好坏，只有用法。",
+      "source": "regulate-emotions"
+    },
+    {
+      "id": "emotion-002",
+      "type": "choice",
+      "topic": "emotion",
+      "topicName": "情绪调节",
+      "question": "Meta-Moment的核心方法是什么？",
+      "options": ["在刺激发生前预判情绪", "在刺激和反应之间撑开20秒缝隙", "用深呼吸压制情绪", "立刻离开触发场景"],
+      "answer": 1,
+      "explanation": "原文说核心方法是：在\"刺激\"和\"反应\"之间，撑开20秒缝隙。",
+      "source": "regulate-emotions"
+    },
+    {
+      "id": "emotion-003",
+      "type": "choice",
+      "topic": "emotion",
+      "topicName": "情绪调节",
+      "question": "连续做4周Meta-Moment，父母吼娃频率下降多少？",
+      "options": ["约20%", "约30%", "约47%", "约60%"],
+      "answer": 2,
+      "explanation": "原文数据：连续做4周Meta-Moment，父母吼娃频率下降47%。",
+      "source": "regulate-emotions"
+    },
+    {
+      "id": "emotion-004",
+      "type": "truefalse",
+      "topic": "emotion",
+      "topicName": "情绪调节",
+      "question": "耶鲁情绪智能中心认为，情绪有好坏之分，负面情绪应该被压制。",
+      "answer": false,
+      "explanation": "原文明确：耶鲁情绪智能中心30年研究得出情绪没有好坏，只有用法。",
+      "source": "regulate-emotions"
+    },
+    {
+      "id": "emotion-005",
+      "type": "choice",
+      "topic": "emotion",
+      "topicName": "情绪调节",
+      "question": "原文提到父母下班回家后，建议先做什么？",
+      "options": ["立刻检查孩子作业", "进门停20秒", "给孩子一个拥抱", "先吃饭再陪孩子"],
+      "answer": 1,
+      "explanation": "原文列出7件今晚就能做的小事，其中包括\"进门停20秒\"，给自己缓冲时间切换状态。",
+      "source": "regulate-emotions"
+    },
+    {
+      "id": "emotion-006",
+      "type": "truefalse",
+      "topic": "emotion",
+      "topicName": "情绪调节",
+      "question": "原文说，90%的家长把\"压抑/逃避/爆发\"当情绪管理，这些做法是正确的。",
+      "answer": false,
+      "explanation": "原文说90%的家长用这三种方式，并明确标注\"全错\"。",
+      "source": "regulate-emotions"
+    },
+    {
+      "id": "emotion-007",
+      "type": "choice",
+      "topic": "emotion",
+      "topicName": "情绪调节",
+      "question": "原文推荐把哪句话换成\"我陪你\"？",
+      "options": ["\"你要乖\"", "\"别哭了\"", "\"你真棒\"", "\"快点睡\""],
+      "answer": 1,
+      "explanation": "原文话术示例：把\"别哭了\"换成\"我陪你\"，立刻不一样。",
+      "source": "regulate-emotions"
+    },
+    {
+      "id": "emotion-008",
+      "type": "choice",
+      "topic": "emotion",
+      "topicName": "情绪调节",
+      "question": "原文对网红视频\"扔掉焦虑\"的建议，耶鲁专家如何评价？",
+      "options": ["非常有效，值得推广", "有一定参考价值", "\"那扇门会狠狠拍回她脸上\"", "缺乏科学依据但无害"],
+      "answer": 2,
+      "explanation": "原文反鸡汤：那些喊\"扔掉焦虑\"的网红视频，耶鲁专家说\"那扇门会狠狠拍回她脸上\"。",
+      "source": "regulate-emotions"
+    },
+    {
+      "id": "emotion-009",
+      "type": "truefalse",
+      "topic": "emotion",
+      "topicName": "情绪调节",
+      "question": "原文建议，父母示范情绪管理一次，比对孩子说教100次更有效。",
+      "answer": true,
+      "explanation": "原文明确：父母示范一次，胜过说教100次。",
+      "source": "regulate-emotions"
+    },
+    {
+      "id": "emotion-010",
+      "type": "choice",
+      "topic": "emotion",
+      "topicName": "情绪调节",
+      "question": "Meta-Moment的\"20秒缝隙\"具体是指什么？",
+      "options": ["深呼吸20秒后再说话", "在冲动反应前给自己暂停20秒思考", "每天冥想20秒", "每次发怒后反思20秒"],
+      "answer": 1,
+      "explanation": "原文核心方法：在\"刺激\"和\"反应\"之间撑开20秒缝隙，这是避免冲动爆发的关键窗口。",
+      "source": "regulate-emotions"
+    },
+    {
+      "id": "emotion-011",
+      "type": "choice",
+      "topic": "emotion",
+      "topicName": "情绪调节",
+      "question": "原文提到的\"约定暂停手势\"属于哪类情绪管理策略？",
+      "options": ["认知重评", "提前约定信号避免冲突升级", "事后复盘", "情绪压制"],
+      "answer": 1,
+      "explanation": "原文7件小事中包括\"约定暂停手势\"，这是家庭成员间预设的去激化信号，属于预防冲突升级的策略。",
+      "source": "regulate-emotions"
+    },
+    {
+      "id": "emotion-012",
+      "type": "truefalse",
+      "topic": "emotion",
+      "topicName": "情绪调节",
+      "question": "原文的标题暗示，避免吼娃只需多花21秒（而非20秒）。",
+      "answer": true,
+      "explanation": "原文标题\"多花21秒就能不吼娃\"，比核心方法的\"20秒缝隙\"多1秒，暗示还需要额外的1秒启动意识。",
+      "source": "regulate-emotions"
+    },
+    {
+      "id": "vital-001",
+      "type": "choice",
+      "topic": "vitality",
+      "topicName": "9分钟运动公式",
+      "question": "原文提到的\"9分钟运动公式\"由几次、每次几分钟组成？",
+      "options": ["1次×9分钟", "3次×3分钟", "9次×1分钟", "2次×4.5分钟"],
+      "answer": 1,
+      "explanation": "原文明确：一天9分钟（3次×3分钟剧烈运动），关联全因死亡率下降40%。",
+      "source": "best-vitality"
+    },
+    {
+      "id": "vital-002",
+      "type": "choice",
+      "topic": "vitality",
+      "topicName": "9分钟运动公式",
+      "question": "每天9分钟剧烈运动关联的全因死亡率下降幅度是多少？",
+      "options": ["约20%", "约30%", "约40%", "约50%"],
+      "answer": 2,
+      "explanation": "原文数据：一天9分钟，关联全因死亡率↓40%、心血管死亡率↓50%。",
+      "source": "best-vitality"
+    },
+    {
+      "id": "vital-003",
+      "type": "choice",
+      "topic": "vitality",
+      "topicName": "9分钟运动公式",
+      "question": "每天9分钟剧烈运动关联的心血管死亡率下降幅度是多少？",
+      "options": ["约20%", "约30%", "约40%", "约50%"],
+      "answer": 3,
+      "explanation": "原文同时标注：心血管死亡率↓50%，比全因死亡率下降幅度更大。",
+      "source": "best-vitality"
+    },
+    {
+      "id": "vital-004",
+      "type": "choice",
+      "topic": "vitality",
+      "topicName": "9分钟运动公式",
+      "question": "Rhonda Patrick从追求\"每磅体重1克蛋白质\"改为多少g/kg后，训练效果反而更好？",
+      "options": ["0.8-1.0g/kg", "1.0-1.2g/kg", "1.3-1.4g/kg", "1.6-1.8g/kg"],
+      "answer": 2,
+      "explanation": "原文说Rhonda降到1.3-1.4g/kg之后，训练效果反而更好，并总结\"训练>蛋白质\"。",
+      "source": "best-vitality"
+    },
+    {
+      "id": "vital-005",
+      "type": "truefalse",
+      "topic": "vitality",
+      "topicName": "9分钟运动公式",
+      "question": "原文认为，睡前3小时必须停止进食，因为进食时身体处于交感激活状态。",
+      "answer": true,
+      "explanation": "原文解释：吃饭时身体在交感激活（紧张），睡觉要副交感激活（修复），两者打架等于\"边修车边踩油门\"。",
+      "source": "best-vitality"
+    },
+    {
+      "id": "vital-006",
+      "type": "choice",
+      "topic": "vitality",
+      "topicName": "9分钟运动公式",
+      "question": "原文说，维生素D3要转化为活性激素，首先需要补充什么？",
+      "options": ["维生素K2", "钙", "镁", "锌"],
+      "answer": 2,
+      "explanation": "原文指出：半数人镁摄入不足，没镁，D3转不成活性激素，要先把镁补够。",
+      "source": "best-vitality"
+    },
+    {
+      "id": "vital-007",
+      "type": "truefalse",
+      "topic": "vitality",
+      "topicName": "9分钟运动公式",
+      "question": "原文说，玻璃瓶水中微塑料数量比塑料瓶更少，因此更安全。",
+      "answer": false,
+      "explanation": "原文反常识：玻璃瓶水的微塑料数量比塑料瓶更多（来自瓶盖涂料），但颗粒大不易被肠道吸收；真正危险的是塑料瓶里的纳米级微塑料。",
+      "source": "best-vitality"
+    },
+    {
+      "id": "vital-008",
+      "type": "choice",
+      "topic": "vitality",
+      "topicName": "9分钟运动公式",
+      "question": "原文嘉宾Rhonda Patrick的年龄（发布时）是多少岁？",
+      "options": ["37岁", "42岁", "47岁", "52岁"],
+      "answer": 2,
+      "explanation": "原文明确：Rhonda自己47岁，作为实践者分享蛋白质摄入经验。",
+      "source": "best-vitality"
+    },
+    {
+      "id": "vital-009",
+      "type": "truefalse",
+      "topic": "vitality",
+      "topicName": "9分钟运动公式",
+      "question": "原文说，这种9分钟运动对全因死亡率的效果，有同等效力的药物可以实现。",
+      "answer": false,
+      "explanation": "原文明确：这个效果，没有任何一种药能做到。",
+      "source": "best-vitality"
+    },
+    {
+      "id": "vital-010",
+      "type": "choice",
+      "topic": "vitality",
+      "topicName": "9分钟运动公式",
+      "question": "原文提到该研究来自哪个实验室？",
+      "options": ["哈佛医学院", "斯坦福Huberman实验室", "耶鲁健康研究所", "MIT媒体实验室"],
+      "answer": 1,
+      "explanation": "原文开篇：斯坦福Huberman实验室最新一期，请来生物医学博士Rhonda Patrick。",
+      "source": "best-vitality"
+    },
+    {
+      "id": "vital-011",
+      "type": "choice",
+      "topic": "vitality",
+      "topicName": "9分钟运动公式",
+      "question": "原文关于蛋白质摄入的核心结论是什么？",
+      "options": ["越多越好", "蛋白质摄入量不重要", "训练效果比蛋白质数量更重要", "只需关注蛋白质质量"],
+      "answer": 2,
+      "explanation": "原文总结：训练>蛋白质，Rhonda的亲身经历证明过量蛋白质反而可能影响效果。",
+      "source": "best-vitality"
+    },
+    {
+      "id": "vital-012",
+      "type": "truefalse",
+      "topic": "vitality",
+      "topicName": "9分钟运动公式",
+      "question": "原文说塑料瓶中的纳米级微塑料比玻璃瓶更容易被肠道吸收，因此更危险。",
+      "answer": true,
+      "explanation": "原文：真正进身体的，是塑料瓶里的纳米级（微塑料），颗粒小更易被吸收。",
+      "source": "best-vitality"
+    },
+    {
+      "id": "medit-001",
+      "type": "choice",
+      "topic": "meditation",
+      "topicName": "冥想训练",
+      "question": "威斯康星大学教授Richard Davidson研究冥想多少年？",
+      "options": ["20年", "30年", "40年", "50年"],
+      "answer": 2,
+      "explanation": "原文：威斯康星大学教授Richard Davidson把冥想搬进了核磁共振仪，研究了40年。",
+      "source": "meditation-tools"
+    },
+    {
+      "id": "medit-002",
+      "type": "choice",
+      "topic": "meditation",
+      "topicName": "冥想训练",
+      "question": "根据原文，冥想的真正目的是什么？",
+      "options": ["清空大脑，达到放空状态", "观察念头，而非消除它", "减少睡眠需求", "增强记忆力"],
+      "answer": 1,
+      "explanation": "原文：冥想的目的不是清空大脑，而是观察念头；越想\"放空\"越烦躁。",
+      "source": "meditation-tools"
+    },
+    {
+      "id": "medit-003",
+      "type": "choice",
+      "topic": "meditation",
+      "topicName": "冥想训练",
+      "question": "原文说每天冥想5分钟，坚持多少天有多项RCT验证效果？",
+      "options": ["14天", "21天", "30天", "60天"],
+      "answer": 2,
+      "explanation": "原文数据：5分钟×30天=多项RCT验证有效，抑郁、焦虑、压力都显著下降。",
+      "source": "meditation-tools"
+    },
+    {
+      "id": "medit-004",
+      "type": "truefalse",
+      "topic": "meditation",
+      "topicName": "冥想训练",
+      "question": "原文说，冥想中念头乱跑是\"做错了\"的信号，应该重新开始。",
+      "answer": false,
+      "explanation": "原文比喻：冥想中念头乱跑=大脑正在重塑，就像健身后肌肉酸痛是训练有效的信号。",
+      "source": "meditation-tools"
+    },
+    {
+      "id": "medit-005",
+      "type": "choice",
+      "topic": "meditation",
+      "topicName": "冥想训练",
+      "question": "原文中\"心智的乳酸\"比喻的是什么？",
+      "options": ["冥想后的疲劳感", "冥想中出现的烦躁感", "冥想前的焦虑", "冥想结束后的空白感"],
+      "answer": 1,
+      "explanation": "原文：烦躁就是\"心智的乳酸\"，冥想中感到烦躁，就像健身后肌肉酸痛，说明大脑正在重塑。",
+      "source": "meditation-tools"
+    },
+    {
+      "id": "medit-006",
+      "type": "choice",
+      "topic": "meditation",
+      "topicName": "冥想训练",
+      "question": "原文提到5分钟入门协议中，应该盘腿坐吗？",
+      "options": ["必须盘腿，有助于专注", "必须正坐，保持脊柱挺直", "不用盘腿，怎么舒服怎么坐", "躺下效果更好"],
+      "answer": 2,
+      "explanation": "原文入门协议第1步：定5分钟闹钟，不用盘腿。",
+      "source": "meditation-tools"
+    },
+    {
+      "id": "medit-007",
+      "type": "truefalse",
+      "topic": "meditation",
+      "topicName": "冥想训练",
+      "question": "原文说冥想第1周焦虑会上升，这是大脑开始训练的好信号。",
+      "answer": true,
+      "explanation": "原文：第1周焦虑会上升，这是好事，不是\"做不来\"，而是大脑开始训练的信号。",
+      "source": "meditation-tools"
+    },
+    {
+      "id": "medit-008",
+      "type": "choice",
+      "topic": "meditation",
+      "topicName": "冥想训练",
+      "question": "Dunedin追踪研究显示，4-5岁自控力前20%的人，到32岁时年薪平均高多少美元？",
+      "options": ["2000美元", "4000美元", "6000美元", "10000美元"],
+      "answer": 2,
+      "explanation": "原文数据：Dunedin 32年追踪研究——4-5岁自控力前20%的人，32岁时年薪平均高6000美元。",
+      "source": "meditation-tools"
+    },
+    {
+      "id": "medit-009",
+      "type": "choice",
+      "topic": "meditation",
+      "topicName": "冥想训练",
+      "question": "原文提到，Huberman自己的手机管理做法是什么？",
+      "options": ["每天睡前关手机2小时", "每天关掉手机22小时", "只在工作时间使用手机", "把手机放在另一个房间"],
+      "answer": 1,
+      "explanation": "原文：Huberman自己的做法是每天关掉手机22小时，书房、健身房、卧室、餐桌都是无手机区。",
+      "source": "meditation-tools"
+    },
+    {
+      "id": "medit-010",
+      "type": "truefalse",
+      "topic": "meditation",
+      "topicName": "冥想训练",
+      "question": "原文中\"元认知\"被描述为一切心智训练的总开关。",
+      "answer": true,
+      "explanation": "原文：元认知=一切心智训练的总开关，那个\"我刚才走神了\"的觉察瞬间，就是它在工作。",
+      "source": "meditation-tools"
+    },
+    {
+      "id": "medit-011",
+      "type": "choice",
+      "topic": "meditation",
+      "topicName": "冥想训练",
+      "question": "原文提到，冥想还能降低哪种炎症因子？",
+      "options": ["TNF-α", "CRP", "IL-6", "IL-1β"],
+      "answer": 2,
+      "explanation": "原文数据：5分钟×30天，抑郁、焦虑、压力都显著下降，连炎症因子IL-6也降了。",
+      "source": "meditation-tools"
+    },
+    {
+      "id": "medit-012",
+      "type": "choice",
+      "topic": "meditation",
+      "topicName": "冥想训练",
+      "question": "原文对大多数人冥想失败的描述是什么？",
+      "options": ["冥想时间太短，没有效果", "90%的人把冥想做反了，目标设错了", "缺乏专业指导", "坚持不了30天"],
+      "answer": 1,
+      "explanation": "原文：Davidson说90%的人都把冥想做反了，因为以为目标是清空大脑，方向就错了。",
+      "source": "meditation-tools"
+    },
+    {
+      "id": "medit-013",
+      "type": "truefalse",
+      "topic": "meditation",
+      "topicName": "冥想训练",
+      "question": "原文入门协议建议，每天同一时间冥想，连续30天。",
+      "answer": true,
+      "explanation": "原文5分钟入门协议第5步：每天同一时间，连续30天，建立稳定习惯。",
+      "source": "meditation-tools"
+    }
+  ],
+  "cards": [
+    {
+      "topic": "adhdmed",
+      "title": "ADHD药物两大类",
+      "displayType": "comparison",
+      "content": "ADHD药物分兴奋剂和非兴奋剂，各有适用人群。",
+      "richData": {
+        "leftTitle": "兴奋剂",
+        "leftItems": ["利他林（精神病风险最低）", "Adderall（效力最强，成瘾风险最高）", "Vyvanse（12-16h缓释，最佳平衡）"],
+        "rightTitle": "非兴奋剂",
+        "rightItems": ["择思达（合并焦虑首选，零成瘾）", "胍法辛（多动冲动为主）", "安非他酮（合并抑郁，一药双效）"]
+      },
+      "actionItem": "下次看诊前，先对照孩子主要症状，确认哪类药更匹配。",
+      "source": "adhd-medicine"
+    },
+    {
+      "topic": "adhdmed",
+      "title": "Vyvanse药效时长",
+      "displayType": "bigNumber",
+      "content": "Vyvanse缓释设计，药效平稳持续，被称为目前最佳平衡点。",
+      "richData": {
+        "number": "12-16h",
+        "label": "Vyvanse单次药效持续时长"
+      },
+      "actionItem": "如孩子需要覆盖整个学校+作业时段，可与医生讨论Vyvanse。",
+      "source": "adhd-medicine"
+    },
+    {
+      "topic": "adhdmed",
+      "title": "用药常见误区",
+      "displayType": "comparison",
+      "content": "家长最担心的5件事，许多是误区。",
+      "richData": {
+        "leftTitle": "❌ 误区",
+        "leftItems": ["用药会导致成年后物质滥用", "心脏猝死风险很高", "身高影响无法追回"],
+        "rightTitle": "✅ 真相",
+        "rightItems": ["儿时按处方用药，成年滥用风险反更低", "大规模研究：用药组风险甚至低于未用药组", "影响约2cm，暑假停药可追回"]
+      },
+      "source": "adhd-medicine"
+    },
+    {
+      "topic": "adhdmed",
+      "title": "最佳治疗方案",
+      "displayType": "formula",
+      "content": "没有万能药，最好的方案是三者结合。",
+      "richData": {
+        "formula": "最佳方案 = 对的药 + 行为训练 + 家庭支持"
+      },
+      "actionItem": "找专业儿童精神科医生评估，不要自行用药。",
+      "source": "adhd-medicine"
+    },
+    {
+      "topic": "adhdmed",
+      "title": "三种兴奋剂对比",
+      "displayType": "table",
+      "content": "利他林、Adderall、Vyvanse各有优劣，适合不同需求。",
+      "richData": {
+        "headers": ["药物", "特点", "主要风险"],
+        "rows": [
+          ["利他林", "最老牌，短效灵活", "精神病风险最低"],
+          ["Adderall", "效力最强", "成瘾和精神病风险最高"],
+          ["Vyvanse", "12-16h缓释平稳", "最佳平衡点"]
+        ]
+      },
+      "source": "adhd-medicine"
+    },
+    {
+      "topic": "adhdparent",
+      "title": "ADHD核心特征",
+      "displayType": "comparison",
+      "content": "Barkley发现ADHD孩子与普通孩子的根本差异在时间感知。",
+      "richData": {
+        "leftTitle": "普通孩子",
+        "leftItems": ["能感受\"现在\"和\"以后\"", "能想到\"写完就能玩\"", "刹车系统正常"],
+        "rightTitle": "ADHD孩子",
+        "rightItems": ["只能感受\"现在\"", "只能感受\"现在写作业好无聊\"", "刹车系统发育慢了"]
+      },
+      "source": "adhd-parenting"
+    },
+    {
+      "topic": "adhdparent",
+      "title": "ADHD流行病学",
+      "displayType": "table",
+      "content": "ADHD比多数人认为的更普遍，遗传性很高。",
+      "richData": {
+        "headers": ["指标", "数据"],
+        "rows": [
+          ["全球儿童患病率", "6.9%"],
+          ["中国受影响儿童数", "约2000万"],
+          ["每班平均人数", "2-3个"],
+          ["遗传率", "76%"],
+          ["持续到成年比例", "60-70%"]
+        ]
+      },
+      "source": "adhd-parenting"
+    },
+    {
+      "topic": "adhdparent",
+      "title": "写作业实操4法",
+      "displayType": "checklist",
+      "content": "4种行为干预策略，利用即时反馈改善ADHD孩子的学习状态。",
+      "richData": {
+        "items": [
+          "番茄钟：写10分钟休息3分钟",
+          "任务切片：先写这5道题（比\"写完作业\"有效10倍）",
+          "积分制：写完一组给1分，攒够兑换奖励",
+          "环境清零：桌面只放当前科目"
+        ]
+      },
+      "actionItem": "每周只专注一条，7周一个循环，不要全部一起上。",
+      "source": "adhd-parenting"
+    },
+    {
+      "topic": "adhdparent",
+      "title": "5大致命误区",
+      "displayType": "checklist",
+      "content": "这些常见做法不仅无效，还会伤害孩子。",
+      "richData": {
+        "items": [
+          "❌ \"他玩游戏能专注，就是不用心\"——游戏有即时反馈，这恰是ADHD特征",
+          "❌ \"打一顿就好了\"——只会让孩子自我评价更低",
+          "❌ \"长大自然好\"——60-70%会持续到成年",
+          "❌ 忽视遗传信号——父母小时候坐不住，孩子大概率也是",
+          "❌ 当态度问题处理——这是大脑发育问题"
+        ]
+      },
+      "source": "adhd-parenting"
+    },
+    {
+      "topic": "adhdparent",
+      "title": "ADHD遗传率",
+      "displayType": "bigNumber",
+      "content": "ADHD是遗传性极高的神经发育差异，不是教养失败。",
+      "richData": {
+        "number": "76%",
+        "label": "ADHD遗传率"
+      },
+      "source": "adhd-parenting"
+    },
+    {
+      "topic": "phoneadd",
+      "title": "手机使用数据",
+      "displayType": "chart",
+      "content": "手机使用已经严重挤压年轻人的亲密时间。",
+      "richData": {
+        "bars": [
+          { "label": "极端用户每日使用", "value": 9, "display": "8-10小时" },
+          { "label": "几乎全天在刷比例", "value": 17.5, "display": "15-20%" },
+          { "label": "短视频重置注意力", "value": 1, "display": "每60秒" }
+        ]
+      },
+      "source": "phone-addiction"
+    },
+    {
+      "topic": "phoneadd",
+      "title": "亲密关系救命5招",
+      "displayType": "checklist",
+      "content": "5个30秒内就能做的动作，重建伴侣间的亲密连接。",
+      "richData": {
+        "items": [
+          "20秒拥抱（激活催产素）",
+          "6秒亲吻（Gottman研究的最低有效时长）",
+          "放下手机认真听5分钟",
+          "关掉屏幕，眼神接触1分钟",
+          "睡前说出今天一件感谢的事"
+        ]
+      },
+      "actionItem": "今晚挑1条立刻执行，比看100篇文章都管用。",
+      "source": "phone-addiction"
+    },
+    {
+      "topic": "phoneadd",
+      "title": "手机破坏亲密链条",
+      "displayType": "flow",
+      "content": "手机如何一步步破坏亲密关系的神经机制。",
+      "richData": {
+        "steps": [
+          "短视频每60秒重置大脑，注意力被切碎",
+          "无法完整听完对方一段话",
+          "副交感神经无法启动",
+          "身体持续警觉状态",
+          "无法进入亲近和亲密状态"
+        ]
+      },
+      "source": "phone-addiction"
+    },
+    {
+      "topic": "phoneadd",
+      "title": "手机是主要元凶",
+      "displayType": "bigNumber",
+      "content": "18-30岁人群亲密时间断崖式下跌，原因不是工作，是手机。",
+      "richData": {
+        "number": "18-30岁",
+        "label": "亲密时间断崖式下跌的年龄段"
+      },
+      "source": "phone-addiction"
+    },
+    {
+      "topic": "emotion",
+      "title": "Meta-Moment核心",
+      "displayType": "formula",
+      "content": "在刺激和反应之间插入觉察时间，是情绪管理的关键。",
+      "richData": {
+        "formula": "不吼娃 = 刺激 → [20秒缝隙] → 有意识的回应"
+      },
+      "actionItem": "今晚孩子触发你之前，先在心里默数20秒再开口。",
+      "source": "regulate-emotions"
+    },
+    {
+      "topic": "emotion",
+      "title": "情绪管理实证数据",
+      "displayType": "bigNumber",
+      "content": "耶鲁情绪智能中心30年研究，4周训练显著改变父母行为。",
+      "richData": {
+        "number": "47%",
+        "label": "连续4周Meta-Moment后吼娃频率下降"
+      },
+      "source": "regulate-emotions"
+    },
+    {
+      "topic": "emotion",
+      "title": "情绪管理误区",
+      "displayType": "comparison",
+      "content": "90%的家长在用错误方式处理情绪。",
+      "richData": {
+        "leftTitle": "❌ 错误做法",
+        "leftItems": ["压抑情绪（假装没事）", "逃避情绪（转移注意力）", "情绪爆发（大吼大叫）", "\"扔掉焦虑\"（网红鸡汤）"],
+        "rightTitle": "✅ 正确做法",
+        "rightItems": ["承认情绪存在（给情绪命名）", "在刺激和反应间撑开20秒", "用话术替换：把\"别哭了\"换成\"我陪你\"", "示范给孩子看，胜过说教100次"]
+      },
+      "source": "regulate-emotions"
+    },
+    {
+      "topic": "emotion",
+      "title": "7件今晚能做的小事",
+      "displayType": "checklist",
+      "content": "从今晚开始的7个微小行动，累积改变亲子关系。",
+      "richData": {
+        "items": [
+          "进门停20秒，再和孩子互动",
+          "给情绪命名（\"我现在有点烦\"）",
+          "约定家庭暂停手势",
+          "把\"别哭了\"换成\"我陪你\"",
+          "父母当场示范情绪管理一次",
+          "睡前5分钟复盘今天的情绪触发点",
+          "认可孩子的情绪感受，不评判"
+        ]
+      },
+      "actionItem": "每周专注一件，不要全做，循序渐进。",
+      "source": "regulate-emotions"
+    },
+    {
+      "topic": "emotion",
+      "title": "情绪真相",
+      "displayType": "comparison",
+      "content": "耶鲁研究颠覆了我们对情绪的认知。",
+      "richData": {
+        "leftTitle": "❌ 常见误解",
+        "leftItems": ["情绪有好坏之分", "负面情绪应该被消除", "焦虑=坏事，要\"扔掉\""],
+        "rightTitle": "✅ 科学真相",
+        "rightItems": ["情绪没有好坏，只有用法", "情绪是信号，用来观察和利用", "焦虑告诉你有什么重要的事"]
+      },
+      "source": "regulate-emotions"
+    },
+    {
+      "topic": "vitality",
+      "title": "9分钟运动公式",
+      "displayType": "formula",
+      "content": "Rhonda Patrick分享的最高效运动公式，无需健身房。",
+      "richData": {
+        "formula": "9分钟 = 3次 × 3分钟剧烈运动 → 全因死亡率↓40%"
+      },
+      "actionItem": "今天找3个时间点（早、午、晚各3分钟），做任何让你喘气的运动。",
+      "source": "best-vitality"
+    },
+    {
+      "topic": "vitality",
+      "title": "运动效果数据",
+      "displayType": "chart",
+      "content": "每天9分钟剧烈运动关联的死亡率下降幅度，超过任何已知药物。",
+      "richData": {
+        "bars": [
+          { "label": "全因死亡率降低", "value": 40, "display": "↓40%" },
+          { "label": "心血管死亡率降低", "value": 50, "display": "↓50%" }
+        ]
+      },
+      "source": "best-vitality"
+    },
+    {
+      "topic": "vitality",
+      "title": "补剂使用顺序",
+      "displayType": "flow",
+      "content": "维生素D3要发挥作用，需要先确保镁的充足供应。",
+      "richData": {
+        "steps": [
+          "检查镁摄入量（半数人不足）",
+          "先把镁补够",
+          "D3在镁的辅助下转化为活性激素",
+          "活性维生素D3发挥健康功效"
+        ]
+      },
+      "actionItem": "补D3前先补镁，否则可能白补。",
+      "source": "best-vitality"
+    },
+    {
+      "topic": "vitality",
+      "title": "饮食时间与睡眠",
+      "displayType": "bigNumber",
+      "content": "睡前3小时停止进食，避免交感和副交感系统打架。",
+      "richData": {
+        "number": "3小时",
+        "label": "睡前必须停食的时间"
+      },
+      "actionItem": "把晚餐时间提前，确保睡前3小时已完成进食。",
+      "source": "best-vitality"
+    },
+    {
+      "topic": "vitality",
+      "title": "微塑料真相",
+      "displayType": "comparison",
+      "content": "玻璃瓶水并非想象中更安全，关键在颗粒大小。",
+      "richData": {
+        "leftTitle": "玻璃瓶水",
+        "leftItems": ["微塑料数量更多（来自瓶盖涂料）", "颗粒较大", "不易被肠道吸收"],
+        "rightTitle": "塑料瓶水",
+        "rightItems": ["微塑料数量相对较少", "颗粒纳米级", "更容易被肠道吸收，更危险"]
+      },
+      "source": "best-vitality"
+    },
+    {
+      "topic": "vitality",
+      "title": "训练vs蛋白质",
+      "displayType": "bigNumber",
+      "content": "Rhonda Patrick亲身实验：降低蛋白质摄入后训练效果反而更好。",
+      "richData": {
+        "number": "1.3-1.4g/kg",
+        "label": "Rhonda Patrick优化后的蛋白质摄入量"
+      },
+      "actionItem": "不必追求\"每磅1克\"，训练质量比蛋白质数量更重要。",
+      "source": "best-vitality"
+    },
+    {
+      "topic": "meditation",
+      "title": "冥想的真正目的",
+      "displayType": "comparison",
+      "content": "Davidson研究发现90%的人方向搞反了。",
+      "richData": {
+        "leftTitle": "❌ 误解",
+        "leftItems": ["目标是清空大脑", "放空才算成功", "念头出现=失败"],
+        "rightTitle": "✅ 真相",
+        "rightItems": ["目标是观察念头", "能觉察念头=成功", "念头乱跑=大脑正在重塑"]
+      },
+      "source": "meditation-tools"
+    },
+    {
+      "topic": "meditation",
+      "title": "5分钟入门协议",
+      "displayType": "flow",
+      "content": "Davidson推荐的最低门槛冥想入门步骤，坐下就能用。",
+      "richData": {
+        "steps": [
+          "定5分钟闹钟，不用盘腿",
+          "闭眼或微微睁眼，感受呼吸",
+          "念头来了，不评判，看它走",
+          "焦虑出现时告诉自己\"这是大脑的乳酸\"",
+          "每天同一时间，连续30天"
+        ]
+      },
+      "actionItem": "今晚就开始，只需5分钟，不需要任何工具。",
+      "source": "meditation-tools"
+    },
+    {
+      "topic": "meditation",
+      "title": "冥想实证效果",
+      "displayType": "checklist",
+      "content": "5分钟×30天，多项RCT验证的健康收益。",
+      "richData": {
+        "items": [
+          "抑郁症状显著下降",
+          "焦虑水平显著下降",
+          "压力感受显著下降",
+          "炎症因子IL-6降低",
+          "元认知能力提升（自我觉察）",
+          "自控力长期改善"
+        ]
+      },
+      "source": "meditation-tools"
+    },
+    {
+      "topic": "meditation",
+      "title": "自控力与收入",
+      "displayType": "bigNumber",
+      "content": "Dunedin 32年追踪研究：早期自控力对人生影响深远。",
+      "richData": {
+        "number": "$6000",
+        "label": "4-5岁自控力前20%者32岁时年薪多出金额"
+      },
+      "source": "meditation-tools"
+    },
+    {
+      "topic": "meditation",
+      "title": "元认知的工作方式",
+      "displayType": "formula",
+      "content": "元认知是改变思维模式的起点，无法看见就无法改变。",
+      "richData": {
+        "formula": "元认知 = \"我刚才走神了\"的那个觉察瞬间 → 改变的起点"
+      },
+      "actionItem": "下次走神时，不要自责，记录走神时在想什么——这就是在训练元认知。",
+      "source": "meditation-tools"
+    },
+    {
+      "topic": "meditation",
+      "title": "Huberman手机管理法",
+      "displayType": "checklist",
+      "content": "Huberman每天关手机22小时，并设立全屋无手机区。",
+      "richData": {
+        "items": [
+          "每天关掉手机22小时",
+          "书房：无手机区",
+          "健身房：无手机区",
+          "卧室：无手机区",
+          "餐桌：无手机区"
+        ]
+      },
+      "actionItem": "先从一个无手机区开始，比如今晚把手机放在卧室门外。",
+      "source": "meditation-tools"
+    }
+  ]
+}

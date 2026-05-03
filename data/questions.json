@@ -21,7 +21,12 @@
     "topic": "dopamine",
     "topicName": "多巴胺管理",
     "question": "下列活动中，哪一项的多巴胺倍数最高？",
-    "options": ["巧克力", "性行为", "尼古丁", "安非他命"],
+    "options": [
+      "巧克力",
+      "性行为",
+      "尼古丁",
+      "安非他命"
+    ],
     "answer": 3,
     "explanation": "安非他命可使多巴胺达到基线 10 倍，但伴随极强的崩溃。巧克力 1.5x、性行为 2x、尼古丁 2.5x。",
     "source": "control-your-dopamine"
@@ -78,7 +83,6 @@
     "explanation": "间歇性奖赏是关键：随机变动让大脑保持对刺激的敏感度，避免每次都\"加料\"造成耐受。",
     "source": "control-your-dopamine"
   },
-
   {
     "id": "sleep-001",
     "type": "choice",
@@ -143,19 +147,28 @@
     "topic": "sleep",
     "topicName": "睡眠科学",
     "question": "影响入睡的最关键因素，Huberman 认为不是屏幕，而是？",
-    "options": ["室温", "光照时机", "床垫硬度", "枕头高度"],
+    "options": [
+      "室温",
+      "光照时机",
+      "床垫硬度",
+      "枕头高度"
+    ],
     "answer": 1,
     "explanation": "光线本身不是问题，错误的时机才是——白天该亮的时候不亮、晚上该暗的时候不暗，会扰乱生物钟。",
     "source": "master-your-sleep"
   },
-
   {
     "id": "habit-001",
     "type": "choice",
     "topic": "habits",
     "topicName": "习惯养成",
     "question": "James Clear 在《原子习惯》中提出的行为改变四定律不包括以下哪一项？",
-    "options": ["让它显而易见", "让它有吸引力", "让它简单易行", "让它充满挑战"],
+    "options": [
+      "让它显而易见",
+      "让它有吸引力",
+      "让它简单易行",
+      "让它充满挑战"
+    ],
     "answer": 3,
     "explanation": "四定律是：显而易见、有吸引力、简单易行、令人满足。挑战性不是其中之一，反而越简单越好。",
     "source": "build-better-habits"
@@ -228,7 +241,6 @@
     "explanation": "他提到了前三项，没有提到飞行模式整周——他的策略是\"增加摩擦\"而非\"切断\"。",
     "source": "build-better-habits"
   },
-
   {
     "id": "gut-001",
     "type": "choice",
@@ -293,7 +305,12 @@
     "topic": "gut",
     "topicName": "肠道健康",
     "question": "肠道屏障多久能重建一次？",
-    "options": ["每天", "3-5 天", "2-3 周", "1 个月"],
+    "options": [
+      "每天",
+      "3-5 天",
+      "2-3 周",
+      "1 个月"
+    ],
     "answer": 1,
     "explanation": "肠道上皮细胞每 3-5 天就完成一轮更新——这意味着修复随时可以从今天开始。",
     "source": "repair-damaged-gut"
@@ -308,7 +325,6 @@
     "explanation": "持续压力（如 996）正是肠道的\"隐形杀手\"，通过脑-肠轴影响微生物群和肠壁。",
     "source": "repair-damaged-gut"
   },
-
   {
     "id": "imm-001",
     "type": "choice",
@@ -341,7 +357,12 @@
     "topic": "immune",
     "topicName": "免疫力",
     "question": "睡眠不足 6 小时，感冒风险增加多少倍？",
-    "options": ["1.5 倍", "2.5 倍", "4.2 倍", "10 倍"],
+    "options": [
+      "1.5 倍",
+      "2.5 倍",
+      "4.2 倍",
+      "10 倍"
+    ],
     "answer": 2,
     "explanation": "数据来自经典睡眠免疫研究：< 6 小时使感冒风险增加约 4.2 倍。",
     "source": "enhance-immune-system"
@@ -352,7 +373,12 @@
     "topic": "immune",
     "topicName": "免疫力",
     "question": "森林浴的免疫效果，研究发现可持续多久？",
-    "options": ["当天", "3 天", "30 天", "1 年"],
+    "options": [
+      "当天",
+      "3 天",
+      "30 天",
+      "1 年"
+    ],
     "answer": 2,
     "explanation": "日本研究：2-3 天的森林浴使 NK 细胞活性升高，效果可持续约 30 天。",
     "source": "enhance-immune-system"
@@ -383,7 +409,6 @@
     "explanation": "NEW START：Nutrition、Exercise、Water、Sunlight、Temperance、Air、Rest、Trust。",
     "source": "enhance-immune-system"
   },
-
   {
     "id": "learn-001",
     "type": "choice",
@@ -457,5 +482,5043 @@
     "answer": 1,
     "explanation": "用之前问自己：增强认知（变强）还是替代认知（放假）。这是一条简单但关键的判断。",
     "source": "enhance-learning-speed"
+  },
+  {
+    "id": "brainrot-001",
+    "type": "choice",
+    "topic": "brainrot",
+    "topicName": "短视频脑腐",
+    "question": "硅谷造短视频的人对自己孩子接触手机的态度是什么？",
+    "options": [
+      "鼓励孩子早接触科技",
+      "让保姆签合同不许给孩子碰手机",
+      "限制每天1小时使用",
+      "完全交给孩子自主决定"
+    ],
+    "answer": 1,
+    "explanation": "原文：硅谷造短视频的人让保姆签合同——不许给孩子碰手机，自己孩子送去无电子设备的学校。",
+    "source": "brain-rot"
+  },
+  {
+    "id": "brainrot-002",
+    "type": "choice",
+    "topic": "brainrot",
+    "topicName": "短视频脑腐",
+    "question": "短视频推荐算法照搬了哪种成瘾机制？",
+    "options": [
+      "巴甫洛夫条件反射",
+      "可变比率强化（老虎机机制）",
+      "经典强化学习",
+      "操作性条件反射"
+    ],
+    "answer": 1,
+    "explanation": "原文：短视频推荐算法完全照搬了老虎机的成瘾机制——可变比率强化。",
+    "source": "brain-rot"
+  },
+  {
+    "id": "brainrot-003",
+    "type": "choice",
+    "topic": "brainrot",
+    "topicName": "短视频脑腐",
+    "question": "慕尼黑实验显示，刷10分钟短视频后记忆力下降多少？",
+    "options": [
+      "20%",
+      "30%",
+      "40%",
+      "50%"
+    ],
+    "answer": 2,
+    "explanation": "原文明确：慕尼黑实验只刷10分钟，记忆力下降40%。",
+    "source": "brain-rot"
+  },
+  {
+    "id": "brainrot-004",
+    "type": "choice",
+    "topic": "brainrot",
+    "topicName": "短视频脑腐",
+    "question": "平均每人每天拿起手机多少次？",
+    "options": [
+      "约800次",
+      "约1500次",
+      "约2617次",
+      "约3500次"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：平均每人每天拿起手机2617次。",
+    "source": "brain-rot"
+  },
+  {
+    "id": "brainrot-005",
+    "type": "choice",
+    "topic": "brainrot",
+    "topicName": "短视频脑腐",
+    "question": "美国成年人均日屏幕时间约为多少小时？",
+    "options": [
+      "3.2小时",
+      "5.1小时",
+      "6.9小时",
+      "8.5小时"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：美国成年人均屏幕时间6.9小时/天。",
+    "source": "brain-rot"
+  },
+  {
+    "id": "brainrot-006",
+    "type": "choice",
+    "topic": "brainrot",
+    "topicName": "短视频脑腐",
+    "question": "原文中医生说的\"爆米花脑\"(popcorn brain)指什么？",
+    "options": [
+      "大脑结构受损",
+      "大脑被持续过度刺激后对现实快乐麻木",
+      "短期记忆爆发性提升",
+      "注意力变得高度集中"
+    ],
+    "answer": 1,
+    "explanation": "原文：大脑被持续过度刺激，对现实世界的快乐麻木——看书无聊、跑步没意思——医生叫\"爆米花脑\"。",
+    "source": "brain-rot"
+  },
+  {
+    "id": "brainrot-007",
+    "type": "choice",
+    "topic": "brainrot",
+    "topicName": "短视频脑腐",
+    "question": "原文提到大脑可以多久重塑？",
+    "options": [
+      "2周",
+      "4周",
+      "8周",
+      "6个月"
+    ],
+    "answer": 2,
+    "explanation": "原文：好消息是8周就能重塑大脑，91%的人仅两周就明显改善。",
+    "source": "brain-rot"
+  },
+  {
+    "id": "brainrot-008",
+    "type": "truefalse",
+    "topic": "brainrot",
+    "topicName": "短视频脑腐",
+    "question": "哈佛医生认为，刷短视频后感觉麻木是因为你的大脑坏了。",
+    "answer": false,
+    "explanation": "原文哈佛医生原话：\"你的大脑没坏，它只是在一个从未被设计来应对的环境里做出正常反应\"。",
+    "source": "brain-rot"
+  },
+  {
+    "id": "brainrot-009",
+    "type": "choice",
+    "topic": "brainrot",
+    "topicName": "短视频脑腐",
+    "question": "71项研究的meta分析得出什么结论？",
+    "options": [
+      "短视频提升反应速度",
+      "刷短视频直接降低认知功能和记忆力",
+      "短视频对认知没有显著影响",
+      "短视频提高多任务能力"
+    ],
+    "answer": 1,
+    "explanation": "原文：71项研究meta分析显示刷短视频直接降低认知功能和记忆力。",
+    "source": "brain-rot"
+  },
+  {
+    "id": "brainrot-010",
+    "type": "choice",
+    "topic": "brainrot",
+    "topicName": "短视频脑腐",
+    "question": "原文提到的\"3秒重置法\"是什么？",
+    "options": [
+      "关机3秒重启大脑",
+      "停下来→深呼吸→感受当下",
+      "数3个数转移注意力",
+      "看远处3秒放松眼睛"
+    ],
+    "answer": 1,
+    "explanation": "原文：3秒重置法——停下来→深呼吸→感受当下。",
+    "source": "brain-rot"
+  },
+  {
+    "id": "brainrot-011",
+    "type": "truefalse",
+    "topic": "brainrot",
+    "topicName": "短视频脑腐",
+    "question": "把手机调成灰度可以大幅降低多巴胺刺激。",
+    "answer": true,
+    "explanation": "原文建议：手机调灰度，多巴胺刺激大幅降低，这是降低成瘾性的简单干预。",
+    "source": "brain-rot"
+  },
+  {
+    "id": "brainrot-012",
+    "type": "choice",
+    "topic": "brainrot",
+    "topicName": "短视频脑腐",
+    "question": "原文嘉宾Jonathan Haidt是哪所大学的社会心理学家？",
+    "options": [
+      "哈佛",
+      "斯坦福",
+      "NYU（纽约大学）",
+      "MIT"
+    ],
+    "answer": 2,
+    "explanation": "原文：NYU社会心理学家Jonathan Haidt和哈佛压力专家Dr. Aditi Nerurkar。",
+    "source": "brain-rot"
+  },
+  {
+    "id": "brainrot-013",
+    "type": "truefalse",
+    "topic": "brainrot",
+    "topicName": "短视频脑腐",
+    "question": "原文建议早起第一个小时不碰屏幕。",
+    "answer": true,
+    "explanation": "原文行动清单中明确：\"早起第一个小时不碰屏幕\"。",
+    "source": "brain-rot"
+  },
+  {
+    "id": "daycare-001",
+    "type": "choice",
+    "topic": "daycare",
+    "topicName": "早期依恋",
+    "question": "Erica Komisar的临床经验有多少年？",
+    "options": [
+      "10年",
+      "20年",
+      "30年",
+      "40年"
+    ],
+    "answer": 2,
+    "explanation": "原文：精神分析师Erica Komisar用30年临床经验讲述0-3岁依恋。",
+    "source": "daycare"
+  },
+  {
+    "id": "daycare-002",
+    "type": "choice",
+    "topic": "daycare",
+    "topicName": "早期依恋",
+    "question": "0-3岁期间右脑完成多少比例的发育？",
+    "options": [
+      "50%",
+      "70%",
+      "85%",
+      "95%"
+    ],
+    "answer": 2,
+    "explanation": "原文：3岁前右脑完成85%的发育——你不在场，就错过了。",
+    "source": "daycare"
+  },
+  {
+    "id": "daycare-003",
+    "type": "choice",
+    "topic": "daycare",
+    "topicName": "早期依恋",
+    "question": "12个月大时不安全依恋的孩子，20年后仍然如此的比例约是多少？",
+    "options": [
+      "40%",
+      "60%",
+      "80%",
+      "95%"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：12个月不安全依恋的孩子，80%在20年后仍然如此。",
+    "source": "daycare"
+  },
+  {
+    "id": "daycare-004",
+    "type": "choice",
+    "topic": "daycare",
+    "topicName": "早期依恋",
+    "question": "童年创伤经历≥4项的孩子，被诊断多动症的概率是普通孩子的多少倍？",
+    "options": [
+      "2倍",
+      "3倍",
+      "4倍",
+      "6倍"
+    ],
+    "answer": 2,
+    "explanation": "原文：创伤经历≥4项的孩子，被诊断多动症的概率是正常的4倍。",
+    "source": "daycare"
+  },
+  {
+    "id": "daycare-005",
+    "type": "truefalse",
+    "topic": "daycare",
+    "topicName": "早期依恋",
+    "question": "原文认为3岁前的孩子非常需要同龄社交。",
+    "answer": false,
+    "explanation": "原文明确：\"早送托对社交好\"是误区——3岁前不需要社交，需要一对一依恋。",
+    "source": "daycare"
+  },
+  {
+    "id": "daycare-006",
+    "type": "choice",
+    "topic": "daycare",
+    "topicName": "早期依恋",
+    "question": "原文指出大约多少儿童在童年发展出严重心理疾病？",
+    "options": [
+      "十分之一",
+      "五分之一",
+      "三分之一",
+      "一半"
+    ],
+    "answer": 1,
+    "explanation": "原文数据：每5个孩子就有1个在童年发展出严重心理疾病。",
+    "source": "daycare"
+  },
+  {
+    "id": "daycare-007",
+    "type": "choice",
+    "topic": "daycare",
+    "topicName": "早期依恋",
+    "question": "缺乏母亲安抚时，大脑里发生什么变化？",
+    "options": [
+      "前额叶过度发育",
+      "杏仁核过早激活，进入战斗/逃跑模式",
+      "海马体加速生长",
+      "胼胝体增厚"
+    ],
+    "answer": 1,
+    "explanation": "原文核心机制：缺失安抚→杏仁核过早激活→战斗/逃跑模式→\"多动症\"。",
+    "source": "daycare"
+  },
+  {
+    "id": "daycare-008",
+    "type": "choice",
+    "topic": "daycare",
+    "topicName": "早期依恋",
+    "question": "母亲安抚孩子触发哪种激素来保护大脑免受压力激素损害？",
+    "options": [
+      "皮质醇",
+      "肾上腺素",
+      "催产素",
+      "血清素"
+    ],
+    "answer": 2,
+    "explanation": "原文：母亲安抚→催产素↑→保护大脑免受压力激素损害。",
+    "source": "daycare"
+  },
+  {
+    "id": "daycare-009",
+    "type": "truefalse",
+    "topic": "daycare",
+    "topicName": "早期依恋",
+    "question": "原文指出\"质量时间够了\"是误区，孩子需要父母在他们的时间里出现。",
+    "answer": true,
+    "explanation": "原文三大误区之一：'质量时间就够了'——孩子需要你在他们的时间里出现。",
+    "source": "daycare"
+  },
+  {
+    "id": "daycare-010",
+    "type": "choice",
+    "topic": "daycare",
+    "topicName": "早期依恋",
+    "question": "原文用什么科学领域证明依恋会代际传递？",
+    "options": [
+      "分子生物学",
+      "表观遗传学",
+      "进化心理学",
+      "行为主义"
+    ],
+    "answer": 1,
+    "explanation": "原文：表观遗传学研究证实——安全依恋可以沉默致病基因，缺失则激活，且代际传递。",
+    "source": "daycare"
+  },
+  {
+    "id": "daycare-011",
+    "type": "truefalse",
+    "topic": "daycare",
+    "topicName": "早期依恋",
+    "question": "原文认为父母必须做到完美，否则就会伤害孩子。",
+    "answer": false,
+    "explanation": "原文明确：\"不需要完美父母，'足够好的父母'就够了\"。",
+    "source": "daycare"
+  },
+  {
+    "id": "daycare-012",
+    "type": "choice",
+    "topic": "daycare",
+    "topicName": "早期依恋",
+    "question": "中国家庭面对的现实困境组合是什么？",
+    "options": [
+      "独生子女政策+高房价",
+      "996+双职工+房贷",
+      "教育内卷+学区房",
+      "城乡差距+留守儿童"
+    ],
+    "answer": 1,
+    "explanation": "原文：996+双职工+房贷，全职带娃成了\"奢侈品\"。",
+    "source": "daycare"
+  },
+  {
+    "id": "daycare-013",
+    "type": "truefalse",
+    "topic": "daycare",
+    "topicName": "早期依恋",
+    "question": "原文认为婴儿适应能力强，可以承受早期分离。",
+    "answer": false,
+    "explanation": "原文三大误区之三：\"婴儿适应能力强\"是误区——婴儿神经和情感都是脆弱的。",
+    "source": "daycare"
+  },
+  {
+    "id": "gaming-001",
+    "type": "choice",
+    "topic": "gaming",
+    "topicName": "游戏与儿童",
+    "question": "原文中\"快多巴胺\"和\"慢多巴胺\"分别对应什么？",
+    "options": [
+      "糖与水果 / 主食",
+      "游戏 / 读书运动",
+      "毒品 / 咖啡",
+      "社交媒体 / 电视"
+    ],
+    "answer": 1,
+    "explanation": "原文：游戏给的是\"快多巴胺\"——秒升秒退；读书、运动给的是\"慢多巴胺\"——持久满足。",
+    "source": "gaming-kids"
+  },
+  {
+    "id": "gaming-002",
+    "type": "choice",
+    "topic": "gaming",
+    "topicName": "游戏与儿童",
+    "question": "原文数据显示，多少比例的未成年人绕过了防沉迷？",
+    "options": [
+      "32%",
+      "48%",
+      "62%",
+      "78%"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：62%的未成年人绕过了防沉迷。防沉迷管得了时间，管不了大脑。",
+    "source": "gaming-kids"
+  },
+  {
+    "id": "gaming-003",
+    "type": "choice",
+    "topic": "gaming",
+    "topicName": "游戏与儿童",
+    "question": "原文\"时间账\"算法中，孩子真正属于自己的时间约多少小时？",
+    "options": [
+      "3小时",
+      "5小时",
+      "7小时",
+      "9小时"
+    ],
+    "answer": 1,
+    "explanation": "原文：24h-睡觉10h-上学8h-吃饭1h，真正属于自己的只有5小时。",
+    "source": "gaming-kids"
+  },
+  {
+    "id": "gaming-004",
+    "type": "choice",
+    "topic": "gaming",
+    "topicName": "游戏与儿童",
+    "question": "如果孩子玩2小时游戏，约花掉多少比例的自由时间？",
+    "options": [
+      "20%",
+      "30%",
+      "40%",
+      "60%"
+    ],
+    "answer": 2,
+    "explanation": "原文：玩2小时=花掉40%自由时间（基于真正属于自己的5小时）。",
+    "source": "gaming-kids"
+  },
+  {
+    "id": "gaming-005",
+    "type": "truefalse",
+    "topic": "gaming",
+    "topicName": "游戏与儿童",
+    "question": "原文认为\"不许玩\"是处理孩子游戏问题最有效的策略。",
+    "answer": false,
+    "explanation": "原文：\"不许玩\"→偷着玩→撒谎→关系恶化；应该一起定规则，而不是下禁令。",
+    "source": "gaming-kids"
+  },
+  {
+    "id": "gaming-006",
+    "type": "choice",
+    "topic": "gaming",
+    "topicName": "游戏与儿童",
+    "question": "原文指出打游戏只锻炼了大脑的哪个部分？",
+    "options": [
+      "创造力和想象力",
+      "反应速度",
+      "耐心和专注力",
+      "情绪调节能力"
+    ],
+    "answer": 1,
+    "explanation": "原文：打游戏只练反应速度，看书、搭积木、运动才练想象力、耐心、创造力。",
+    "source": "gaming-kids"
+  },
+  {
+    "id": "gaming-007",
+    "type": "truefalse",
+    "topic": "gaming",
+    "topicName": "游戏与儿童",
+    "question": "原文最大的坑是父母自己也在刷手机。",
+    "answer": true,
+    "explanation": "原文：最大的坑——你自己在刷手机，孩子只想问\"凭什么\"。",
+    "source": "gaming-kids"
+  },
+  {
+    "id": "gaming-008",
+    "type": "choice",
+    "topic": "gaming",
+    "topicName": "游戏与儿童",
+    "question": "原文推荐替代游戏的活动包括哪些？",
+    "options": [
+      "看更多教育视频",
+      "骑车、乐高、做实验",
+      "学习编程APP",
+      "听有声书"
+    ],
+    "answer": 1,
+    "explanation": "原文：给替代不给禁令——骑车、乐高、做实验，现实世界足够有趣。",
+    "source": "gaming-kids"
+  },
+  {
+    "id": "gaming-009",
+    "type": "choice",
+    "topic": "gaming",
+    "topicName": "游戏与儿童",
+    "question": "原文为什么说孩子比大人更容易陷入游戏多巴胺陷阱？",
+    "options": [
+      "孩子对游戏机制更敏感",
+      "前额叶尚未发育完全",
+      "孩子缺少其他娱乐",
+      "孩子学习压力小"
+    ],
+    "answer": 1,
+    "explanation": "原文：每一关都是专业团队设计的多巴胺陷阱，大人都扛不住，何况前额叶没发育完的孩子。",
+    "source": "gaming-kids"
+  },
+  {
+    "id": "gaming-010",
+    "type": "choice",
+    "topic": "gaming",
+    "topicName": "游戏与儿童",
+    "question": "原文推荐和孩子建立游戏规则的方式是？",
+    "options": [
+      "父母单方面制定",
+      "学校老师制定",
+      "和孩子一起定游戏公约",
+      "外包给APP管控"
+    ],
+    "answer": 2,
+    "explanation": "原文：\"换成'我们一起定个游戏公约'，孩子参与制定的规则，他更愿意守\"。",
+    "source": "gaming-kids"
+  },
+  {
+    "id": "gaming-011",
+    "type": "truefalse",
+    "topic": "gaming",
+    "topicName": "游戏与儿童",
+    "question": "原文引用了WHO ICD-11对游戏障碍的官方定义作为依据之一。",
+    "answer": true,
+    "explanation": "原文来源标注：AAP屏幕时间指南/Jonathan Haidt《焦虑的一代》/WHO ICD-11\"游戏障碍\"。",
+    "source": "gaming-kids"
+  },
+  {
+    "id": "gaming-012",
+    "type": "choice",
+    "topic": "gaming",
+    "topicName": "游戏与儿童",
+    "question": "原文谈\"快慢多巴胺\"时，玩游戏越玩越怎样？",
+    "options": [
+      "越来越满足",
+      "越来越麻木",
+      "越来越专注",
+      "越来越愉悦"
+    ],
+    "answer": 1,
+    "explanation": "原文：游戏给的快多巴胺秒升秒退，越玩越麻木。",
+    "source": "gaming-kids"
+  },
+  {
+    "id": "adhd-001",
+    "type": "choice",
+    "topic": "adhd",
+    "topicName": "ADHD与注意力",
+    "question": "Andrew Huberman是哪所大学的神经科学教授？",
+    "options": [
+      "哈佛",
+      "MIT",
+      "斯坦福",
+      "耶鲁"
+    ],
+    "answer": 2,
+    "explanation": "原文：斯坦福神经科学教授Andrew Huberman讲注意力底层逻辑。",
+    "source": "adhd-focus"
+  },
+  {
+    "id": "adhd-002",
+    "type": "choice",
+    "topic": "adhd",
+    "topicName": "ADHD与注意力",
+    "question": "原文中大脑里\"两个乐队\"指的是哪两组神经回路？",
+    "options": [
+      "左脑和右脑",
+      "默认模式网络和任务网络",
+      "交感和副交感",
+      "皮层和边缘系统"
+    ],
+    "answer": 1,
+    "explanation": "原文：默认模式网络（发呆时活跃）和任务网络（专注时活跃），像跷跷板交替。",
+    "source": "adhd-focus"
+  },
+  {
+    "id": "adhd-003",
+    "type": "choice",
+    "topic": "adhd",
+    "topicName": "ADHD与注意力",
+    "question": "ADHD大脑里两个网络同时瞎演奏，是因为什么神经递质缺席？",
+    "options": [
+      "血清素",
+      "GABA",
+      "多巴胺",
+      "去甲肾上腺素"
+    ],
+    "answer": 2,
+    "explanation": "原文：\"指挥家——多巴胺——缺席了\"，导致两支乐队同时瞎演奏。",
+    "source": "adhd-focus"
+  },
+  {
+    "id": "adhd-004",
+    "type": "truefalse",
+    "topic": "adhd",
+    "topicName": "ADHD与注意力",
+    "question": "原文指出ADHD与智商存在显著的负相关。",
+    "answer": false,
+    "explanation": "原文明确：ADHD跟智商完全无关。",
+    "source": "adhd-focus"
+  },
+  {
+    "id": "adhd-005",
+    "type": "choice",
+    "topic": "adhd",
+    "topicName": "ADHD与注意力",
+    "question": "\"注意力眨眼\"指什么现象？",
+    "options": [
+      "眼睛眨动频率异常",
+      "明明在看却没看到旁边发生的事",
+      "短暂入睡微觉",
+      "瞳孔放大"
+    ],
+    "answer": 1,
+    "explanation": "原文：明明在看却没看到的体验叫\"注意力眨眼\"，地铁站找朋友例子。",
+    "source": "adhd-focus"
+  },
+  {
+    "id": "adhd-006",
+    "type": "choice",
+    "topic": "adhd",
+    "topicName": "ADHD与注意力",
+    "question": "做一次多长时间的冥想就能显著减少注意力眨眼？",
+    "options": [
+      "5分钟",
+      "10分钟",
+      "17分钟",
+      "30分钟"
+    ],
+    "answer": 2,
+    "explanation": "原文研究：只做一次17分钟冥想就能显著减少注意力眨眼，效果是永久性的。",
+    "source": "adhd-focus"
+  },
+  {
+    "id": "adhd-007",
+    "type": "choice",
+    "topic": "adhd",
+    "topicName": "ADHD与注意力",
+    "question": "7102名青少年研究显示，手机每天超过多少分钟，注意力开始下降？",
+    "options": [
+      "30分钟",
+      "60分钟",
+      "90分钟",
+      "120分钟"
+    ],
+    "answer": 1,
+    "explanation": "原文：7102名青少年研究——手机每天超过60分钟，注意力就开始下降。",
+    "source": "adhd-focus"
+  },
+  {
+    "id": "adhd-008",
+    "type": "choice",
+    "topic": "adhd",
+    "topicName": "ADHD与注意力",
+    "question": "原文给出的成人手机使用时间上限是多少？",
+    "options": [
+      "1小时",
+      "约2小时",
+      "4小时",
+      "6小时"
+    ],
+    "answer": 1,
+    "explanation": "原文明确：成人上限约2小时。",
+    "source": "adhd-focus"
+  },
+  {
+    "id": "adhd-009",
+    "type": "truefalse",
+    "topic": "adhd",
+    "topicName": "ADHD与注意力",
+    "question": "ADHD的人打游戏可以非常专注，因为多巴胺只在感兴趣时才足够。",
+    "answer": true,
+    "explanation": "原文：ADHD的人打游戏超专注但上课不行，因为多巴胺只在\"感兴趣\"时才足够。",
+    "source": "adhd-focus"
+  },
+  {
+    "id": "adhd-010",
+    "type": "choice",
+    "topic": "adhd",
+    "topicName": "ADHD与注意力",
+    "question": "视觉焦点训练的步骤是什么？",
+    "options": [
+      "闭眼冥想10分钟",
+      "先运动一下，然后近/中/远各凝视30-60秒，最后切到全景",
+      "盯着屏幕5分钟不眨眼",
+      "做眼保健操"
+    ],
+    "answer": 1,
+    "explanation": "原文：先运动一下，然后分别盯近处、中距离、远处各30-60秒，最后切到全景模式。",
+    "source": "adhd-focus"
+  },
+  {
+    "id": "adhd-011",
+    "type": "truefalse",
+    "topic": "adhd",
+    "topicName": "ADHD与注意力",
+    "question": "原文说ADHD是意志力问题，努力一下就能克服。",
+    "answer": false,
+    "explanation": "原文明确：这不是意志力问题，是神经化学问题。",
+    "source": "adhd-focus"
+  },
+  {
+    "id": "adhd-012",
+    "type": "choice",
+    "topic": "adhd",
+    "topicName": "ADHD与注意力",
+    "question": "ADHD的人注意力眨眼次数大约是普通人的多少？",
+    "options": [
+      "相同",
+      "1.5倍",
+      "数倍",
+      "10倍"
+    ],
+    "answer": 2,
+    "explanation": "原文：ADHD的人注意力眨眼次数是普通人的数倍。",
+    "source": "adhd-focus"
+  },
+  {
+    "id": "adhd-013",
+    "type": "truefalse",
+    "topic": "adhd",
+    "topicName": "ADHD与注意力",
+    "question": "原文认为微信→抖音→小红书→朋友圈的高频上下文切换正在制造成人ADHD。",
+    "answer": true,
+    "explanation": "原文：手机正在制造成人ADHD，每天高频上下文切换大脑根本受不了。",
+    "source": "adhd-focus"
+  },
+  {
+    "id": "antiaging-001",
+    "type": "choice",
+    "topic": "antiaging",
+    "topicName": "抗衰老",
+    "question": "Rhonda Patrick把主持人厨房里什么直接扔进了垃圾桶？",
+    "options": [
+      "不粘锅",
+      "黑色塑料外卖盒",
+      "塑料水杯",
+      "保鲜膜"
+    ],
+    "answer": 1,
+    "explanation": "原文：Rhonda把黑色塑料外卖盒全扔进垃圾桶——回收电子元件做的，含阻燃剂。",
+    "source": "anti-aging"
+  },
+  {
+    "id": "antiaging-002",
+    "type": "choice",
+    "topic": "antiaging",
+    "topicName": "抗衰老",
+    "question": "原文指出身体从多少岁开始走下坡路？",
+    "options": [
+      "20岁",
+      "25岁",
+      "30岁",
+      "35岁"
+    ],
+    "answer": 1,
+    "explanation": "原文：肌肉、骨密度、免疫力、大脑处理速度——全在25岁见顶后开始衰退。",
+    "source": "anti-aging"
+  },
+  {
+    "id": "antiaging-003",
+    "type": "choice",
+    "topic": "antiaging",
+    "topicName": "抗衰老",
+    "question": "Rhonda提出的新概念\"巅峰期\"(Peak Span)的目标是什么？",
+    "options": [
+      "延长寿命",
+      "尽可能久地保持90%的巅峰状态",
+      "提高新陈代谢",
+      "降低疾病风险"
+    ],
+    "answer": 1,
+    "explanation": "原文：目标不是活得久，是尽可能久地保持90%的巅峰状态。",
+    "source": "anti-aging"
+  },
+  {
+    "id": "antiaging-004",
+    "type": "choice",
+    "topic": "antiaging",
+    "topicName": "抗衰老",
+    "question": "内脏脂肪过多会让转移性癌症风险增加多少？",
+    "options": [
+      "20%",
+      "32%",
+      "44%",
+      "60%"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：内脏脂肪让转移性癌症风险增加44%。",
+    "source": "anti-aging"
+  },
+  {
+    "id": "antiaging-005",
+    "type": "choice",
+    "topic": "antiaging",
+    "topicName": "抗衰老",
+    "question": "每天只睡4小时，两周后内脏脂肪增加多少？",
+    "options": [
+      "+5%",
+      "+8%",
+      "+11%",
+      "+15%"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：每天只睡4小时，两周后内脏脂肪+11%，但体重一斤没变。",
+    "source": "anti-aging"
+  },
+  {
+    "id": "antiaging-006",
+    "type": "choice",
+    "topic": "antiaging",
+    "topicName": "抗衰老",
+    "question": "BPA高的青春期男孩睾酮下降多少？",
+    "options": [
+      "20%",
+      "30%",
+      "50%",
+      "70%"
+    ],
+    "answer": 2,
+    "explanation": "原文：BPA高的青春期男孩睾酮下降50%；20年间全球男性睾酮整体降了20%。",
+    "source": "anti-aging"
+  },
+  {
+    "id": "antiaging-007",
+    "type": "truefalse",
+    "topic": "antiaging",
+    "topicName": "抗衰老",
+    "question": "涂了护手霜后摸热敏小票，BPA吸收量会增加约100倍。",
+    "answer": true,
+    "explanation": "原文：热敏纸靠BPA才能打印，涂护手霜后摸小票BPA吸收量增加100倍。",
+    "source": "anti-aging"
+  },
+  {
+    "id": "antiaging-008",
+    "type": "choice",
+    "topic": "antiaging",
+    "topicName": "抗衰老",
+    "question": "PFAS永久化学物常出现在哪些日常用品里？",
+    "options": [
+      "塑料瓶和小票",
+      "保鲜膜和护肤品",
+      "不粘锅和防水衣物",
+      "罐头和外卖纸杯"
+    ],
+    "answer": 2,
+    "explanation": "原文：PFAS永久化学物——不粘锅、防水衣物。",
+    "source": "anti-aging"
+  },
+  {
+    "id": "antiaging-009",
+    "type": "choice",
+    "topic": "antiaging",
+    "topicName": "抗衰老",
+    "question": "Rhonda推荐的5大必备补剂中，排第一的是？",
+    "options": [
+      "维生素D3",
+      "复合维生素",
+      "鱼油Omega-3",
+      "肌酸"
+    ],
+    "answer": 2,
+    "explanation": "原文五大补剂排名：1.鱼油Omega-3（必须冷藏）2.D3 3.复合维生素 4.镁 5.肌酸。",
+    "source": "anti-aging"
+  },
+  {
+    "id": "antiaging-010",
+    "type": "choice",
+    "topic": "antiaging",
+    "topicName": "抗衰老",
+    "question": "原文提到肌酸的推荐剂量及效果是？",
+    "options": [
+      "3g/天，提升肌肉力量",
+      "5g/天，改善睡眠",
+      "10g/天，可提升脑力",
+      "20g/天，加快恢复"
+    ],
+    "answer": 2,
+    "explanation": "原文：肌酸10g/天可提升脑力。",
+    "source": "anti-aging"
+  },
+  {
+    "id": "antiaging-011",
+    "type": "truefalse",
+    "topic": "antiaging",
+    "topicName": "抗衰老",
+    "question": "原文好消息是：内脏脂肪是身体最先被减掉的脂肪。",
+    "answer": true,
+    "explanation": "原文：\"好消息：内脏脂肪是最先被减掉的\"。",
+    "source": "anti-aging"
+  },
+  {
+    "id": "antiaging-012",
+    "type": "choice",
+    "topic": "antiaging",
+    "topicName": "抗衰老",
+    "question": "原文推荐的减内脏脂肪策略组合包括哪个？",
+    "options": [
+      "每天大餐+多睡觉",
+      "每周3次有氧30分钟+16:8间歇性断食+睡前3小时不吃大餐",
+      "高蛋白饮食+长跑",
+      "完全素食+晨练"
+    ],
+    "answer": 1,
+    "explanation": "原文：每周3次有氧30分钟+间歇性断食16:8+睡前3小时不吃大餐。",
+    "source": "anti-aging"
+  },
+  {
+    "id": "antiaging-013",
+    "type": "choice",
+    "topic": "antiaging",
+    "topicName": "抗衰老",
+    "question": "原文提到每天多吃多少大卡超加工食品，5天就会出现脂肪肝？",
+    "options": [
+      "500大卡",
+      "800大卡",
+      "1200大卡",
+      "2000大卡"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：每天多吃1200大卡超加工食品，5天就出现脂肪肝。",
+    "source": "anti-aging"
+  },
+  {
+    "id": "antiaging-014",
+    "type": "truefalse",
+    "topic": "antiaging",
+    "topicName": "抗衰老",
+    "question": "原文推荐用铁锅或不锈钢锅替换不粘锅。",
+    "answer": true,
+    "explanation": "原文中国家庭替换清单第一条：不粘锅→铁锅/不锈钢锅。",
+    "source": "anti-aging"
+  },
+  {
+    "id": "overeat-001",
+    "type": "choice",
+    "topic": "overeating",
+    "topicName": "为什么吃太多",
+    "question": "Andrew Jenkinson做了多少年减重外科手术后写了这本书？",
+    "options": [
+      "10年",
+      "15年",
+      "20年",
+      "30年"
+    ],
+    "answer": 2,
+    "explanation": "原文：英国减重外科医生Dr. Andrew Jenkinson做了20年手术后发现并写了这本书。",
+    "source": "overeating"
+  },
+  {
+    "id": "overeat-002",
+    "type": "choice",
+    "topic": "overeating",
+    "topicName": "为什么吃太多",
+    "question": "大脑里的\"恒温器\"是指什么？",
+    "options": [
+      "体温调节中枢",
+      "体重设定点",
+      "饥饿感开关",
+      "代谢节律"
+    ],
+    "answer": 1,
+    "explanation": "原文：你的大脑有一个\"体重设定点\"，下丘脑通过激素24小时监控你的体重。",
+    "source": "overeating"
+  },
+  {
+    "id": "overeat-003",
+    "type": "choice",
+    "topic": "overeating",
+    "topicName": "为什么吃太多",
+    "question": "节食5年内反弹的比例约是多少？",
+    "options": [
+      "50%",
+      "70%",
+      "85%",
+      "95%"
+    ],
+    "answer": 3,
+    "explanation": "原文：95%的节食者5年内全部反弹。",
+    "source": "overeating"
+  },
+  {
+    "id": "overeat-004",
+    "type": "choice",
+    "topic": "overeating",
+    "topicName": "为什么吃太多",
+    "question": "原文指出哪种脂肪酸过量会引发慢性炎症并干扰瘦素信号？",
+    "options": [
+      "Omega-3",
+      "Omega-6",
+      "饱和脂肪酸",
+      "反式脂肪酸"
+    ],
+    "answer": 1,
+    "explanation": "原文：过量Omega-6（大豆油、玉米油、葵花籽油）引发细胞慢性炎症，干扰瘦素信号。",
+    "source": "overeating"
+  },
+  {
+    "id": "overeat-005",
+    "type": "choice",
+    "topic": "overeating",
+    "topicName": "为什么吃太多",
+    "question": "中国家庭用油中Omega-6类油占比约是？",
+    "options": [
+      "30%以上",
+      "50%以上",
+      "80%以上",
+      "几乎100%"
+    ],
+    "answer": 2,
+    "explanation": "原文：中国家庭用油80%以上是这类油（Omega-6），外卖更是重灾区。",
+    "source": "overeating"
+  },
+  {
+    "id": "overeat-006",
+    "type": "choice",
+    "topic": "overeating",
+    "topicName": "为什么吃太多",
+    "question": "超加工食品让人在不知不觉中每天多摄入多少大卡？",
+    "options": [
+      "100大卡",
+      "300大卡",
+      "500大卡",
+      "1000大卡"
+    ],
+    "answer": 2,
+    "explanation": "原文：超加工食品让你不知不觉每天多摄入500大卡。",
+    "source": "overeating"
+  },
+  {
+    "id": "overeat-007",
+    "type": "choice",
+    "topic": "overeating",
+    "topicName": "为什么吃太多",
+    "question": "原文认为真正的\"体重开关\"是什么？",
+    "options": [
+      "瘦素",
+      "胰岛素",
+      "胃饥饿素",
+      "甲状腺激素"
+    ],
+    "answer": 1,
+    "explanation": "原文：胰岛素才是体重开关——频繁吃精制碳水→胰岛素大量分泌→脂肪被锁住无法燃烧。",
+    "source": "overeating"
+  },
+  {
+    "id": "overeat-008",
+    "type": "truefalse",
+    "topic": "overeating",
+    "topicName": "为什么吃太多",
+    "question": "原文认为\"少吃多动就能瘦\"是科学有效的策略。",
+    "answer": false,
+    "explanation": "原文：'少吃多动就能瘦'是错的，代谢会主动下调来对抗你。",
+    "source": "overeating"
+  },
+  {
+    "id": "overeat-009",
+    "type": "choice",
+    "topic": "overeating",
+    "topicName": "为什么吃太多",
+    "question": "原文指出，长期压力+缺觉会让什么激素持续偏高，引发腹部脂肪堆积？",
+    "options": [
+      "瘦素",
+      "皮质醇",
+      "胰高血糖素",
+      "甲状腺激素"
+    ],
+    "answer": 1,
+    "explanation": "原文：996+晚睡刷手机+高房贷=皮质醇持续偏高→身体优先储存腹部脂肪。",
+    "source": "overeating"
+  },
+  {
+    "id": "overeat-010",
+    "type": "truefalse",
+    "topic": "overeating",
+    "topicName": "为什么吃太多",
+    "question": "原文认为100卡坚果和100卡薯片对身体的影响是相同的。",
+    "answer": false,
+    "explanation": "原文：\"所有卡路里都一样\"是错的——100卡坚果vs100卡薯片完全不同。",
+    "source": "overeating"
+  },
+  {
+    "id": "overeat-011",
+    "type": "choice",
+    "topic": "overeating",
+    "topicName": "为什么吃太多",
+    "question": "原文认为相比运动，睡眠对体重的影响如何？",
+    "options": [
+      "睡眠不重要",
+      "睡眠和运动同等重要",
+      "睡够7-8小时比运动更重要",
+      "运动比睡眠重要得多"
+    ],
+    "answer": 2,
+    "explanation": "原文：睡够7-8小时（比运动更重要）。",
+    "source": "overeating"
+  },
+  {
+    "id": "overeat-012",
+    "type": "choice",
+    "topic": "overeating",
+    "topicName": "为什么吃太多",
+    "question": "原文推荐的\"换对油\"做法是？",
+    "options": [
+      "完全不吃油",
+      "只用橄榄油",
+      "少用大豆油，多用猪油/橄榄油，多吃鱼",
+      "改用椰子油"
+    ],
+    "answer": 2,
+    "explanation": "原文：换对油——少用大豆油，多用猪油/橄榄油，多吃鱼。",
+    "source": "overeating"
+  },
+  {
+    "id": "overeat-013",
+    "type": "truefalse",
+    "topic": "overeating",
+    "topicName": "为什么吃太多",
+    "question": "原文颠覆性结论是：不是少吃，而是吃对；不是多动，而是少焦虑。",
+    "answer": true,
+    "explanation": "原文原话：\"不是少吃，而是吃对。不是多动，而是少焦虑\"。",
+    "source": "overeating"
+  },
+  {
+    "id": "addict-001",
+    "type": "choice",
+    "topic": "addiction",
+    "topicName": "成瘾机制",
+    "question": "斯坦福成瘾专家Anna Lembke有多少年临床经验？",
+    "options": [
+      "10年",
+      "15年",
+      "25年",
+      "40年"
+    ],
+    "answer": 2,
+    "explanation": "原文：斯坦福精神科教授Anna Lembke 25年临床经验。",
+    "source": "addiction"
+  },
+  {
+    "id": "addict-002",
+    "type": "choice",
+    "topic": "addiction",
+    "topicName": "成瘾机制",
+    "question": "原文中多巴胺被定义为什么？",
+    "options": [
+      "\"快乐分子\"",
+      "\"想要更多\"的信号",
+      "\"幸福激素\"",
+      "\"奖赏分子\""
+    ],
+    "answer": 1,
+    "explanation": "原文：多巴胺不是\"快乐分子\"——它是\"想要更多\"的信号。",
+    "source": "addiction"
+  },
+  {
+    "id": "addict-003",
+    "type": "choice",
+    "topic": "addiction",
+    "topicName": "成瘾机制",
+    "question": "原文核心机制\"快乐-痛苦天平\"的关键洞见是什么？",
+    "options": [
+      "快乐和痛苦是两套独立系统",
+      "快乐和痛苦共用同一个天平，痛苦反弹力度比快乐还大",
+      "痛苦是快乐的副产品",
+      "快乐总会大于痛苦"
+    ],
+    "answer": 1,
+    "explanation": "原文：快乐和痛苦共用同一个天平，痛苦的反弹力度比快乐还大。",
+    "source": "addiction"
+  },
+  {
+    "id": "addict-004",
+    "type": "truefalse",
+    "topic": "addiction",
+    "topicName": "成瘾机制",
+    "question": "成瘾的本质是为了\"爽\"，而不是为了逃避不做时的痛苦。",
+    "answer": false,
+    "explanation": "原文：成瘾的本质——不是为了\"爽\"，而是为了逃避不做时的痛苦。",
+    "source": "addiction"
+  },
+  {
+    "id": "addict-005",
+    "type": "choice",
+    "topic": "addiction",
+    "topicName": "成瘾机制",
+    "question": "反复刺激会导致大脑发生什么变化？",
+    "options": [
+      "多巴胺受体增加",
+      "多巴胺受体下调，越来越没感觉",
+      "多巴胺分泌量翻倍",
+      "前额叶代偿性增厚"
+    ],
+    "answer": 1,
+    "explanation": "原文：反复刺激→大脑下调多巴胺受体→同样的事情越来越没感觉→不做就焦虑。",
+    "source": "addiction"
+  },
+  {
+    "id": "addict-006",
+    "type": "choice",
+    "topic": "addiction",
+    "topicName": "成瘾机制",
+    "question": "Lembke博士的核心处方是什么？",
+    "options": [
+      "7天断食",
+      "30天多巴胺断食",
+      "100天戒断",
+      "永久禁戒"
+    ],
+    "answer": 1,
+    "explanation": "原文：Lembke的处方——30天\"多巴胺断食\"。",
+    "source": "addiction"
+  },
+  {
+    "id": "addict-007",
+    "type": "choice",
+    "topic": "addiction",
+    "topicName": "成瘾机制",
+    "question": "30天多巴胺断食中，前多少天最难熬？",
+    "options": [
+      "前3天",
+      "前7天",
+      "前10天",
+      "前14天"
+    ],
+    "answer": 2,
+    "explanation": "原文：前10天最难熬，像戒断反应；第3周阳光出现。",
+    "source": "addiction"
+  },
+  {
+    "id": "addict-008",
+    "type": "choice",
+    "topic": "addiction",
+    "topicName": "成瘾机制",
+    "question": "30天断食后多少比例的酒精依赖者不再符合抑郁诊断？",
+    "options": [
+      "40%",
+      "60%",
+      "80%",
+      "95%"
+    ],
+    "answer": 2,
+    "explanation": "原文：到第4周，80%酒精依赖者不再符合抑郁诊断。",
+    "source": "addiction"
+  },
+  {
+    "id": "addict-009",
+    "type": "truefalse",
+    "topic": "addiction",
+    "topicName": "成瘾机制",
+    "question": "原文指出连\"喝水\"也可能成瘾，因为大脑只有一套通用奖赏回路。",
+    "answer": true,
+    "explanation": "原文：万物皆可上瘾，包括喝水（真实病例），因为大脑只有一套通用奖赏回路。",
+    "source": "addiction"
+  },
+  {
+    "id": "addict-010",
+    "type": "choice",
+    "topic": "addiction",
+    "topicName": "成瘾机制",
+    "question": "原文中康复者的最大智慧是什么？",
+    "options": [
+      "找到人生激情",
+      "看看眼前需要做什么，把今天过好",
+      "永久戒断所有快感",
+      "坚持每天打卡"
+    ],
+    "answer": 1,
+    "explanation": "原文：康复者的最大智慧不是\"找到激情\"，而是\"看看眼前需要做什么\"。",
+    "source": "addiction"
+  },
+  {
+    "id": "addict-011",
+    "type": "choice",
+    "topic": "addiction",
+    "topicName": "成瘾机制",
+    "question": "原文一个意外发现是什么能抗成瘾？",
+    "options": [
+      "大量运动",
+      "说真话（诚实）",
+      "冥想",
+      "禁欲"
+    ],
+    "answer": 1,
+    "explanation": "原文：说真话能抗成瘾——诚实强化前额叶和奖赏回路的连接。",
+    "source": "addiction"
+  },
+  {
+    "id": "addict-012",
+    "type": "choice",
+    "topic": "addiction",
+    "topicName": "成瘾机制",
+    "question": "原文中\"健康版的high\"来自什么？",
+    "options": [
+      "独自冥想",
+      "深度人际连接释放的催产素触发多巴胺",
+      "限时进食",
+      "极限运动"
+    ],
+    "answer": 1,
+    "explanation": "原文：深度人际连接释放的催产素→触发多巴胺，这才是\"健康版的high\"。",
+    "source": "addiction"
+  },
+  {
+    "id": "addict-013",
+    "type": "truefalse",
+    "topic": "addiction",
+    "topicName": "成瘾机制",
+    "question": "原文认为刷完短视频的空虚感大于刷的时候的快感。",
+    "answer": true,
+    "explanation": "原文：\"这就是为什么刷完短视频的空虚 > 刷的时候的快感\"——天平向痛苦侧的反弹更强。",
+    "source": "addiction"
+  },
+  {
+    "id": "happy-001",
+    "type": "choice",
+    "topic": "happiness",
+    "topicName": "持久幸福",
+    "question": "Arthur Brooks 提出真正的幸福包含哪三大宏观营养素？",
+    "options": [
+      "快乐、金钱、健康",
+      "享受、满足感、意义",
+      "成就、关系、自由",
+      "感恩、自律、爱"
+    ],
+    "answer": 1,
+    "explanation": "原文明确指出幸福的三大宏观营养素是享受、满足感、意义，类比身体所需的蛋白质/碳水/脂肪。",
+    "source": "happiness"
+  },
+  {
+    "id": "happy-002",
+    "type": "choice",
+    "topic": "happiness",
+    "topicName": "持久幸福",
+    "question": "原文用什么比喻形容大众对幸福的误解？",
+    "options": [
+      "雾里看花",
+      "火鸡的香味",
+      "海市蜃楼",
+      "镜中花水中月"
+    ],
+    "answer": 1,
+    "explanation": "Brooks 说我们以为的幸福感觉只是\"火鸡的香味\"，不是火鸡本身。",
+    "source": "happiness"
+  },
+  {
+    "id": "happy-003",
+    "type": "choice",
+    "topic": "happiness",
+    "topicName": "持久幸福",
+    "question": "根据原文，独自刷手机和与朋友大笑分别属于什么？",
+    "options": [
+      "都是享受",
+      "都是快乐",
+      "快乐 vs 享受",
+      "享受 vs 快乐"
+    ],
+    "answer": 2,
+    "explanation": "原文区分：独自刷手机是快乐（边缘系统反应），和朋友一起大笑是享受（前额叶体验）。",
+    "source": "happiness"
+  },
+  {
+    "id": "happy-004",
+    "type": "truefalse",
+    "topic": "happiness",
+    "topicName": "持久幸福",
+    "question": "如果你经常独自做某件事获得快感，按 Brooks 的判断你是在走向幸福。",
+    "answer": false,
+    "explanation": "原文明确警告：独自获得快感不是走向幸福，而是走向成瘾。",
+    "source": "happiness"
+  },
+  {
+    "id": "happy-005",
+    "type": "choice",
+    "topic": "happiness",
+    "topicName": "持久幸福",
+    "question": "Brooks 给出的满足感公式是什么？",
+    "options": [
+      "拥有 × 努力",
+      "拥有 ÷ 欲望",
+      "享受 + 意义",
+      "成就 - 痛苦"
+    ],
+    "answer": 1,
+    "explanation": "原文公式：满足感 = 拥有 ÷ 欲望，要管理分母（欲望）而不是只增加分子。",
+    "source": "happiness"
+  },
+  {
+    "id": "happy-006",
+    "type": "choice",
+    "topic": "happiness",
+    "topicName": "持久幸福",
+    "question": "为什么大多数奥运奖牌得主夺冠后会出现临床抑郁？",
+    "options": [
+      "训练强度过大",
+      "人天生为进步设计，不是为到达终点设计",
+      "缺乏赞助商支持",
+      "比赛压力残留"
+    ],
+    "answer": 1,
+    "explanation": "原文解释：我们天生为进步设计，不是为到达终点设计，所以到顶后反而抑郁。",
+    "source": "happiness"
+  },
+  {
+    "id": "happy-007",
+    "type": "choice",
+    "topic": "happiness",
+    "topicName": "持久幸福",
+    "question": "原文列出的四大\"偶像\"不包括以下哪一项？",
+    "options": [
+      "金钱",
+      "权力",
+      "健康",
+      "名声"
+    ],
+    "answer": 2,
+    "explanation": "原文四大偶像是：金钱、权力、快感、名声；健康不在其中。",
+    "source": "happiness"
+  },
+  {
+    "id": "happy-008",
+    "type": "choice",
+    "topic": "happiness",
+    "topicName": "持久幸福",
+    "question": "原文10周提升幸福感的方法可以提升多少？",
+    "options": [
+      "5%",
+      "8%",
+      "12%",
+      "20%"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：10周写感恩练习可提升12%幸福感。",
+    "source": "happiness"
+  },
+  {
+    "id": "happy-009",
+    "type": "choice",
+    "topic": "happiness",
+    "topicName": "持久幸福",
+    "question": "Brooks 把感恩比作什么？",
+    "options": [
+      "精神维生素",
+      "情绪版的练腿日",
+      "心灵瑜伽",
+      "幸福的种子"
+    ],
+    "answer": 1,
+    "explanation": "原文比喻：感恩就是情绪版的练腿日——不自然，但越练越强。",
+    "source": "happiness"
+  },
+  {
+    "id": "happy-010",
+    "type": "choice",
+    "topic": "happiness",
+    "topicName": "持久幸福",
+    "question": "情绪基线由基因决定的比例是多少？",
+    "options": [
+      "10-20%",
+      "20-40%",
+      "40-80%",
+      "90%以上"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：你的40-80%情绪基线是基因决定的。",
+    "source": "happiness"
+  },
+  {
+    "id": "happy-011",
+    "type": "truefalse",
+    "topic": "happiness",
+    "topicName": "持久幸福",
+    "question": "对于高负面情绪人格，运动的作用是让人更快乐，而不是更不痛苦。",
+    "answer": false,
+    "explanation": "原文反直觉：高负面情绪的人，运动不是让你更快乐，是让你更不痛苦。",
+    "source": "happiness"
+  },
+  {
+    "id": "happy-012",
+    "type": "choice",
+    "topic": "happiness",
+    "topicName": "持久幸福",
+    "question": "30岁以下年轻人抑郁的头号预测因素是什么？",
+    "options": [
+      "贫穷",
+      "失业",
+      "\"我的人生毫无意义\"",
+      "缺乏伴侣"
+    ],
+    "answer": 2,
+    "explanation": "原文明确：30岁以下抑郁头号预测因素不是贫穷，而是\"我的人生毫无意义\"。",
+    "source": "happiness"
+  },
+  {
+    "id": "happy-013",
+    "type": "choice",
+    "topic": "happiness",
+    "topicName": "持久幸福",
+    "question": "原文建议的\"无手机时段\"包括哪些？",
+    "options": [
+      "午餐时和会议中",
+      "起床后1小时、睡前1小时、吃饭时",
+      "周末全天",
+      "工作时间"
+    ],
+    "answer": 1,
+    "explanation": "原文建议：起床后1小时、睡前1小时、吃饭时不碰手机，避免劫持右脑。",
+    "source": "happiness"
+  },
+  {
+    "id": "happy-014",
+    "type": "truefalse",
+    "topic": "happiness",
+    "topicName": "持久幸福",
+    "question": "原文嘉宾Arthur Brooks是哈佛大学教授，访谈来自Found My Fitness Podcast #110。",
+    "answer": true,
+    "explanation": "原文明确来源：Found My Fitness Podcast #110，嘉宾Dr. Arthur Brooks，哈佛大学教授。",
+    "source": "happiness"
+  },
+  {
+    "id": "parent-001",
+    "type": "choice",
+    "topic": "parenting",
+    "topicName": "孩子的挑战",
+    "question": "《Children: The Challenge》一书出版于哪一年？",
+    "options": [
+      "1954",
+      "1964",
+      "1974",
+      "1984"
+    ],
+    "answer": 1,
+    "explanation": "原文明确：1964年由精神科医生Rudolf Dreikurs所写。",
+    "source": "children-challenge"
+  },
+  {
+    "id": "parent-002",
+    "type": "choice",
+    "topic": "parenting",
+    "topicName": "孩子的挑战",
+    "question": "Dreikurs 指出孩子\"不听话\"背后藏着哪四个目的？",
+    "options": [
+      "饥饿、疲惫、无聊、好奇",
+      "寻求关注、争夺权力、报复、自暴自弃",
+      "嫉妒、贪婪、骄傲、懒惰",
+      "求爱、求安全、求自由、求归属"
+    ],
+    "answer": 1,
+    "explanation": "原文四个目的：寻求关注、争夺权力、报复、自暴自弃。",
+    "source": "children-challenge"
+  },
+  {
+    "id": "parent-003",
+    "type": "choice",
+    "topic": "parenting",
+    "topicName": "孩子的挑战",
+    "question": "根据原文，\"你真棒\"和\"你很努力\"哪个更利于培养内驱力？",
+    "options": [
+      "\"你真棒\"，给孩子信心",
+      "\"你很努力\",鼓励培养内驱力",
+      "两者一样有效",
+      "都不应该说"
+    ],
+    "answer": 1,
+    "explanation": "原文：表扬制造依赖，鼓励才培养内驱力，\"你很努力\"比\"你真聪明\"强一百倍。",
+    "source": "children-challenge"
+  },
+  {
+    "id": "parent-004",
+    "type": "truefalse",
+    "topic": "parenting",
+    "topicName": "孩子的挑战",
+    "question": "Dreikurs 认为惩罚比自然后果更有效。",
+    "answer": false,
+    "explanation": "原文：惩罚制造恐惧而非理解，让孩子体验自然后果（如不穿外套就让他冷一次）比关禁闭有效得多。",
+    "source": "children-challenge"
+  },
+  {
+    "id": "parent-005",
+    "type": "choice",
+    "topic": "parenting",
+    "topicName": "孩子的挑战",
+    "question": "原文用什么例子说明\"自然后果\"？",
+    "options": [
+      "不写作业就罚站",
+      "不穿外套就让他冷一次",
+      "顶嘴就关禁闭",
+      "迟到就扣零花钱"
+    ],
+    "answer": 1,
+    "explanation": "原文举例：不穿外套就让他冷一次，让孩子体验自然后果。",
+    "source": "children-challenge"
+  },
+  {
+    "id": "parent-006",
+    "type": "truefalse",
+    "topic": "parenting",
+    "topicName": "孩子的挑战",
+    "question": "替孩子做的每一件事，都在暗示\"我不信你行\"。",
+    "answer": true,
+    "explanation": "原文原话：你替孩子做的每一件事，都在告诉他\"我不信你行\"。",
+    "source": "children-challenge"
+  },
+  {
+    "id": "parent-007",
+    "type": "choice",
+    "topic": "parenting",
+    "topicName": "孩子的挑战",
+    "question": "Dreikurs 关于唠叨的建议是什么？",
+    "options": [
+      "反复说10次孩子才能记住",
+      "唠叨10遍不如沉默1次，用行动说话",
+      "需配合奖励同时进行",
+      "应该写下来给孩子看"
+    ],
+    "answer": 1,
+    "explanation": "原文：唠叨10遍不如沉默1次。Dreikurs说闭上嘴，用行动说话，说到做到不再解释。",
+    "source": "children-challenge"
+  },
+  {
+    "id": "parent-008",
+    "type": "choice",
+    "topic": "parenting",
+    "topicName": "孩子的挑战",
+    "question": "Dreikurs主张哪种家庭管教风格？",
+    "options": [
+      "专制型",
+      "放纵型",
+      "民主型",
+      "放养型"
+    ],
+    "answer": 2,
+    "explanation": "原文：专制型养出叛逆，放纵型养出没边界，Dreikurs主张民主型——规矩一起定，有界限的自由。",
+    "source": "children-challenge"
+  },
+  {
+    "id": "parent-009",
+    "type": "choice",
+    "topic": "parenting",
+    "topicName": "孩子的挑战",
+    "question": "专制型家长容易养出什么样的孩子？",
+    "options": [
+      "听话顺从的孩子",
+      "叛逆的孩子",
+      "没边界的孩子",
+      "焦虑的孩子"
+    ],
+    "answer": 1,
+    "explanation": "原文：专制型家长养出叛逆的孩子，放纵型养出没边界的孩子。",
+    "source": "children-challenge"
+  },
+  {
+    "id": "parent-010",
+    "type": "truefalse",
+    "topic": "parenting",
+    "topicName": "孩子的挑战",
+    "question": "家庭会议被Dreikurs称为最被低估的育儿工具。",
+    "answer": true,
+    "explanation": "原文：家庭会议是最被低估的育儿工具——每周固定时间，全家平等发言讨论规矩。",
+    "source": "children-challenge"
+  },
+  {
+    "id": "parent-011",
+    "type": "choice",
+    "topic": "parenting",
+    "topicName": "孩子的挑战",
+    "question": "家庭会议的核心原则是什么？",
+    "options": [
+      "父母决策孩子执行",
+      "每个人平等发言，一起讨论规矩和问题",
+      "只讨论孩子的问题",
+      "由长辈主导"
+    ],
+    "answer": 1,
+    "explanation": "原文：每周固定时间，全家坐下来，每个人平等发言，一起讨论规矩和问题。",
+    "source": "children-challenge"
+  },
+  {
+    "id": "parent-012",
+    "type": "truefalse",
+    "topic": "parenting",
+    "topicName": "孩子的挑战",
+    "question": "原文认为表扬和鼓励是同一个概念。",
+    "answer": false,
+    "explanation": "原文区分明确：表扬制造依赖，鼓励才培养内驱力，二者作用截然不同。",
+    "source": "children-challenge"
+  },
+  {
+    "id": "parent-013",
+    "type": "choice",
+    "topic": "parenting",
+    "topicName": "孩子的挑战",
+    "question": "原文说《Children: The Challenge》指出的误区，今天大约多少比例的中国家长还在犯？",
+    "options": [
+      "50%",
+      "70%",
+      "90%",
+      "全部"
+    ],
+    "answer": 2,
+    "explanation": "原文标题与正文：60年过去了，90%的中国家长还在犯这些误区。",
+    "source": "children-challenge"
+  },
+  {
+    "id": "insulin-001",
+    "type": "choice",
+    "topic": "insulin",
+    "topicName": "胰岛素与代谢",
+    "question": "原文嘉宾 Dr. Benjamin Bikman 的身份是？",
+    "options": [
+      "哈佛医学院教授",
+      "杨百翰大学教授,胰岛素与代谢研究权威",
+      "斯坦福成瘾医学专家",
+      "梅奥诊所内分泌科主任"
+    ],
+    "answer": 1,
+    "explanation": "原文注明：杨百翰大学教授，全球胰岛素与代谢研究权威，《Why We Get Sick》作者。",
+    "source": "insulin"
+  },
+  {
+    "id": "insulin-002",
+    "type": "choice",
+    "topic": "insulin",
+    "topicName": "胰岛素与代谢",
+    "question": "Bikman 那句\"炸裂\"的话是什么？",
+    "options": [
+      "糖比脂肪更危险",
+      "去掉一个人的胰岛素，就算每天吃几万大卡也不可能变胖",
+      "运动比饮食重要",
+      "卡路里完全不重要"
+    ],
+    "answer": 1,
+    "explanation": "原文原话：去掉一个人的胰岛素，就算每天吃几万大卡，也完全不可能变胖。",
+    "source": "insulin"
+  },
+  {
+    "id": "insulin-003",
+    "type": "choice",
+    "topic": "insulin",
+    "topicName": "胰岛素与代谢",
+    "question": "哈佛实验中，相同热量下两组人的差异是什么？",
+    "options": [
+      "低碳高脂组反而更容易饿",
+      "低碳高脂组餐后代谢率更高、更久不饿",
+      "高碳低脂组代谢率更高",
+      "两组结果一样"
+    ],
+    "answer": 1,
+    "explanation": "原文：低碳高脂组餐后代谢率更高、更久不饿；高碳低脂组1-2小时就饿了。",
+    "source": "insulin"
+  },
+  {
+    "id": "insulin-004",
+    "type": "truefalse",
+    "topic": "insulin",
+    "topicName": "胰岛素与代谢",
+    "question": "Bikman认为卡路里是减脂中最重要的因素。",
+    "answer": false,
+    "explanation": "原文标题和论点：别再数卡路里了，胰岛素才是幕后Boss。",
+    "source": "insulin"
+  },
+  {
+    "id": "insulin-005",
+    "type": "choice",
+    "topic": "insulin",
+    "topicName": "胰岛素与代谢",
+    "question": "高碳水餐后大脑\"喊饿\"的原因是？",
+    "options": [
+      "胃排空过快",
+      "胰岛素飙升导致血糖被拽走且酮体生成被阻断",
+      "蛋白质不足",
+      "脂肪供应过多"
+    ],
+    "answer": 1,
+    "explanation": "原文：胰岛素飙升→血糖被拽走→酮体生成被阻断→大脑两大燃料断供。",
+    "source": "insulin"
+  },
+  {
+    "id": "insulin-006",
+    "type": "truefalse",
+    "topic": "insulin",
+    "topicName": "胰岛素与代谢",
+    "question": "1型糖尿病患者在确诊前没胰岛素时怎么吃都瘦，注射胰岛素后吃得更少反而发胖。",
+    "answer": true,
+    "explanation": "原文原话：1型糖尿病患者确诊前没胰岛素怎么吃都瘦，注射胰岛素后吃得更少反而发胖。",
+    "source": "insulin"
+  },
+  {
+    "id": "insulin-007",
+    "type": "choice",
+    "topic": "insulin",
+    "topicName": "胰岛素与代谢",
+    "question": "断食多少小时后，肝脏开始燃烧脂肪生成酮体？",
+    "options": [
+      "8小时",
+      "12小时",
+      "16小时",
+      "24小时"
+    ],
+    "answer": 2,
+    "explanation": "原文：低碳/断食16小时后，肝脏开始燃烧脂肪产生酮体。",
+    "source": "insulin"
+  },
+  {
+    "id": "insulin-008",
+    "type": "choice",
+    "topic": "insulin",
+    "topicName": "胰岛素与代谢",
+    "question": "酮体进入细胞的特点是？",
+    "options": [
+      "需要大量胰岛素",
+      "需要钙离子",
+      "不需要胰岛素许可",
+      "依赖肝糖原"
+    ],
+    "answer": 2,
+    "explanation": "原文明确：酮体进入细胞不需要胰岛素许可。",
+    "source": "insulin"
+  },
+  {
+    "id": "insulin-009",
+    "type": "choice",
+    "topic": "insulin",
+    "topicName": "胰岛素与代谢",
+    "question": "L-BHB（酮体）可以让心脏每次泵血增加多少？",
+    "options": [
+      "10%",
+      "20%",
+      "30%",
+      "40%"
+    ],
+    "answer": 3,
+    "explanation": "原文数据：L-BHB可让心脏每次泵血增加40%。",
+    "source": "insulin"
+  },
+  {
+    "id": "insulin-010",
+    "type": "choice",
+    "topic": "insulin",
+    "topicName": "胰岛素与代谢",
+    "question": "原文说低碳一周，脂肪肝可减少约多少？",
+    "options": [
+      "20%",
+      "40%",
+      "60%",
+      "80%"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：低碳一周脂肪肝减少约60%。",
+    "source": "insulin"
+  },
+  {
+    "id": "insulin-011",
+    "type": "truefalse",
+    "topic": "insulin",
+    "topicName": "胰岛素与代谢",
+    "question": "抽脂能从根本上改善肥胖相关的健康指标。",
+    "answer": false,
+    "explanation": "原文：抽脂也没用——脂肪细胞数量减了，但剩下的细胞一样大，健康指标一个都不变。",
+    "source": "insulin"
+  },
+  {
+    "id": "insulin-012",
+    "type": "choice",
+    "topic": "insulin",
+    "topicName": "胰岛素与代谢",
+    "question": "评论区中提到的低碳实践者35天减了多少公斤？",
+    "options": [
+      "3公斤",
+      "5公斤",
+      "8公斤",
+      "12公斤"
+    ],
+    "answer": 2,
+    "explanation": "原文：评论区用户35天减了8公斤说\"太轻松了\"。",
+    "source": "insulin"
+  },
+  {
+    "id": "insulin-013",
+    "type": "choice",
+    "topic": "insulin",
+    "topicName": "胰岛素与代谢",
+    "question": "原文推荐\"饿了就吃\"以下哪类食物？",
+    "options": [
+      "米饭和面条",
+      "蛋白质+脂肪（鸡蛋、牛肉、鱼、坚果）",
+      "代餐粉",
+      "水果汁"
+    ],
+    "answer": 1,
+    "explanation": "原文清单：饿了就吃蛋白质+脂肪（鸡蛋、牛肉、鱼、坚果）。",
+    "source": "insulin"
+  },
+  {
+    "id": "insulin-014",
+    "type": "truefalse",
+    "topic": "insulin",
+    "topicName": "胰岛素与代谢",
+    "question": "原文认为完整水果蔬菜可以随便吃。",
+    "answer": true,
+    "explanation": "原文行动清单：完整水果蔬菜随便吃。",
+    "source": "insulin"
+  },
+  {
+    "id": "shortvideo-001",
+    "type": "choice",
+    "topic": "shortvideo",
+    "topicName": "短视频成瘾",
+    "question": "Anna Lembke 博士所属机构是？",
+    "options": [
+      "哈佛医学院",
+      "斯坦福大学成瘾医学",
+      "耶鲁医学院",
+      "约翰霍普金斯大学"
+    ],
+    "answer": 1,
+    "explanation": "原文：斯坦福大学成瘾医学专家Anna Lembke博士。",
+    "source": "short-videos-frying"
+  },
+  {
+    "id": "shortvideo-002",
+    "type": "choice",
+    "topic": "shortvideo",
+    "topicName": "短视频成瘾",
+    "question": "Lembke 关于大脑\"天平\"的核心观点是什么？",
+    "options": [
+      "快乐和痛苦由不同回路处理",
+      "快乐和痛苦在大脑中共用同一套神经回路",
+      "成瘾只与多巴胺受体有关",
+      "情绪由前额叶单独决定"
+    ],
+    "answer": 1,
+    "explanation": "原文：快乐和痛苦在大脑中共用同一套神经回路，每次多巴胺冲击大脑会用等量痛苦找平。",
+    "source": "short-videos-frying"
+  },
+  {
+    "id": "shortvideo-003",
+    "type": "choice",
+    "topic": "shortvideo",
+    "topicName": "短视频成瘾",
+    "question": "短视频通常每隔多少秒切换一次画面？",
+    "options": [
+      "5秒",
+      "10秒",
+      "15秒",
+      "30秒"
+    ],
+    "answer": 2,
+    "explanation": "原文：每15秒一次的画面切换，相当于对大脑高频多巴胺轰炸。",
+    "source": "short-videos-frying"
+  },
+  {
+    "id": "shortvideo-004",
+    "type": "choice",
+    "topic": "shortvideo",
+    "topicName": "短视频成瘾",
+    "question": "短视频的多巴胺释放量可达基线的多少倍？",
+    "options": [
+      "1.2倍",
+      "1.5倍",
+      "2-3倍",
+      "5-10倍"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：普通快乐1.5倍，短视频可飙到2-3倍——和赌博、尼古丁一个级别。",
+    "source": "short-videos-frying"
+  },
+  {
+    "id": "shortvideo-005",
+    "type": "choice",
+    "topic": "shortvideo",
+    "topicName": "短视频成瘾",
+    "question": "成瘾形成的三步是什么？",
+    "options": [
+      "接触→喜欢→上瘾",
+      "耐受→依赖→成瘾",
+      "尝试→渴望→沉迷",
+      "刺激→满足→重复"
+    ],
+    "answer": 1,
+    "explanation": "原文明确：耐受→依赖→成瘾，三步沦陷。",
+    "source": "short-videos-frying"
+  },
+  {
+    "id": "shortvideo-006",
+    "type": "truefalse",
+    "topic": "shortvideo",
+    "topicName": "短视频成瘾",
+    "question": "Lembke 称 AI 为\"有史以来最隐蔽的成瘾源\"。",
+    "answer": true,
+    "explanation": "原文原话：Lembke博士称AI为\"有史以来最隐蔽的成瘾源\"。",
+    "source": "short-videos-frying"
+  },
+  {
+    "id": "shortvideo-007",
+    "type": "choice",
+    "topic": "shortvideo",
+    "topicName": "短视频成瘾",
+    "question": "用手机哄孩子的最大问题是？",
+    "options": [
+      "伤眼睛",
+      "训练成瘾回路，教孩子\"不舒服就用屏幕麻醉\"",
+      "影响视力发育",
+      "影响语言学习"
+    ],
+    "answer": 1,
+    "explanation": "原文：用手机哄孩子=训练成瘾回路，这条神经回路一旦建立，成年后极难断开。",
+    "source": "short-videos-frying"
+  },
+  {
+    "id": "shortvideo-008",
+    "type": "choice",
+    "topic": "shortvideo",
+    "topicName": "短视频成瘾",
+    "question": "戒断期\"地狱\"集中爆发的时长是？",
+    "options": [
+      "前3天",
+      "前7天",
+      "前14天",
+      "前30天"
+    ],
+    "answer": 2,
+    "explanation": "原文：戒断期前14天是地狱，焦虑、失眠、烦躁集中爆发。",
+    "source": "short-videos-frying"
+  },
+  {
+    "id": "shortvideo-009",
+    "type": "choice",
+    "topic": "shortvideo",
+    "topicName": "短视频成瘾",
+    "question": "坚持多少天，大脑奖赏系统能重置？",
+    "options": [
+      "14天",
+      "21天",
+      "30天",
+      "60天"
+    ],
+    "answer": 2,
+    "explanation": "原文临床数据：坚持30天，大脑奖赏系统就能重置。",
+    "source": "short-videos-frying"
+  },
+  {
+    "id": "shortvideo-010",
+    "type": "truefalse",
+    "topic": "shortvideo",
+    "topicName": "短视频成瘾",
+    "question": "运动、冷水澡、早起这类\"先痛后爽\"的行为可以触发可持续的快乐。",
+    "answer": true,
+    "explanation": "原文：这些痛苦行为触发内啡肽和多巴胺补偿，是可持续的快乐来源，与短视频\"先爽后痛\"相反。",
+    "source": "short-videos-frying"
+  },
+  {
+    "id": "shortvideo-011",
+    "type": "choice",
+    "topic": "shortvideo",
+    "topicName": "短视频成瘾",
+    "question": "HALT 检查法包含哪四个维度？",
+    "options": [
+      "快乐、焦虑、爱、信任",
+      "饥饿、愤怒、孤独、疲惫",
+      "习惯、专注、学习、思考",
+      "健康、注意、生活、时间"
+    ],
+    "answer": 1,
+    "explanation": "原文：HALT = Hungry(饿)、Angry(怒)、Lonely(孤独)、Tired(累)。",
+    "source": "short-videos-frying"
+  },
+  {
+    "id": "shortvideo-012",
+    "type": "truefalse",
+    "topic": "shortvideo",
+    "topicName": "短视频成瘾",
+    "question": "Lembke 认为短视频的成瘾级别已与赌博、尼古丁同级。",
+    "answer": true,
+    "explanation": "原文：短视频2-3倍的多巴胺释放和赌博、尼古丁一个级别。",
+    "source": "short-videos-frying"
+  },
+  {
+    "id": "brainsci-001",
+    "type": "choice",
+    "topic": "brainscience",
+    "topicName": "毁掉/拯救大脑",
+    "question": "运动促进大脑健康的核心物质是？",
+    "options": [
+      "多巴胺",
+      "BDNF（脑源性神经营养因子）",
+      "肌酸",
+      "皮质醇"
+    ],
+    "answer": 1,
+    "explanation": "原文：心率上升时大脑释放BDNF，让海马体长出新脑细胞。",
+    "source": "science-backed-brain"
+  },
+  {
+    "id": "brainsci-002",
+    "type": "choice",
+    "topic": "brainscience",
+    "topicName": "毁掉/拯救大脑",
+    "question": "原文推荐每周多少次有氧运动可显著提升记忆力和注意力？",
+    "options": [
+      "每周1次30分钟",
+      "每周2-3次45分钟",
+      "每天30分钟",
+      "每周5次20分钟"
+    ],
+    "answer": 1,
+    "explanation": "原文实验数据：每周2-3次45分钟有氧运动，记忆力和注意力显著提升。",
+    "source": "science-backed-brain"
+  },
+  {
+    "id": "brainsci-003",
+    "type": "choice",
+    "topic": "brainscience",
+    "topicName": "毁掉/拯救大脑",
+    "question": "原文将睡眠比作什么？",
+    "options": [
+      "大脑的充电",
+      "大脑的\"排毒洗澡\"",
+      "大脑的备份",
+      "大脑的格式化"
+    ],
+    "answer": 1,
+    "explanation": "原文比喻：睡眠=大脑的\"排毒洗澡\"，脑脊液冲刷大脑垃圾。",
+    "source": "science-backed-brain"
+  },
+  {
+    "id": "brainsci-004",
+    "type": "truefalse",
+    "topic": "brainscience",
+    "topicName": "毁掉/拯救大脑",
+    "question": "酷刑中剥夺睡眠真的会让人死亡。",
+    "answer": true,
+    "explanation": "原文原话：在酷刑中剥夺睡眠真的会让人死亡，可我们却主动追剧到凌晨。",
+    "source": "science-backed-brain"
+  },
+  {
+    "id": "brainsci-005",
+    "type": "choice",
+    "topic": "brainscience",
+    "topicName": "毁掉/拯救大脑",
+    "question": "哈佛近百年追踪研究发现幸福感的第一因素是？",
+    "options": [
+      "财富",
+      "健康",
+      "社交连接质量",
+      "教育水平"
+    ],
+    "answer": 2,
+    "explanation": "原文：哈佛近百年追踪研究发现，社交连接质量是幸福感的第一因素。",
+    "source": "science-backed-brain"
+  },
+  {
+    "id": "brainsci-006",
+    "type": "choice",
+    "topic": "brainscience",
+    "topicName": "毁掉/拯救大脑",
+    "question": "长期孤独通过什么机制导致海马体萎缩？",
+    "options": [
+      "持续释放多巴胺",
+      "持续释放皮质醇",
+      "缺乏血清素",
+      "降低BDNF"
+    ],
+    "answer": 1,
+    "explanation": "原文：长期孤独持续释放皮质醇，让海马体缩小+腰围变大，双重暴击。",
+    "source": "science-backed-brain"
+  },
+  {
+    "id": "brainsci-007",
+    "type": "choice",
+    "topic": "brainscience",
+    "topicName": "毁掉/拯救大脑",
+    "question": "肌酸要\"溢出\"到大脑大约需要多大剂量？",
+    "options": [
+      "3克/天",
+      "5克/天",
+      "10克/天",
+      "20克/天"
+    ],
+    "answer": 2,
+    "explanation": "原文：5克/天只够肌肉用，10克才能溢出到大脑。",
+    "source": "science-backed-brain"
+  },
+  {
+    "id": "brainsci-008",
+    "type": "choice",
+    "topic": "brainscience",
+    "topicName": "毁掉/拯救大脑",
+    "question": "原文说缺睡时补多少肌酸，认知表现甚至超过充分休息？",
+    "options": [
+      "10克",
+      "15克",
+      "20克",
+      "25克"
+    ],
+    "answer": 3,
+    "explanation": "原文数据：缺睡时补25克肌酸，认知表现甚至超过充分休息时。",
+    "source": "science-backed-brain"
+  },
+  {
+    "id": "brainsci-009",
+    "type": "truefalse",
+    "topic": "brainscience",
+    "topicName": "毁掉/拯救大脑",
+    "question": "肌酸对素食者的认知提升效果尤其明显。",
+    "answer": true,
+    "explanation": "原文：素食者补肌酸效果最惊人。",
+    "source": "science-backed-brain"
+  },
+  {
+    "id": "brainsci-010",
+    "type": "choice",
+    "topic": "brainscience",
+    "topicName": "毁掉/拯救大脑",
+    "question": "25岁后大脑还能改变的两个关键条件是？",
+    "options": [
+      "热量充足+睡眠",
+      "保持警觉+集中注意力",
+      "戒糖+冥想",
+      "运动+社交"
+    ],
+    "answer": 1,
+    "explanation": "原文：25岁后大脑能改变，但条件是①保持警觉②集中注意力。",
+    "source": "science-backed-brain"
+  },
+  {
+    "id": "brainsci-011",
+    "type": "truefalse",
+    "topic": "brainscience",
+    "topicName": "毁掉/拯救大脑",
+    "question": "白天上传信息，晚上睡觉时大脑才真正\"安装更新\"。",
+    "answer": true,
+    "explanation": "原文原话：白天上传信息，晚上睡觉时大脑才真正安装更新。",
+    "source": "science-backed-brain"
+  },
+  {
+    "id": "brainsci-012",
+    "type": "choice",
+    "topic": "brainscience",
+    "topicName": "毁掉/拯救大脑",
+    "question": "原文将糖比喻为血管里的什么？",
+    "options": [
+      "油泥",
+      "胶水",
+      "锈斑",
+      "毒药"
+    ],
+    "answer": 1,
+    "explanation": "原文：糖是血管里的胶水，直接堵住一氧化氮的生产线。",
+    "source": "science-backed-brain"
+  },
+  {
+    "id": "brainsci-013",
+    "type": "choice",
+    "topic": "brainscience",
+    "topicName": "毁掉/拯救大脑",
+    "question": "原文提到哪种植物的挥发油能直接进入大脑？",
+    "options": [
+      "薰衣草",
+      "薄荷",
+      "迷迭香",
+      "桂花"
+    ],
+    "answer": 2,
+    "explanation": "原文：迷迭香的挥发油能直接进入大脑。",
+    "source": "science-backed-brain"
+  },
+  {
+    "id": "awaken-001",
+    "type": "choice",
+    "topic": "awakening",
+    "topicName": "认知觉醒",
+    "question": "大脑里的\"三个人\"分别管什么？",
+    "options": [
+      "生存、感受、思考",
+      "记忆、决策、运动",
+      "情感、逻辑、直觉",
+      "意志、欲望、行动"
+    ],
+    "answer": 0,
+    "explanation": "原文：本能脑管生存（3.6亿年）、情绪脑管感受（2亿年）、理性脑管思考（250万年）。",
+    "source": "cognitive-awakening"
+  },
+  {
+    "id": "awaken-002",
+    "type": "choice",
+    "topic": "awakening",
+    "topicName": "认知觉醒",
+    "question": "理性脑的进化时间最接近？",
+    "options": [
+      "3.6亿年",
+      "2亿年",
+      "250万年",
+      "10万年"
+    ],
+    "answer": 2,
+    "explanation": "原文：理性脑管思考，250万年——是三者中最年轻、最弱的。",
+    "source": "cognitive-awakening"
+  },
+  {
+    "id": "awaken-003",
+    "type": "choice",
+    "topic": "awakening",
+    "topicName": "认知觉醒",
+    "question": "原文说大约多少比例的行为由潜意识驱动？",
+    "options": [
+      "50%",
+      "75%",
+      "85%",
+      "95%"
+    ],
+    "answer": 3,
+    "explanation": "原文数据：95%的行为都是潜意识驱动。",
+    "source": "cognitive-awakening"
+  },
+  {
+    "id": "awaken-004",
+    "type": "choice",
+    "topic": "awakening",
+    "topicName": "认知觉醒",
+    "question": "改写潜意识的方法是？",
+    "options": [
+      "冥想+催眠",
+      "重复+强烈情绪",
+      "睡眠暗示",
+      "正念观察"
+    ],
+    "answer": 1,
+    "explanation": "原文：潜意识可以被改写，方法是重复+强烈情绪。",
+    "source": "cognitive-awakening"
+  },
+  {
+    "id": "awaken-005",
+    "type": "choice",
+    "topic": "awakening",
+    "topicName": "认知觉醒",
+    "question": "现代人平均多久被打断一次？",
+    "options": [
+      "1分钟",
+      "3分钟",
+      "5分钟",
+      "10分钟"
+    ],
+    "answer": 1,
+    "explanation": "原文数据：现代人平均每3分钟被打断一次。",
+    "source": "cognitive-awakening"
+  },
+  {
+    "id": "awaken-006",
+    "type": "choice",
+    "topic": "awakening",
+    "topicName": "认知觉醒",
+    "question": "被打断后重新进入专注大约需要多久？",
+    "options": [
+      "5分钟",
+      "10分钟",
+      "15分钟",
+      "23分钟"
+    ],
+    "answer": 3,
+    "explanation": "原文：重新进入专注需要23分钟。",
+    "source": "cognitive-awakening"
+  },
+  {
+    "id": "awaken-007",
+    "type": "truefalse",
+    "topic": "awakening",
+    "topicName": "认知觉醒",
+    "question": "只划线不思考是真正的深度学习。",
+    "answer": false,
+    "explanation": "原文：只划线不思考=假学习；真正的深度学习需要缝接知识+逼迫输出+关联现实。",
+    "source": "cognitive-awakening"
+  },
+  {
+    "id": "awaken-008",
+    "type": "choice",
+    "topic": "awakening",
+    "topicName": "认知觉醒",
+    "question": "学习的\"甜蜜区\"是？",
+    "options": [
+      "完全在舒适区内",
+      "舒适区边缘——有点难但跳一跳够得着",
+      "走出舒适区进入恐慌区",
+      "随机切换难度"
+    ],
+    "answer": 1,
+    "explanation": "原文：太简单=无聊，太难=焦虑，有效学习发生在舒适区边缘。",
+    "source": "cognitive-awakening"
+  },
+  {
+    "id": "awaken-009",
+    "type": "choice",
+    "topic": "awakening",
+    "topicName": "认知觉醒",
+    "question": "原文对\"焦虑本质\"的定义是？",
+    "options": [
+      "对未来的恐惧",
+      "想要的太多+能做的太少",
+      "睡眠不足的副产品",
+      "童年创伤的延续"
+    ],
+    "answer": 1,
+    "explanation": "原文：焦虑的本质=想要的太多+能做的太少。",
+    "source": "cognitive-awakening"
+  },
+  {
+    "id": "awaken-010",
+    "type": "choice",
+    "topic": "awakening",
+    "topicName": "认知觉醒",
+    "question": "原文认为破解拖延的秘诀是？",
+    "options": [
+      "设定截止时间",
+      "意志力训练",
+      "最小行动（如\"先穿上跑鞋\"）",
+      "心理暗示"
+    ],
+    "answer": 2,
+    "explanation": "原文：拖延是因为启动成本太高，最小行动=破解拖延的秘诀。",
+    "source": "cognitive-awakening"
+  },
+  {
+    "id": "awaken-011",
+    "type": "choice",
+    "topic": "awakening",
+    "topicName": "认知觉醒",
+    "question": "\"觉醒四件套\"不包括以下哪一项？",
+    "options": [
+      "冥想10分钟",
+      "早起1小时",
+      "每周3次有氧运动",
+      "每天读书2小时"
+    ],
+    "answer": 3,
+    "explanation": "原文觉醒四件套：冥想10分钟、早起1小时、带问题阅读+反思日记、每周3次有氧运动；不含\"每天读书2小时\"。",
+    "source": "cognitive-awakening"
+  },
+  {
+    "id": "awaken-012",
+    "type": "choice",
+    "topic": "awakening",
+    "topicName": "认知觉醒",
+    "question": "复利思维：每天进步1%，一年后约多少倍？",
+    "options": [
+      "3.7倍",
+      "10倍",
+      "37倍",
+      "365倍"
+    ],
+    "answer": 2,
+    "explanation": "原文：每天进步1%，一年后37倍。",
+    "source": "cognitive-awakening"
+  },
+  {
+    "id": "awaken-013",
+    "type": "truefalse",
+    "topic": "awakening",
+    "topicName": "认知觉醒",
+    "question": "复利积累的前3个月几乎看不到变化，大多数人在这里放弃。",
+    "answer": true,
+    "explanation": "原文：但前3个月几乎看不到变化——大多数人就是在这里放弃的。",
+    "source": "cognitive-awakening"
+  },
+  {
+    "id": "awaken-014",
+    "type": "truefalse",
+    "topic": "awakening",
+    "topicName": "认知觉醒",
+    "question": "元认知就是\"我知道我在想什么\"，可通过冥想15分钟训练。",
+    "answer": true,
+    "explanation": "原文：元认知=\"我知道我在想什么\"，冥想15分钟就能训练它。",
+    "source": "cognitive-awakening"
+  },
+  {
+    "id": "realgame-001",
+    "type": "choice",
+    "topic": "realitygame",
+    "topicName": "游戏化现实",
+    "question": "原文指出好游戏做对的四件事不包括以下哪一项？",
+    "options": [
+      "目标清晰",
+      "反馈即时",
+      "挑战刚好",
+      "丰厚奖励"
+    ],
+    "answer": 3,
+    "explanation": "原文四件事：目标清晰、反馈即时、挑战刚好、社交连接，不含丰厚奖励。",
+    "source": "reality-broken"
+  },
+  {
+    "id": "realgame-002",
+    "type": "choice",
+    "topic": "realitygame",
+    "topicName": "游戏化现实",
+    "question": "原文中\"史诗胜利\"的代表场景是？",
+    "options": [
+      "1对1对决获胜",
+      "30人团队打4小时击败Boss",
+      "通关单机游戏",
+      "拿到完美评分"
+    ],
+    "answer": 1,
+    "explanation": "原文：游戏里30人团队打4小时击败Boss的那一刻，全队疯狂尖叫。",
+    "source": "reality-broken"
+  },
+  {
+    "id": "realgame-003",
+    "type": "choice",
+    "topic": "realitygame",
+    "topicName": "游戏化现实",
+    "question": "原文指出人类怕的是什么？",
+    "options": [
+      "怕辛苦",
+      "怕辛苦没有意义",
+      "怕失败",
+      "怕孤独"
+    ],
+    "answer": 1,
+    "explanation": "原文：人类不怕辛苦——怕的是辛苦没有意义。游戏赋予困难以意义。",
+    "source": "reality-broken"
+  },
+  {
+    "id": "realgame-004",
+    "type": "choice",
+    "topic": "realitygame",
+    "topicName": "游戏化现实",
+    "question": "心流出现的条件是？",
+    "options": [
+      "挑战远高于技能",
+      "技能远高于挑战",
+      "技能和挑战刚好匹配",
+      "完全无挑战的放松状态"
+    ],
+    "answer": 2,
+    "explanation": "原文：技能和挑战刚好匹配时，人会进入忘我状态——时间消失，效率爆炸。",
+    "source": "reality-broken"
+  },
+  {
+    "id": "realgame-005",
+    "type": "choice",
+    "topic": "realitygame",
+    "topicName": "游戏化现实",
+    "question": "游戏给玩家的四种\"超能力\"不包括？",
+    "options": [
+      "紧迫乐观",
+      "社交织网",
+      "幸福生产力",
+      "永恒记忆"
+    ],
+    "answer": 3,
+    "explanation": "原文四种超能力：紧迫乐观、社交织网、幸福生产力、宏大意义；无\"永恒记忆\"。",
+    "source": "reality-broken"
+  },
+  {
+    "id": "realgame-006",
+    "type": "choice",
+    "topic": "realitygame",
+    "topicName": "游戏化现实",
+    "question": "美国年轻人21岁前游戏总时间约等于多少小时？",
+    "options": [
+      "1000小时",
+      "5000小时",
+      "10000小时",
+      "20000小时"
+    ],
+    "answer": 2,
+    "explanation": "原文：美国年轻人21岁前玩游戏总时间=10000小时，等于成为专家的刻意练习量。",
+    "source": "reality-broken"
+  },
+  {
+    "id": "realgame-007",
+    "type": "choice",
+    "topic": "realitygame",
+    "topicName": "游戏化现实",
+    "question": "全球玩游戏的人数大约是多少？",
+    "options": [
+      "10亿",
+      "20亿",
+      "30亿",
+      "50亿"
+    ],
+    "answer": 2,
+    "explanation": "原文：30亿人在玩游戏。",
+    "source": "reality-broken"
+  },
+  {
+    "id": "realgame-008",
+    "type": "choice",
+    "topic": "realitygame",
+    "topicName": "游戏化现实",
+    "question": "在游戏里帮助陌生人不求回报的概率是现实的几倍？",
+    "options": [
+      "1.5倍",
+      "2倍",
+      "3倍",
+      "5倍"
+    ],
+    "answer": 2,
+    "explanation": "原文：在游戏里帮助陌生人不求回报的概率是现实的3倍。",
+    "source": "reality-broken"
+  },
+  {
+    "id": "realgame-009",
+    "type": "choice",
+    "topic": "realitygame",
+    "topicName": "游戏化现实",
+    "question": "Foldit蛋白质折叠游戏中，玩家用多少时间解决了科学家10年没解的问题？",
+    "options": [
+      "3天",
+      "3周",
+      "3个月",
+      "1年"
+    ],
+    "answer": 1,
+    "explanation": "原文：Foldit玩家3周解决了科学家10年没解的问题。",
+    "source": "reality-broken"
+  },
+  {
+    "id": "realgame-010",
+    "type": "truefalse",
+    "topic": "realitygame",
+    "topicName": "游戏化现实",
+    "question": "SuperBetter康复游戏临床试验证明能减轻抑郁和焦虑。",
+    "answer": true,
+    "explanation": "原文：SuperBetter康复游戏临床试验证明能减轻抑郁和焦虑。",
+    "source": "reality-broken"
+  },
+  {
+    "id": "realgame-011",
+    "type": "choice",
+    "topic": "realitygame",
+    "topicName": "游戏化现实",
+    "question": "纽约哪所学校已经在实践游戏化课堂？",
+    "options": [
+      "High Tech High",
+      "Quest to Learn",
+      "AltSchool",
+      "Khan Lab School"
+    ],
+    "answer": 1,
+    "explanation": "原文：纽约Quest to Learn学校已经在做游戏化课堂。",
+    "source": "reality-broken"
+  },
+  {
+    "id": "realgame-012",
+    "type": "truefalse",
+    "topic": "realitygame",
+    "topicName": "游戏化现实",
+    "question": "\"考100分给你买手机\"也属于游戏化育儿。",
+    "answer": false,
+    "explanation": "原文明确：游戏化≠加积分，\"考100分给你买手机\"不是游戏化，是贿赂。",
+    "source": "reality-broken"
+  },
+  {
+    "id": "realgame-013",
+    "type": "choice",
+    "topic": "realitygame",
+    "topicName": "游戏化现实",
+    "question": "真正的游戏化激活的是哪三种内在动机？",
+    "options": [
+      "竞争感+目标感+奖励感",
+      "自主感+胜任感+连接感",
+      "成就感+权力感+荣誉感",
+      "好奇心+使命感+归属感"
+    ],
+    "answer": 1,
+    "explanation": "原文：真正的游戏化=激活内在动机：自主感+胜任感+连接感。",
+    "source": "reality-broken"
+  },
+  {
+    "id": "realgame-014",
+    "type": "choice",
+    "topic": "realitygame",
+    "topicName": "游戏化现实",
+    "question": "原文核心思维转换建议家长改问什么？",
+    "options": [
+      "怎么让孩子不玩游戏",
+      "游戏给了孩子什么，现实没有给",
+      "怎么强制限制游戏时间",
+      "怎么让游戏变得无聊"
+    ],
+    "answer": 1,
+    "explanation": "原文：别问\"怎么让孩子不玩游戏\"，问\"游戏给了孩子什么，现实没有给\"。",
+    "source": "reality-broken"
+  },
+  {
+    "id": "realgame-015",
+    "type": "truefalse",
+    "topic": "realitygame",
+    "topicName": "游戏化现实",
+    "question": "原文嘉宾Jane McGonigal是这本书及游戏化思想的代表人物。",
+    "answer": true,
+    "explanation": "原文标签明确包含#JaneMcGonigal，她是《游戏改变世界》代表人物。",
+    "source": "reality-broken"
+  },
+  {
+    "id": "parentself-001",
+    "type": "choice",
+    "topic": "parentself",
+    "topicName": "父母的挑战",
+    "question": "《The Challenge of Parenthood》的作者是谁？",
+    "options": [
+      "Alfred Adler",
+      "Rudolf Dreikurs",
+      "B.F. Skinner",
+      "Jean Piaget"
+    ],
+    "answer": 1,
+    "explanation": "原文明确指出此书作者是Rudolf Dreikurs，1948年出版。",
+    "source": "parents-challenge"
+  },
+  {
+    "id": "parentself-002",
+    "type": "choice",
+    "topic": "parentself",
+    "topicName": "父母的挑战",
+    "question": "Dreikurs认为父母对孩子发火的真正原因是什么？",
+    "options": [
+      "孩子真的不听话",
+      "父母自尊受到威胁",
+      "孩子精力太旺盛",
+      "工作压力转移"
+    ],
+    "answer": 1,
+    "explanation": "原文明确：你发火的真正原因是你的自尊受到了威胁，非要\"赢\"孩子是在维护\"我说了算\"的幻觉。",
+    "source": "parents-challenge"
+  },
+  {
+    "id": "parentself-003",
+    "type": "choice",
+    "topic": "parentself",
+    "topicName": "父母的挑战",
+    "question": "Dreikurs总结的孩子四大错误目标不包括以下哪一个？",
+    "options": [
+      "寻求关注",
+      "权力斗争",
+      "炫耀成就",
+      "报复"
+    ],
+    "answer": 2,
+    "explanation": "原文列出的四大错误目标是：寻求关注、权力斗争、报复、自暴自弃。",
+    "source": "parents-challenge"
+  },
+  {
+    "id": "parentself-004",
+    "type": "truefalse",
+    "topic": "parentself",
+    "topicName": "父母的挑战",
+    "question": "原文认为，惩罚教会孩子害怕，自然后果教会孩子负责。",
+    "answer": true,
+    "explanation": "原文原话：惩罚教会害怕，后果教会负责——不穿外套就让他自己冷。",
+    "source": "parents-challenge"
+  },
+  {
+    "id": "parentself-005",
+    "type": "choice",
+    "topic": "parentself",
+    "topicName": "父母的挑战",
+    "question": "原文说孩子所有问题行为本质上都在表达什么？",
+    "options": [
+      "\"我不爱你\"",
+      "\"请让我觉得我重要\"",
+      "\"我想要更多自由\"",
+      "\"规则太多了\""
+    ],
+    "answer": 1,
+    "explanation": "原文：所有问题行为都在说同一句话——\"请让我觉得我重要\"。",
+    "source": "parents-challenge"
+  },
+  {
+    "id": "parentself-006",
+    "type": "choice",
+    "topic": "parentself",
+    "topicName": "父母的挑战",
+    "question": "原文中\"内疚-纵容\"循环指的是？",
+    "options": [
+      "奖励-惩罚交替",
+      "吼完后悔→后悔纵容→纵容孩子又作→又吼",
+      "鼓励-表扬反复",
+      "民主-专制切换"
+    ],
+    "answer": 1,
+    "explanation": "原文：吼完就后悔，后悔就纵容，纵容完孩子又作——然后你又吼，这就是Dreikurs诊断的\"内疚-纵容\"循环。",
+    "source": "parents-challenge"
+  },
+  {
+    "id": "parentself-007",
+    "type": "choice",
+    "topic": "parentself",
+    "topicName": "父母的挑战",
+    "question": "鼓励和表扬的根本区别是什么？",
+    "options": [
+      "语气不同",
+      "表扬关注结果和天赋，鼓励关注过程和努力",
+      "鼓励更频繁，表扬更隆重",
+      "对象不同"
+    ],
+    "answer": 1,
+    "explanation": "原文：鼓励关注过程和努力，表扬关注结果和天赋——前者培养韧性。",
+    "source": "parents-challenge"
+  },
+  {
+    "id": "parentself-008",
+    "type": "truefalse",
+    "topic": "parentself",
+    "topicName": "父母的挑战",
+    "question": "原文说\"平等\"意味着什么都听孩子的。",
+    "answer": false,
+    "explanation": "原文明确：平等不是什么都听孩子的，那叫放纵。平等是有规矩，但不用恐吓来执行。",
+    "source": "parents-challenge"
+  },
+  {
+    "id": "parentself-009",
+    "type": "choice",
+    "topic": "parentself",
+    "topicName": "父母的挑战",
+    "question": "快要爆发时拉回自己的3步是什么？",
+    "options": [
+      "呼吸→数数→沉默",
+      "觉察→暂停→选择",
+      "走开→喝水→回来",
+      "记录→分析→道歉"
+    ],
+    "answer": 1,
+    "explanation": "原文3步法：觉察（\"我在生气\"）→暂停（闭嘴10秒）→选择（解决问题还是发泄情绪）。",
+    "source": "parents-challenge"
+  },
+  {
+    "id": "parentself-010",
+    "type": "choice",
+    "topic": "parentself",
+    "topicName": "父母的挑战",
+    "question": "原文中针对2-5岁孩子推荐的方法是？",
+    "options": [
+      "讲道理",
+      "给选择题",
+      "用自然后果",
+      "少说多听"
+    ],
+    "answer": 1,
+    "explanation": "原文：2-5岁给选择题，6-12岁用自然后果，青春期少说多听。",
+    "source": "parents-challenge"
+  },
+  {
+    "id": "parentself-011",
+    "type": "truefalse",
+    "topic": "parentself",
+    "topicName": "父母的挑战",
+    "question": "原文将夫妻关系比喻为家庭的操作系统。",
+    "answer": true,
+    "explanation": "原文原话：夫妻关系是家庭的操作系统。",
+    "source": "parents-challenge"
+  },
+  {
+    "id": "parentself-012",
+    "type": "choice",
+    "topic": "parentself",
+    "topicName": "父母的挑战",
+    "question": "原文建议每周开一次家庭会议，包含哪些固定环节？",
+    "options": [
+      "批评+表扬+计划",
+      "固定时间、轮流主持、先说好事、讨论问题、全家同意",
+      "颁奖+反思+承诺",
+      "祈祷+读经+分享"
+    ],
+    "answer": 1,
+    "explanation": "原文明确家庭会议的5个要素：固定时间、轮流主持、先说好事、讨论问题、全家同意。",
+    "source": "parents-challenge"
+  },
+  {
+    "id": "parentself-013",
+    "type": "choice",
+    "topic": "parentself",
+    "topicName": "父母的挑战",
+    "question": "原文关于出生顺序的描述，老大的核心担忧是什么？",
+    "options": [
+      "怕被忽视",
+      "怕被废黜",
+      "习惯依赖",
+      "觉得没人看见"
+    ],
+    "answer": 1,
+    "explanation": "原文：老大怕被废黜、老小习惯依赖、中间孩子觉得没人看见。",
+    "source": "parents-challenge"
+  },
+  {
+    "id": "parentself-014",
+    "type": "truefalse",
+    "topic": "parentself",
+    "topicName": "父母的挑战",
+    "question": "原文认为父母替孩子做的每一件事，保护的更多是父母自己的焦虑。",
+    "answer": true,
+    "explanation": "原文原话：你替孩子做的每一件事，保护的不是他，是你自己的焦虑。",
+    "source": "parents-challenge"
+  },
+  {
+    "id": "manip-001",
+    "type": "choice",
+    "topic": "manipulated",
+    "topicName": "被手机操控",
+    "question": "原文指出人们每天在手机上花多少小时？",
+    "options": [
+      "3小时",
+      "5小时",
+      "7小时",
+      "10小时"
+    ],
+    "answer": 2,
+    "explanation": "原文明确：你每天在手机上花的7小时里，几乎每一次\"自主选择\"都被精心设计过。",
+    "source": "manipulated"
+  },
+  {
+    "id": "manip-002",
+    "type": "choice",
+    "topic": "manipulated",
+    "topicName": "被手机操控",
+    "question": "《Manipulated》的作者是谁？",
+    "options": [
+      "Nir Eyal",
+      "Liraz Margalit",
+      "Tristan Harris",
+      "Cal Newport"
+    ],
+    "answer": 1,
+    "explanation": "原文明确：行为心理学家Liraz Margalit在《Manipulated》中揭秘科技公司的操控手法。",
+    "source": "manipulated"
+  },
+  {
+    "id": "manip-003",
+    "type": "choice",
+    "topic": "manipulated",
+    "topicName": "被手机操控",
+    "question": "Facebook只需多少个赞就能比你的朋友更了解你？",
+    "options": [
+      "10个",
+      "32个",
+      "68个",
+      "150个"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：Facebook仅需68个赞就能比你的朋友更了解你。",
+    "source": "manipulated"
+  },
+  {
+    "id": "manip-004",
+    "type": "choice",
+    "topic": "manipulated",
+    "topicName": "被手机操控",
+    "question": "以下哪个不是原文提到的\"暗黑设计\"手法？",
+    "options": [
+      "无限滚动",
+      "通知红点",
+      "可变奖励",
+      "弹窗广告"
+    ],
+    "answer": 3,
+    "explanation": "原文列出的暗黑设计是：无限滚动、通知红点、可变奖励、倒计时。",
+    "source": "manipulated"
+  },
+  {
+    "id": "manip-005",
+    "type": "choice",
+    "topic": "manipulated",
+    "topicName": "被手机操控",
+    "question": "青少年大脑的多巴胺系统比成人敏感多少倍？",
+    "options": [
+      "1-2倍",
+      "2-4倍",
+      "5-7倍",
+      "10倍"
+    ],
+    "answer": 1,
+    "explanation": "原文数据：青少年大脑的多巴胺系统比成人敏感2-4倍。",
+    "source": "manipulated"
+  },
+  {
+    "id": "manip-006",
+    "type": "choice",
+    "topic": "manipulated",
+    "topicName": "被手机操控",
+    "question": "多少比例的青少年离开手机1小时就焦虑？",
+    "options": [
+      "43%",
+      "58%",
+      "73%",
+      "85%"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：73%的青少年离开手机1小时就焦虑。",
+    "source": "manipulated"
+  },
+  {
+    "id": "manip-007",
+    "type": "truefalse",
+    "topic": "manipulated",
+    "topicName": "被手机操控",
+    "question": "原文指出，手机APP的成瘾设计与赌场老虎机使用相同的心理学原理。",
+    "answer": true,
+    "explanation": "原文原话：暗黑设计和赌场的老虎机用的是同一套心理学原理。",
+    "source": "manipulated"
+  },
+  {
+    "id": "manip-008",
+    "type": "truefalse",
+    "topic": "manipulated",
+    "topicName": "被手机操控",
+    "question": "原文认为科技公司的核心目的是为用户提供服务。",
+    "answer": false,
+    "explanation": "原文明确：科技公司不是在\"服务\"你，而是在用心理学原理操控你的注意力、情绪和消费行为。",
+    "source": "manipulated"
+  },
+  {
+    "id": "manip-009",
+    "type": "choice",
+    "topic": "manipulated",
+    "topicName": "被手机操控",
+    "question": "原文推荐的\"购物前等待\"时间是多久？",
+    "options": [
+      "10分钟",
+      "1小时",
+      "24小时",
+      "1周"
+    ],
+    "answer": 2,
+    "explanation": "原文行动建议：购物前等24小时，能帮你夺回数字自主权。",
+    "source": "manipulated"
+  },
+  {
+    "id": "manip-010",
+    "type": "choice",
+    "topic": "manipulated",
+    "topicName": "被手机操控",
+    "question": "你的数字足迹包含哪些被记录的行为？",
+    "options": [
+      "只有点击",
+      "只有购买",
+      "每次点击、停留、滑动",
+      "只有搜索"
+    ],
+    "answer": 2,
+    "explanation": "原文：每一次点击、停留、滑动都被记录、分析、打包卖给广告商。",
+    "source": "manipulated"
+  },
+  {
+    "id": "manip-011",
+    "type": "truefalse",
+    "topic": "manipulated",
+    "topicName": "被手机操控",
+    "question": "原文认为一旦看清操控的手法，它就没那么管用了。",
+    "answer": true,
+    "explanation": "原文：好消息是一旦你看清了操控的手法，它就没那么管用了。",
+    "source": "manipulated"
+  },
+  {
+    "id": "manip-012",
+    "type": "choice",
+    "topic": "manipulated",
+    "topicName": "被手机操控",
+    "question": "原文给出的夺回数字自主权的方法不包括以下哪一项？",
+    "options": [
+      "关闭通知",
+      "设屏幕时间",
+      "购物前等24小时",
+      "彻底删除所有App"
+    ],
+    "answer": 3,
+    "explanation": "原文推荐的是关闭通知、设屏幕时间、购物前等24小时，并未要求彻底删除所有App。",
+    "source": "manipulated"
+  },
+  {
+    "id": "dislike-001",
+    "type": "choice",
+    "topic": "disliked",
+    "topicName": "被讨厌的勇气",
+    "question": "《被讨厌的勇气》基于哪位心理学家的思想？",
+    "options": [
+      "弗洛伊德",
+      "阿德勒",
+      "荣格",
+      "马斯洛"
+    ],
+    "answer": 1,
+    "explanation": "原文明确：本书基于阿德勒心理学，\"阿德勒说：你所有的烦恼，100%来自人际关系\"。",
+    "source": "courage-disliked"
+  },
+  {
+    "id": "dislike-002",
+    "type": "choice",
+    "topic": "disliked",
+    "topicName": "被讨厌的勇气",
+    "question": "阿德勒认为人类所有烦恼的来源是什么？",
+    "options": [
+      "金钱不足",
+      "工作压力",
+      "人际关系",
+      "童年创伤"
+    ],
+    "answer": 2,
+    "explanation": "原文原话：你所有的烦恼，100%来自人际关系。",
+    "source": "courage-disliked"
+  },
+  {
+    "id": "dislike-003",
+    "type": "choice",
+    "topic": "disliked",
+    "topicName": "被讨厌的勇气",
+    "question": "课题分离的判断标准是什么？",
+    "options": [
+      "谁先提出来的",
+      "谁更聪明",
+      "这件事的后果最终由谁承担",
+      "谁的责任更大"
+    ],
+    "answer": 2,
+    "explanation": "原文核心：课题分离的判断标准只有一个，这件事的后果最终由谁承担。",
+    "source": "courage-disliked"
+  },
+  {
+    "id": "dislike-004",
+    "type": "choice",
+    "topic": "disliked",
+    "topicName": "被讨厌的勇气",
+    "question": "弗洛伊德与阿德勒在因果观上的核心差异是什么？",
+    "options": [
+      "弗洛伊德重视意识，阿德勒重视潜意识",
+      "弗洛伊德\"过去决定现在\"，阿德勒\"你选择了现在\"",
+      "都强调过去决定",
+      "都强调当下选择"
+    ],
+    "answer": 1,
+    "explanation": "原文：弗洛伊德说\"过去决定现在\"，阿德勒说\"你选择了现在\"。",
+    "source": "courage-disliked"
+  },
+  {
+    "id": "dislike-005",
+    "type": "truefalse",
+    "topic": "disliked",
+    "topicName": "被讨厌的勇气",
+    "question": "课题分离意味着对他人不管不顾。",
+    "answer": false,
+    "explanation": "原文明确：最大的误解就是这个——课题分离不是不管不顾，而是\"我关心你，但不替你做决定\"。",
+    "source": "courage-disliked"
+  },
+  {
+    "id": "dislike-006",
+    "type": "choice",
+    "topic": "disliked",
+    "topicName": "被讨厌的勇气",
+    "question": "原文用什么比喻来描述阿德勒思想中的\"自由\"？",
+    "options": [
+      "你是被过去绑架的囚犯",
+      "你是拿着旧剧本的演员，可以换剧本",
+      "你是机器里的齿轮",
+      "你是大海中的一叶小舟"
+    ],
+    "answer": 1,
+    "explanation": "原文比喻：你不是被过去绑架的囚犯，你是拿着旧剧本的演员——而你可以换剧本。",
+    "source": "courage-disliked"
+  },
+  {
+    "id": "dislike-007",
+    "type": "choice",
+    "topic": "disliked",
+    "topicName": "被讨厌的勇气",
+    "question": "《被讨厌的勇气》在豆瓣的评分是多少？",
+    "options": [
+      "7.8分",
+      "8.2分",
+      "8.6分",
+      "9.1分"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：这本书豆瓣8.6分，14万人评价，翻译成30多种语言。",
+    "source": "courage-disliked"
+  },
+  {
+    "id": "dislike-008",
+    "type": "choice",
+    "topic": "disliked",
+    "topicName": "被讨厌的勇气",
+    "question": "《被讨厌的勇气》翻译成多少种语言？",
+    "options": [
+      "10多种",
+      "20多种",
+      "30多种",
+      "50多种"
+    ],
+    "answer": 2,
+    "explanation": "原文：本书翻译成30多种语言。",
+    "source": "courage-disliked"
+  },
+  {
+    "id": "dislike-009",
+    "type": "truefalse",
+    "topic": "disliked",
+    "topicName": "被讨厌的勇气",
+    "question": "原文建议把\"你真棒\"换成\"谢谢你\"。",
+    "answer": true,
+    "explanation": "原文行动清单：把\"你真棒\"换成\"谢谢你\"。",
+    "source": "courage-disliked"
+  },
+  {
+    "id": "dislike-010",
+    "type": "choice",
+    "topic": "disliked",
+    "topicName": "被讨厌的勇气",
+    "question": "原文中\"被讨厌的勇气\"的含义是什么？",
+    "options": [
+      "故意得罪人",
+      "当一个刺猬",
+      "不再以\"被所有人喜欢\"为活着的目的",
+      "完全不在意他人"
+    ],
+    "answer": 2,
+    "explanation": "原文：被讨厌的勇气也不是当刺猬，而是不再以\"被所有人喜欢\"为活着的目的。",
+    "source": "courage-disliked"
+  },
+  {
+    "id": "dislike-011",
+    "type": "choice",
+    "topic": "disliked",
+    "topicName": "被讨厌的勇气",
+    "question": "孩子写不写作业按课题分离原则属于谁的课题？",
+    "options": [
+      "父母的",
+      "老师的",
+      "孩子的",
+      "全家共同的"
+    ],
+    "answer": 2,
+    "explanation": "原文举例：孩子写不写作业？那是孩子的课题。",
+    "source": "courage-disliked"
+  },
+  {
+    "id": "dislike-012",
+    "type": "truefalse",
+    "topic": "disliked",
+    "topicName": "被讨厌的勇气",
+    "question": "原文认为勇气是天生的，无法后天培养。",
+    "answer": false,
+    "explanation": "原文明确：勇气不是天生的，是每天练出来的。",
+    "source": "courage-disliked"
+  },
+  {
+    "id": "screen-001",
+    "type": "choice",
+    "topic": "screenage",
+    "topicName": "屏幕时代的自控",
+    "question": "原文指出孩子的前额叶（负责自控）要到多少岁才发育完全？",
+    "options": [
+      "18岁",
+      "21岁",
+      "25�ec",
+      "30岁"
+    ],
+    "answer": 2,
+    "explanation": "原文明确：孩子的前额叶（负责自控）要到25岁才发育完全。",
+    "source": "screen-age"
+  },
+  {
+    "id": "screen-002",
+    "type": "choice",
+    "topic": "screenage",
+    "topicName": "屏幕时代的自控",
+    "question": "短视频和游戏使用的心理学机制叫什么？",
+    "options": [
+      "条件反射",
+      "间歇性奖励",
+      "强化训练",
+      "认知失调"
+    ],
+    "answer": 1,
+    "explanation": "原文：短视频、游戏用的是和赌场老虎机一样的心理机制——\"间歇性奖励\"。",
+    "source": "screen-age"
+  },
+  {
+    "id": "screen-003",
+    "type": "choice",
+    "topic": "screenage",
+    "topicName": "屏幕时代的自控",
+    "question": "原文推荐的教养方法叫什么？",
+    "options": [
+      "虎妈式",
+      "水母式",
+      "海豚教养法",
+      "狮子教养法"
+    ],
+    "answer": 2,
+    "explanation": "原文：哈佛医学博士的\"海豚教养法\"——不是虎妈式全面禁止，也不是水母式放任不管。",
+    "source": "screen-age"
+  },
+  {
+    "id": "screen-004",
+    "type": "truefalse",
+    "topic": "screenage",
+    "topicName": "屏幕时代的自控",
+    "question": "原文认为没收手机是对抗孩子手机成瘾最有效的做法。",
+    "answer": false,
+    "explanation": "原文明确：没收手机是最蠢的做法，孩子学到的不是自控，是\"怎么偷偷用\"。",
+    "source": "screen-age"
+  },
+  {
+    "id": "screen-005",
+    "type": "choice",
+    "topic": "screenage",
+    "topicName": "屏幕时代的自控",
+    "question": "运动主要释放哪种激素来对抗屏幕成瘾？",
+    "options": [
+      "催产素",
+      "内啡肽",
+      "血清素",
+      "多巴胺"
+    ],
+    "answer": 1,
+    "explanation": "原文4激素对应：运动→内啡肽，拥抱→催产素，创造→血清素，小目标→健康多巴胺。",
+    "source": "screen-age"
+  },
+  {
+    "id": "screen-006",
+    "type": "choice",
+    "topic": "screenage",
+    "topicName": "屏幕时代的自控",
+    "question": "拥抱主要释放哪种激素？",
+    "options": [
+      "内啡肽",
+      "催产素",
+      "血清素",
+      "肾上腺素"
+    ],
+    "answer": 1,
+    "explanation": "原文：拥抱→催产素。",
+    "source": "screen-age"
+  },
+  {
+    "id": "screen-007",
+    "type": "choice",
+    "topic": "screenage",
+    "topicName": "屏幕时代的自控",
+    "question": "原文中创造类活动主要释放哪种激素？",
+    "options": [
+      "内啡肽",
+      "催产素",
+      "血清素",
+      "多巴胺"
+    ],
+    "answer": 2,
+    "explanation": "原文：创造→血清素。",
+    "source": "screen-age"
+  },
+  {
+    "id": "screen-008",
+    "type": "choice",
+    "topic": "screenage",
+    "topicName": "屏幕时代的自控",
+    "question": "原文中6周6步计划的第一步是什么？",
+    "options": [
+      "对话",
+      "觉察",
+      "共建规则",
+      "替代活动"
+    ],
+    "answer": 1,
+    "explanation": "原文6步：觉察→对话→共建规则→替代活动→建立仪式→复盘调整。",
+    "source": "screen-age"
+  },
+  {
+    "id": "screen-009",
+    "type": "choice",
+    "topic": "screenage",
+    "topicName": "屏幕时代的自控",
+    "question": "原文建议从哪个最小行动开始？",
+    "options": [
+      "完全禁止手机1天",
+      "睡前1小时无屏幕",
+      "卸载所有娱乐App",
+      "每天只用1小时手机"
+    ],
+    "answer": 1,
+    "explanation": "原文：先从\"睡前1小时无屏幕\"开始，不用一步到位。",
+    "source": "screen-age"
+  },
+  {
+    "id": "screen-010",
+    "type": "truefalse",
+    "topic": "screenage",
+    "topicName": "屏幕时代的自控",
+    "question": "原文揭示硅谷设计成瘾产品的人，自己家孩子的屏幕时间反而被严格控制。",
+    "answer": true,
+    "explanation": "原文开篇：硅谷那些设计让你孩子上瘾的人，自己家孩子的屏幕时间严格控制，这不是巧合。",
+    "source": "screen-age"
+  },
+  {
+    "id": "screen-011",
+    "type": "choice",
+    "topic": "screenage",
+    "topicName": "屏幕时代的自控",
+    "question": "原文认为最好的\"家长控制软件\"是什么？",
+    "options": [
+      "专业的控制App",
+      "你和孩子之间的关系",
+      "路由器限速",
+      "强制断网"
+    ],
+    "answer": 1,
+    "explanation": "原文明确：最好的家长控制软件，是你和孩子之间的关系。",
+    "source": "screen-age"
+  },
+  {
+    "id": "screen-012",
+    "type": "truefalse",
+    "topic": "screenage",
+    "topicName": "屏幕时代的自控",
+    "question": "原文指出，父母一边刷手机一边说\"别玩手机\"，孩子会学到双重标准。",
+    "answer": true,
+    "explanation": "原文：你一边刷手机一边说\"别玩手机\"，孩子只会学到——\"大人可以玩，我不行\"。",
+    "source": "screen-age"
+  },
+  {
+    "id": "screen-013",
+    "type": "choice",
+    "topic": "screenage",
+    "topicName": "屏幕时代的自控",
+    "question": "完成小目标主要释放什么类型的激素？",
+    "options": [
+      "健康多巴胺",
+      "肾上腺素",
+      "皮质醇",
+      "褪黑素"
+    ],
+    "answer": 0,
+    "explanation": "原文：小目标→健康多巴胺。",
+    "source": "screen-age"
+  },
+  {
+    "id": "mem-001",
+    "type": "choice",
+    "topic": "memory",
+    "topicName": "记忆增强",
+    "question": "原文认为决定记忆效果的关键化学物质是什么？",
+    "options": [
+      "多巴胺",
+      "肾上腺素",
+      "血清素",
+      "皮质醇"
+    ],
+    "answer": 1,
+    "explanation": "原文：决定你能不能记住一件事的，是学完之后大脑里的肾上腺素。",
+    "source": "improve-memory"
+  },
+  {
+    "id": "mem-002",
+    "type": "choice",
+    "topic": "memory",
+    "topicName": "记忆增强",
+    "question": "原文中分享研究的斯坦福神经科学家是谁？",
+    "options": [
+      "Rhonda Patrick",
+      "Andrew Huberman",
+      "Robert Sapolsky",
+      "David Eagleman"
+    ],
+    "answer": 1,
+    "explanation": "原文：斯坦福神经科学家Huberman说，决定记忆的是肾上腺素。",
+    "source": "improve-memory"
+  },
+  {
+    "id": "mem-003",
+    "type": "choice",
+    "topic": "memory",
+    "topicName": "记忆增强",
+    "question": "McGaugh的经典实验证明了什么？",
+    "options": [
+      "内容越刺激越好记",
+      "越早学越好记",
+      "学完后肾上腺素飙升的关键",
+      "重复次数决定记忆"
+    ],
+    "answer": 2,
+    "explanation": "原文：McGaugh实验——读完无聊文章后把手泡进冰水，记忆效果和读惊心动魄故事一样好，关键是学完后肾上腺素有没有飙升。",
+    "source": "improve-memory"
+  },
+  {
+    "id": "mem-004",
+    "type": "choice",
+    "topic": "memory",
+    "topicName": "记忆增强",
+    "question": "原文建议什么时候喝咖啡记忆效果最好？",
+    "options": [
+      "学习前30分钟",
+      "学习中途",
+      "学完后5-15分钟",
+      "学完后1小时"
+    ],
+    "answer": 2,
+    "explanation": "原文：研究显示——学完后5-15分钟喝咖啡，效果才最好。",
+    "source": "improve-memory"
+  },
+  {
+    "id": "mem-005",
+    "type": "truefalse",
+    "topic": "memory",
+    "topicName": "记忆增强",
+    "question": "原文认为大多数人正确地在学习前喝咖啡来提高记忆力。",
+    "answer": false,
+    "explanation": "原文明确：你一直在错误的时间喝咖啡！大多数人先喝咖啡再学习，错了。",
+    "source": "improve-memory"
+  },
+  {
+    "id": "mem-006",
+    "type": "choice",
+    "topic": "memory",
+    "topicName": "记忆增强",
+    "question": "每周多少分钟有氧运动能让骨头释放骨钙素增强海马体？",
+    "options": [
+      "60分钟",
+      "120分钟",
+      "180分钟",
+      "300分钟"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：每周180分钟有氧运动，骨头会释放骨钙素，直接增强海马体功能。",
+    "source": "improve-memory"
+  },
+  {
+    "id": "mem-007",
+    "type": "choice",
+    "topic": "memory",
+    "topicName": "记忆增强",
+    "question": "原文中骨钙素由什么器官释放？",
+    "options": [
+      "肝脏",
+      "肌肉",
+      "骨头",
+      "大脑"
+    ],
+    "answer": 2,
+    "explanation": "原文：你的骨头会释放骨钙素，直接增强海马体功能。",
+    "source": "improve-memory"
+  },
+  {
+    "id": "mem-008",
+    "type": "choice",
+    "topic": "memory",
+    "topicName": "记忆增强",
+    "question": "\"心理拍照\"技巧的关键动作是什么？",
+    "options": [
+      "写下来再回想",
+      "盯着目标，心里说\"拍！\"然后用力眨眼",
+      "每30秒回看一次",
+      "大声朗读3遍"
+    ],
+    "answer": 1,
+    "explanation": "原文：心理拍照——盯着目标，在心里说\"拍！\"然后用力眨眼，研究证明几乎和真拍照一样有效。",
+    "source": "improve-memory"
+  },
+  {
+    "id": "mem-009",
+    "type": "choice",
+    "topic": "memory",
+    "topicName": "记忆增强",
+    "question": "原文推荐每天冥想多少分钟，坚持8周可全面提升认知？",
+    "options": [
+      "5分钟",
+      "13分钟",
+      "20分钟",
+      "30分钟"
+    ],
+    "answer": 1,
+    "explanation": "原文：每天13分钟冥想，坚持8周，注意力、记忆力、情绪调节全面提升。",
+    "source": "improve-memory"
+  },
+  {
+    "id": "mem-010",
+    "type": "truefalse",
+    "topic": "memory",
+    "topicName": "记忆增强",
+    "question": "原文建议在睡前进行13分钟冥想以增强记忆。",
+    "answer": false,
+    "explanation": "原文明确：但别在睡前做冥想，会影响睡眠。",
+    "source": "improve-memory"
+  },
+  {
+    "id": "mem-011",
+    "type": "choice",
+    "topic": "memory",
+    "topicName": "记忆增强",
+    "question": "冷水澡为什么能增强记忆？",
+    "options": [
+      "让大脑冷静",
+      "促进肾上腺素分泌",
+      "改善血液循环",
+      "提高代谢率"
+    ],
+    "answer": 1,
+    "explanation": "原文：冷水澡让你不舒服但安全的温度就够了——呼吸加快、眼睛瞪大=肾上腺素在工作。",
+    "source": "improve-memory"
+  },
+  {
+    "id": "mem-012",
+    "type": "truefalse",
+    "topic": "memory",
+    "topicName": "记忆增强",
+    "question": "原文认为内容刺激度是决定记忆的关键。",
+    "answer": false,
+    "explanation": "原文：关键不是内容有多刺激，而是学完后肾上腺素有没有飙升。",
+    "source": "improve-memory"
+  },
+  {
+    "id": "mem-013",
+    "type": "choice",
+    "topic": "memory",
+    "topicName": "记忆增强",
+    "question": "在McGaugh实验中，受试者学完无聊文章后做了什么提升记忆？",
+    "options": [
+      "快速跑步",
+      "把手泡进冰水",
+      "听激动人心的音乐",
+      "看恐怖片"
+    ],
+    "answer": 1,
+    "explanation": "原文：McGaugh实验——读完无聊文章后把手泡进冰水，效果和读惊心动魄故事一样好。",
+    "source": "improve-memory"
+  },
+  {
+    "id": "dopaser-001",
+    "type": "choice",
+    "topic": "dopaserot",
+    "topicName": "多巴胺与血清素",
+    "question": "脑科学家Read Montague认为多巴胺真正的本质是什么？",
+    "options": [
+      "快乐分子",
+      "学习信号",
+      "动力激素",
+      "压力激素"
+    ],
+    "answer": 1,
+    "explanation": "原文：脑科学家Read Montague说——多巴胺根本不是\"快乐分子\"，它是一个学习信号。",
+    "source": "dopamine-serotonin"
+  },
+  {
+    "id": "dopaser-002",
+    "type": "choice",
+    "topic": "dopaserot",
+    "topicName": "多巴胺与血清素",
+    "question": "AlphaGo打败围棋冠军使用的核心算法和大脑中什么的运行算法相同？",
+    "options": [
+      "血清素",
+      "多巴胺",
+      "肾上腺素",
+      "GABA"
+    ],
+    "answer": 1,
+    "explanation": "原文：AlphaGo打败围棋世界冠军用的核心算法，和你大脑里多巴胺运行的算法是同一个。",
+    "source": "dopamine-serotonin"
+  },
+  {
+    "id": "dopaser-003",
+    "type": "choice",
+    "topic": "dopaserot",
+    "topicName": "多巴胺与血清素",
+    "question": "在原文比喻中，血清素扮演什么角色？",
+    "options": [
+      "油门",
+      "刹车",
+      "方向盘",
+      "雷达"
+    ],
+    "answer": 1,
+    "explanation": "原文：大脑还有一个\"刹车系统\"叫血清素。多巴胺说\"冲！\"，血清素说\"停！\"。",
+    "source": "dopamine-serotonin"
+  },
+  {
+    "id": "dopaser-004",
+    "type": "truefalse",
+    "topic": "dopaserot",
+    "topicName": "多巴胺与血清素",
+    "question": "原文认为真正的平静是多巴胺飙升到最高。",
+    "answer": false,
+    "explanation": "原文：真正的平静不是多巴胺飙高，而是多巴胺与血清素两者平衡。",
+    "source": "dopamine-serotonin"
+  },
+  {
+    "id": "dopaser-005",
+    "type": "choice",
+    "topic": "dopaserot",
+    "topicName": "多巴胺与血清素",
+    "question": "SSRI抗抑郁药的隐藏悖论是什么？",
+    "options": [
+      "多巴胺过低导致的疲劳",
+      "提高血清素同时多余的血清素抑制多巴胺",
+      "增加焦虑感",
+      "导致依赖性"
+    ],
+    "answer": 1,
+    "explanation": "原文：SSRI提高血清素，但多出来的血清素会跑到多巴胺的地盘上，抑制你的快乐和动力。",
+    "source": "dopamine-serotonin"
+  },
+  {
+    "id": "dopaser-006",
+    "type": "choice",
+    "topic": "dopaserot",
+    "topicName": "多巴胺与血清素",
+    "question": "为什么很多人吃SSRI抗抑郁药后会\"情绪变平\"？",
+    "options": [
+      "药物副作用过强",
+      "多余的血清素抑制多巴胺",
+      "身体产生了依赖",
+      "心理暗示"
+    ],
+    "answer": 1,
+    "explanation": "原文：这就是为什么很多人吃了药后\"情绪变平\"——多余的血清素抑制了多巴胺。",
+    "source": "dopamine-serotonin"
+  },
+  {
+    "id": "dopaser-007",
+    "type": "truefalse",
+    "topic": "dopaserot",
+    "topicName": "多巴胺与血清素",
+    "question": "原文认为多巴胺让你刷一条短视频时大脑在学习\"下一条可能更好\"。",
+    "answer": true,
+    "explanation": "原文：你每刷一条短视频，大脑都在学习\"下一条可能更好\"，然后驱动你继续滑。",
+    "source": "dopamine-serotonin"
+  },
+  {
+    "id": "dopaser-008",
+    "type": "choice",
+    "topic": "dopaserot",
+    "topicName": "多巴胺与血清素",
+    "question": "原文认为焦虑的本质是什么？",
+    "options": [
+      "大脑功能紊乱",
+      "全是坏事",
+      "刹车在保护你",
+      "多巴胺过剩"
+    ],
+    "answer": 2,
+    "explanation": "原文7条建议之一：焦虑不全是坏事，那是刹车在保护你。",
+    "source": "dopamine-serotonin"
+  },
+  {
+    "id": "dopaser-009",
+    "type": "choice",
+    "topic": "dopaserot",
+    "topicName": "多巴胺与血清素",
+    "question": "原文推荐的\"最佳平衡训练\"是什么？",
+    "options": [
+      "每天健身房锻炼",
+      "冷水澡训练",
+      "不带手机散步",
+      "正念冥想"
+    ],
+    "answer": 2,
+    "explanation": "原文7条建议之一：不带手机散步=最佳平衡训练。",
+    "source": "dopamine-serotonin"
+  },
+  {
+    "id": "dopaser-010",
+    "type": "truefalse",
+    "topic": "dopaserot",
+    "topicName": "多巴胺与血清素",
+    "question": "原文建议吃饭时同时刷手机和听歌效率更高。",
+    "answer": false,
+    "explanation": "原文7条建议之一明确反对：别边吃边刷边听歌。",
+    "source": "dopamine-serotonin"
+  },
+  {
+    "id": "dopaser-011",
+    "type": "choice",
+    "topic": "dopaserot",
+    "topicName": "多巴胺与血清素",
+    "question": "原文中多巴胺算法被描述为什么样的算法？",
+    "options": [
+      "人类发明出来用于AI的算法",
+      "人类已知唯一从大脑\"爬\"进计算机然后超越人类自己的算法",
+      "只能在人脑中运行的算法",
+      "AI独立发现的算法"
+    ],
+    "answer": 1,
+    "explanation": "原文：这是人类已知唯一从大脑\"爬\"进计算机然后超越人类自己的算法。",
+    "source": "dopamine-serotonin"
+  },
+  {
+    "id": "dopaser-012",
+    "type": "choice",
+    "topic": "dopaserot",
+    "topicName": "多巴胺与血清素",
+    "question": "原文建议刷手机时先问自己什么问题？",
+    "options": [
+      "\"我在浪费时间吗\"",
+      "\"我在找什么\"",
+      "\"我应该停下吗\"",
+      "\"今天刷多久了\""
+    ],
+    "answer": 1,
+    "explanation": "原文7条建议第1条：刷手机时问自己\"我在找什么\"。",
+    "source": "dopamine-serotonin"
+  },
+  {
+    "id": "dopaser-013",
+    "type": "truefalse",
+    "topic": "dopaserot",
+    "topicName": "多巴胺与血清素",
+    "question": "原文建议从努力本身获取奖赏，而非只盯着结果。",
+    "answer": true,
+    "explanation": "原文7条建议第7条：从努力本身获取奖赏。",
+    "source": "dopamine-serotonin"
+  },
+  {
+    "id": "seven-001",
+    "type": "choice",
+    "topic": "sevenhabits",
+    "topicName": "高效能七习惯",
+    "question": "《高效能人士的七个习惯》全球销量约多少册？",
+    "options": [
+      "1000万册",
+      "2000万册",
+      "4000万册",
+      "1亿册"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：这本书全球卖了4000万册。",
+    "source": "seven-habits"
+  },
+  {
+    "id": "seven-002",
+    "type": "choice",
+    "topic": "sevenhabits",
+    "topicName": "高效能七习惯",
+    "question": "柯维认为大多数人的根本问题是什么？",
+    "options": [
+      "不够努力",
+      "拿着错误的地图在跑",
+      "缺乏天赋",
+      "起步太晚"
+    ],
+    "answer": 1,
+    "explanation": "原文：柯维说——大多数人的问题不是不够努力，而是拿着错误的地图在跑。",
+    "source": "seven-habits"
+  },
+  {
+    "id": "seven-003",
+    "type": "choice",
+    "topic": "sevenhabits",
+    "topicName": "高效能七习惯",
+    "question": "原文将\"思维定式\"比喻为什么？",
+    "options": [
+      "大脑的肌肉",
+      "你的操作系统",
+      "心智的容器",
+      "认知的镜子"
+    ],
+    "answer": 1,
+    "explanation": "原文：你的\"思维定式\"就是你的操作系统——系统不升级，装再多App也没用。",
+    "source": "seven-habits"
+  },
+  {
+    "id": "seven-004",
+    "type": "choice",
+    "topic": "sevenhabits",
+    "topicName": "高效能七习惯",
+    "question": "七个习惯中\"先搞定自己\"的三个习惯是什么？",
+    "options": [
+      "积极主动→以终为始→要事第一",
+      "双赢思维→知彼解己→统合综效",
+      "以终为始→知彼解己→不断更新",
+      "积极主动→双赢思维→统合综效"
+    ],
+    "answer": 0,
+    "explanation": "原文：先搞定自己（积极主动→以终为始→要事第一）。",
+    "source": "seven-habits"
+  },
+  {
+    "id": "seven-005",
+    "type": "choice",
+    "topic": "sevenhabits",
+    "topicName": "高效能七习惯",
+    "question": "七个习惯中\"搞定关系\"的三个习惯是什么？",
+    "options": [
+      "积极主动→以终为始→要事第一",
+      "双赢思维→知彼解己→统合综效",
+      "以终为始→知彼解己→不断更新",
+      "要事第一→双赢思维→不断更新"
+    ],
+    "answer": 1,
+    "explanation": "原文：搞定关系（双赢思维→知彼解己→统合综效）。",
+    "source": "seven-habits"
+  },
+  {
+    "id": "seven-006",
+    "type": "choice",
+    "topic": "sevenhabits",
+    "topicName": "高效能七习惯",
+    "question": "第7个习惯是什么？",
+    "options": [
+      "要事第一",
+      "统合综效",
+      "不断更新",
+      "双赢思维"
+    ],
+    "answer": 2,
+    "explanation": "原文：最后持续迭代（不断更新）——这是第7个习惯。",
+    "source": "seven-habits"
+  },
+  {
+    "id": "seven-007",
+    "type": "choice",
+    "topic": "sevenhabits",
+    "topicName": "高效能七习惯",
+    "question": "\"要事第一\"的核心理念是什么？",
+    "options": [
+      "把紧急的事先做完",
+      "把时间留给\"重要但不紧急\"的事",
+      "做最简单的事先建立信心",
+      "做最难的事在精力最好时"
+    ],
+    "answer": 1,
+    "explanation": "原文：高效能人士把时间留给\"重要但不紧急\"的事——健康、学习、经营关系。",
+    "source": "seven-habits"
+  },
+  {
+    "id": "seven-008",
+    "type": "choice",
+    "topic": "sevenhabits",
+    "topicName": "高效能七习惯",
+    "question": "大多数人把多少时间花在了\"紧急\"的事上？",
+    "options": [
+      "50%",
+      "60%",
+      "70%",
+      "80%"
+    ],
+    "answer": 3,
+    "explanation": "原文数据：大多数人80%的时间花在\"紧急\"的事上。",
+    "source": "seven-habits"
+  },
+  {
+    "id": "seven-009",
+    "type": "choice",
+    "topic": "sevenhabits",
+    "topicName": "高效能七习惯",
+    "question": "\"情感账户\"的核心概念是什么？",
+    "options": [
+      "每月给亲密关系存固定金额",
+      "每次互动都是存款或取款，信任就是余额",
+      "重要他人的纪念日清单",
+      "情绪日记"
+    ],
+    "answer": 1,
+    "explanation": "原文：每次互动都是存款或取款，信任就是你的余额。",
+    "source": "seven-habits"
+  },
+  {
+    "id": "seven-010",
+    "type": "truefalse",
+    "topic": "sevenhabits",
+    "topicName": "高效能七习惯",
+    "question": "原文认为大多数关系崩塌是因为一次大事故。",
+    "answer": false,
+    "explanation": "原文：很多关系崩塌，不是一次大事故，而是日常小透支。",
+    "source": "seven-habits"
+  },
+  {
+    "id": "seven-011",
+    "type": "choice",
+    "topic": "sevenhabits",
+    "topicName": "高效能七习惯",
+    "question": "原文建议遇到烦心事先问自己什么？",
+    "options": [
+      "\"谁的错\"",
+      "\"我能控制什么\"",
+      "\"有多严重\"",
+      "\"会持续多久\""
+    ],
+    "answer": 1,
+    "explanation": "原文行动建议：今天遇到烦心事问\"我能控制什么\"——这是积极主动的核心。",
+    "source": "seven-habits"
+  },
+  {
+    "id": "seven-012",
+    "type": "choice",
+    "topic": "sevenhabits",
+    "topicName": "高效能七习惯",
+    "question": "原文中\"以终为始\"的实操建议是什么？",
+    "options": [
+      "每天写日记总结",
+      "花10分钟写下你希望退休时被记住什么",
+      "每月制定下月目标",
+      "倒推年度KPI"
+    ],
+    "answer": 1,
+    "explanation": "原文行动建议：花10分钟写下你希望退休时被记住什么。",
+    "source": "seven-habits"
+  },
+  {
+    "id": "seven-013",
+    "type": "truefalse",
+    "topic": "sevenhabits",
+    "topicName": "高效能七习惯",
+    "question": "原文建议每周专注练习一个习惯，7周一个循环。",
+    "answer": true,
+    "explanation": "原文：不需要一次全做到，每周专注练一个习惯，7周一个循环。",
+    "source": "seven-habits"
+  },
+  {
+    "id": "seven-014",
+    "type": "choice",
+    "topic": "sevenhabits",
+    "topicName": "高效能七习惯",
+    "question": "原文用\"四象限\"工具来组织哪个习惯？",
+    "options": [
+      "积极主动",
+      "以终为始",
+      "要事第一",
+      "双赢思维"
+    ],
+    "answer": 2,
+    "explanation": "原文：最实用的是\"要事第一\"里的四象限。",
+    "source": "seven-habits"
+  },
+  {
+    "id": "adhdmed-001",
+    "type": "choice",
+    "topic": "adhdmed",
+    "topicName": "ADHD药物",
+    "question": "ADHD药物按作用机制分为哪两大类？",
+    "options": [
+      "短效药和长效药",
+      "兴奋剂和非兴奋剂",
+      "处方药和非处方药",
+      "中枢类和外周类"
+    ],
+    "answer": 1,
+    "explanation": "原文明确指出ADHD药物分兴奋剂（如利他林、Adderall、Vyvanse）和非兴奋剂（如择思达、胍法辛）两大类。",
+    "source": "adhd-medicine"
+  },
+  {
+    "id": "adhdmed-002",
+    "type": "choice",
+    "topic": "adhdmed",
+    "topicName": "ADHD药物",
+    "question": "以下哪种药物被描述为\"目前最佳平衡点\"？",
+    "options": [
+      "利他林",
+      "Adderall",
+      "Vyvanse",
+      "择思达"
+    ],
+    "answer": 2,
+    "explanation": "原文说Vyvanse缓释设计，药效平稳12-16小时，是\"目前最佳平衡点\"。",
+    "source": "adhd-medicine"
+  },
+  {
+    "id": "adhdmed-003",
+    "type": "choice",
+    "topic": "adhdmed",
+    "topicName": "ADHD药物",
+    "question": "Vyvanse的药效可持续多少小时？",
+    "options": [
+      "4-6小时",
+      "8-10小时",
+      "12-16小时",
+      "18-24小时"
+    ],
+    "answer": 2,
+    "explanation": "原文明确标注Vyvanse缓释设计，药效平稳12-16小时。",
+    "source": "adhd-medicine"
+  },
+  {
+    "id": "adhdmed-004",
+    "type": "choice",
+    "topic": "adhdmed",
+    "topicName": "ADHD药物",
+    "question": "在三种兴奋剂中，哪种被描述为成瘾和精神病风险最高？",
+    "options": [
+      "利他林",
+      "Adderall",
+      "Vyvanse",
+      "择思达"
+    ],
+    "answer": 1,
+    "explanation": "原文写到Adderall效力最强，但成瘾和精神病风险也最高。",
+    "source": "adhd-medicine"
+  },
+  {
+    "id": "adhdmed-005",
+    "type": "choice",
+    "topic": "adhdmed",
+    "topicName": "ADHD药物",
+    "question": "哪种非兴奋剂药物被推荐用于合并焦虑的孩子？",
+    "options": [
+      "胍法辛",
+      "择思达",
+      "安非他酮",
+      "莫达非尼"
+    ],
+    "answer": 1,
+    "explanation": "原文说择思达\"合并焦虑的孩子首选，零成瘾风险\"。",
+    "source": "adhd-medicine"
+  },
+  {
+    "id": "adhdmed-006",
+    "type": "choice",
+    "topic": "adhdmed",
+    "topicName": "ADHD药物",
+    "question": "胍法辛的主要适用场景是什么？",
+    "options": [
+      "合并抑郁的孩子",
+      "合并焦虑的孩子",
+      "多动冲动为主的孩子",
+      "注意力不集中为主的孩子"
+    ],
+    "answer": 2,
+    "explanation": "原文指出胍法辛适合多动冲动为主的孩子，帮大脑\"装刹车\"。",
+    "source": "adhd-medicine"
+  },
+  {
+    "id": "adhdmed-007",
+    "type": "choice",
+    "topic": "adhdmed",
+    "topicName": "ADHD药物",
+    "question": "安非他酮适合哪类孩子？",
+    "options": [
+      "单纯多动的孩子",
+      "合并焦虑的孩子",
+      "同时有抑郁的孩子",
+      "睡眠障碍的孩子"
+    ],
+    "answer": 2,
+    "explanation": "原文明确标注安非他酮\"同时有抑郁的孩子，一药双效\"。",
+    "source": "adhd-medicine"
+  },
+  {
+    "id": "adhdmed-008",
+    "type": "truefalse",
+    "topic": "adhdmed",
+    "topicName": "ADHD药物",
+    "question": "儿时按处方服用ADHD药物，会增加成年后物质滥用风险。",
+    "answer": false,
+    "explanation": "原文反直觉地指出：儿时按处方用药，成年后物质滥用风险反而更低。",
+    "source": "adhd-medicine"
+  },
+  {
+    "id": "adhdmed-009",
+    "type": "truefalse",
+    "topic": "adhdmed",
+    "topicName": "ADHD药物",
+    "question": "大规模研究显示，ADHD用药组的心脏猝死风险甚至低于未用药组。",
+    "answer": true,
+    "explanation": "原文说\"大规模研究显示用药组甚至低于未用药组\"，心脏猝死风险极低。",
+    "source": "adhd-medicine"
+  },
+  {
+    "id": "adhdmed-010",
+    "type": "choice",
+    "topic": "adhdmed",
+    "topicName": "ADHD药物",
+    "question": "ADHD药物对身高的影响约为多少厘米？",
+    "options": [
+      "约1cm",
+      "约2cm",
+      "约5cm",
+      "没有影响"
+    ],
+    "answer": 1,
+    "explanation": "原文说\"身高影响约2cm，暑假停药可追回\"。",
+    "source": "adhd-medicine"
+  },
+  {
+    "id": "adhdmed-011",
+    "type": "truefalse",
+    "topic": "adhdmed",
+    "topicName": "ADHD药物",
+    "question": "利他林是三种兴奋剂中精神病风险最低的。",
+    "answer": true,
+    "explanation": "原文描述利他林\"最老牌，短效灵活，精神病风险最低\"。",
+    "source": "adhd-medicine"
+  },
+  {
+    "id": "adhdmed-012",
+    "type": "choice",
+    "topic": "adhdmed",
+    "topicName": "ADHD药物",
+    "question": "原文强调最好的ADHD方案等于什么组合？",
+    "options": [
+      "对的药 + 足够剂量",
+      "对的药 + 行为训练 + 家庭支持",
+      "兴奋剂 + 非兴奋剂联合",
+      "药物 + 特殊教育"
+    ],
+    "answer": 1,
+    "explanation": "原文总结：最好的方案 = 对的药 + 行为训练 + 家庭支持。",
+    "source": "adhd-medicine"
+  },
+  {
+    "id": "adhdmed-013",
+    "type": "truefalse",
+    "topic": "adhdmed",
+    "topicName": "ADHD药物",
+    "question": "兴奋剂类ADHD药物仅有约10年的临床使用历史。",
+    "answer": false,
+    "explanation": "原文明确说兴奋剂有\"50+年临床验证\"，并非仅10年。",
+    "source": "adhd-medicine"
+  },
+  {
+    "id": "adhdpar-001",
+    "type": "choice",
+    "topic": "adhdparent",
+    "topicName": "ADHD儿童养育",
+    "question": "全球儿童ADHD患病率约为多少？",
+    "options": [
+      "2.3%",
+      "4.5%",
+      "6.9%",
+      "10.2%"
+    ],
+    "answer": 2,
+    "explanation": "原文明确数据：全球6.9%的儿童有ADHD，中国约2000万孩子受影响。",
+    "source": "adhd-parenting"
+  },
+  {
+    "id": "adhdpar-002",
+    "type": "choice",
+    "topic": "adhdparent",
+    "topicName": "ADHD儿童养育",
+    "question": "ADHD的遗传率约为多少？",
+    "options": [
+      "约30%",
+      "约50%",
+      "约65%",
+      "约76%"
+    ],
+    "answer": 3,
+    "explanation": "原文明确指出\"遗传率高达76%\"。",
+    "source": "adhd-parenting"
+  },
+  {
+    "id": "adhdpar-003",
+    "type": "choice",
+    "topic": "adhdparent",
+    "topicName": "ADHD儿童养育",
+    "question": "研究权威Barkley如何描述ADHD孩子的核心困难？",
+    "options": [
+      "大脑发育迟缓",
+      "大脑\"刹车系统\"发育慢了",
+      "大脑缺乏多巴胺",
+      "大脑前额叶受损"
+    ],
+    "answer": 1,
+    "explanation": "原文引用Barkley的说法：这是大脑\"刹车系统\"发育慢了，就像油门灵但刹车不好的车。",
+    "source": "adhd-parenting"
+  },
+  {
+    "id": "adhdpar-004",
+    "type": "truefalse",
+    "topic": "adhdparent",
+    "topicName": "ADHD儿童养育",
+    "question": "ADHD会随着年龄增长自然痊愈，大多数孩子成年后症状消失。",
+    "answer": false,
+    "explanation": "原文指出\"长大自然好\"是致命误区，60-70%会持续到成年。",
+    "source": "adhd-parenting"
+  },
+  {
+    "id": "adhdpar-005",
+    "type": "choice",
+    "topic": "adhdparent",
+    "topicName": "ADHD儿童养育",
+    "question": "ADHD孩子能专注玩游戏却不能专注写作业，这是因为什么？",
+    "options": [
+      "孩子故意捣乱",
+      "游戏有即时反馈而写作业没有",
+      "写作业太难了",
+      "孩子视力有问题"
+    ],
+    "answer": 1,
+    "explanation": "原文解释：游戏有即时反馈，写作业没有，这恰恰是ADHD的特征，而非态度问题。",
+    "source": "adhd-parenting"
+  },
+  {
+    "id": "adhdpar-006",
+    "type": "choice",
+    "topic": "adhdparent",
+    "topicName": "ADHD儿童养育",
+    "question": "番茄钟法用于ADHD孩子写作业时，推荐的节奏是？",
+    "options": [
+      "写25分钟休息5分钟",
+      "写15分钟休息5分钟",
+      "写10分钟休息3分钟",
+      "写20分钟休息10分钟"
+    ],
+    "answer": 2,
+    "explanation": "原文建议：番茄钟——写10分钟休息3分钟，适合ADHD孩子短暂专注的特点。",
+    "source": "adhd-parenting"
+  },
+  {
+    "id": "adhdpar-007",
+    "type": "truefalse",
+    "topic": "adhdparent",
+    "topicName": "ADHD儿童养育",
+    "question": "Barkley的研究发现，ADHD孩子能感受\"现在\"和\"以后\"，只是选择不去想。",
+    "answer": false,
+    "explanation": "原文说Barkley发现ADHD孩子只能感受到\"现在\"，看不到\"以后\"，这是神经层面的局限，而非主观选择。",
+    "source": "adhd-parenting"
+  },
+  {
+    "id": "adhdpar-008",
+    "type": "choice",
+    "topic": "adhdparent",
+    "topicName": "ADHD儿童养育",
+    "question": "以下哪项是原文推荐的ADHD写作业实操法？",
+    "options": [
+      "每天写作业前先运动30分钟",
+      "任务切片：先写这5道题",
+      "白噪音辅助专注",
+      "父母全程陪同监督"
+    ],
+    "answer": 1,
+    "explanation": "原文推荐任务切片：'先写这5道题'比'写完作业'有效10倍。",
+    "source": "adhd-parenting"
+  },
+  {
+    "id": "adhdpar-009",
+    "type": "choice",
+    "topic": "adhdparent",
+    "topicName": "ADHD儿童养育",
+    "question": "原文推荐用积分制激励时，建议如何操作？",
+    "options": [
+      "一周结算一次大奖励",
+      "每天完成全部作业才给分",
+      "写完一组给1分，攒够兑换奖励",
+      "父母打分，满分100分"
+    ],
+    "answer": 2,
+    "explanation": "原文建议积分制：写完一组给1分，攒够兑换奖励，利用即时正反馈原理。",
+    "source": "adhd-parenting"
+  },
+  {
+    "id": "adhdpar-010",
+    "type": "truefalse",
+    "topic": "adhdparent",
+    "topicName": "ADHD儿童养育",
+    "question": "原文说，每个班级平均大约有2-3个ADHD孩子，但大多数没被识别。",
+    "answer": true,
+    "explanation": "原文原话：每个班大约2-3个，但大多数没被识别。",
+    "source": "adhd-parenting"
+  },
+  {
+    "id": "adhdpar-011",
+    "type": "choice",
+    "topic": "adhdparent",
+    "topicName": "ADHD儿童养育",
+    "question": "中国约有多少孩子受ADHD影响？",
+    "options": [
+      "约500万",
+      "约1000万",
+      "约2000万",
+      "约5000万"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：中国约2000万孩子受ADHD影响。",
+    "source": "adhd-parenting"
+  },
+  {
+    "id": "adhdpar-012",
+    "type": "truefalse",
+    "topic": "adhdparent",
+    "topicName": "ADHD儿童养育",
+    "question": "原文建议，家长应该一次把所有写作业策略全部用上才有效。",
+    "answer": false,
+    "explanation": "原文建议：不需要一次全做到，每周专注一件事，7周一个循环。",
+    "source": "adhd-parenting"
+  },
+  {
+    "id": "phone-001",
+    "type": "choice",
+    "topic": "phoneadd",
+    "topicName": "手机与亲密关系",
+    "question": "原文提到，极端用户每天刷手机多少小时？",
+    "options": [
+      "3-5小时",
+      "5-7小时",
+      "8-10小时",
+      "10-12小时"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：极端用户每天刷8-10小时，15-20%年轻人几乎全天在刷。",
+    "source": "phone-addiction"
+  },
+  {
+    "id": "phone-002",
+    "type": "choice",
+    "topic": "phoneadd",
+    "topicName": "手机与亲密关系",
+    "question": "短视频大约每隔多少秒重置一次大脑注意力？",
+    "options": [
+      "30秒",
+      "60秒",
+      "90秒",
+      "120秒"
+    ],
+    "answer": 1,
+    "explanation": "原文明确：短视频每60秒重置一次大脑，注意力被切碎。",
+    "source": "phone-addiction"
+  },
+  {
+    "id": "phone-003",
+    "type": "choice",
+    "topic": "phoneadd",
+    "topicName": "手机与亲密关系",
+    "question": "大约有多少比例的年轻人几乎全天都在刷手机？",
+    "options": [
+      "5-10%",
+      "10-15%",
+      "15-20%",
+      "25-30%"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：15-20%年轻人\"几乎全天在刷\"。",
+    "source": "phone-addiction"
+  },
+  {
+    "id": "phone-004",
+    "type": "truefalse",
+    "topic": "phoneadd",
+    "topicName": "手机与亲密关系",
+    "question": "原文认为18-30岁人群亲密时间减少的主要原因是工作压力太大。",
+    "answer": false,
+    "explanation": "原文明确说元凶不是工作，是手机，大脑被手机训练得无法慢下来。",
+    "source": "phone-addiction"
+  },
+  {
+    "id": "phone-005",
+    "type": "choice",
+    "topic": "phoneadd",
+    "topicName": "手机与亲密关系",
+    "question": "原文提到的20秒拥抱的作用是什么方面的改善？",
+    "options": [
+      "提高工作效率",
+      "改善睡眠质量",
+      "激活副交感神经进入亲近状态",
+      "减少手机使用时间"
+    ],
+    "answer": 2,
+    "explanation": "原文指出副交感神经无法启动会导致身体一直警觉，无法进入亲近状态；20秒拥抱是帮助激活亲密连接的5个30秒动作之一。",
+    "source": "phone-addiction"
+  },
+  {
+    "id": "phone-006",
+    "type": "truefalse",
+    "topic": "phoneadd",
+    "topicName": "手机与亲密关系",
+    "question": "原文内容来源于The Diary of a CEO播客，嘉宾是美国泌尿科主任医师Dr. Reena Malik。",
+    "answer": true,
+    "explanation": "原文注明来源：The Diary of a CEO播客 × 美国泌尿科主任医师Dr. Reena Malik。",
+    "source": "phone-addiction"
+  },
+  {
+    "id": "phone-007",
+    "type": "choice",
+    "topic": "phoneadd",
+    "topicName": "手机与亲密关系",
+    "question": "手机使用导致身体一直处于警觉状态，从神经系统角度看是因为什么？",
+    "options": [
+      "交感神经过度激活",
+      "副交感神经无法启动",
+      "迷走神经受损",
+      "以上都是"
+    ],
+    "answer": 1,
+    "explanation": "原文说：副交感神经无法启动→身体一直警觉→根本进入不了亲近状态。",
+    "source": "phone-addiction"
+  },
+  {
+    "id": "phone-008",
+    "type": "choice",
+    "topic": "phoneadd",
+    "topicName": "手机与亲密关系",
+    "question": "原文推荐的5个救命动作中，\"6秒亲吻\"属于哪类干预？",
+    "options": [
+      "减少手机使用时间",
+      "增加身体接触和情感连接",
+      "改善睡眠卫生",
+      "减少工作压力"
+    ],
+    "answer": 1,
+    "explanation": "原文将6秒亲吻列为30秒内就能做的救命动作，属于增加伴侣身体接触和情感连接的行动。",
+    "source": "phone-addiction"
+  },
+  {
+    "id": "phone-009",
+    "type": "truefalse",
+    "topic": "phoneadd",
+    "topicName": "手机与亲密关系",
+    "question": "原文提到Gottman研究，并打了相关标签。",
+    "answer": true,
+    "explanation": "原文标签中包含#Gottman，说明内容关联Gottman关系研究。",
+    "source": "phone-addiction"
+  },
+  {
+    "id": "phone-010",
+    "type": "choice",
+    "topic": "phoneadd",
+    "topicName": "手机与亲密关系",
+    "question": "原文关于睡前刷手机的描述最贴近哪个表达？",
+    "options": [
+      "睡前刷手机是休闲放松的好方式",
+      "睡前各刷各的是\"大脑被训练得无法慢下来\"的表现",
+      "睡前刷手机只影响睡眠，不影响关系",
+      "偶尔睡前刷手机没有问题"
+    ],
+    "answer": 1,
+    "explanation": "原文说：睡前各刷各的，你以为是'累了'，其实是大脑被手机训练得无法慢下来了。",
+    "source": "phone-addiction"
+  },
+  {
+    "id": "emotion-001",
+    "type": "choice",
+    "topic": "emotion",
+    "topicName": "情绪调节",
+    "question": "耶鲁情绪智能中心的研究历时多少年？",
+    "options": [
+      "10年",
+      "20年",
+      "30年",
+      "40年"
+    ],
+    "answer": 2,
+    "explanation": "原文明确：耶鲁情绪智能中心30年研究，结论是情绪没有好坏，只有用法。",
+    "source": "regulate-emotions"
+  },
+  {
+    "id": "emotion-002",
+    "type": "choice",
+    "topic": "emotion",
+    "topicName": "情绪调节",
+    "question": "Meta-Moment的核心方法是什么？",
+    "options": [
+      "在刺激发生前预判情绪",
+      "在刺激和反应之间撑开20秒缝隙",
+      "用深呼吸压制情绪",
+      "立刻离开触发场景"
+    ],
+    "answer": 1,
+    "explanation": "原文说核心方法是：在\"刺激\"和\"反应\"之间，撑开20秒缝隙。",
+    "source": "regulate-emotions"
+  },
+  {
+    "id": "emotion-003",
+    "type": "choice",
+    "topic": "emotion",
+    "topicName": "情绪调节",
+    "question": "连续做4周Meta-Moment，父母吼娃频率下降多少？",
+    "options": [
+      "约20%",
+      "约30%",
+      "约47%",
+      "约60%"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：连续做4周Meta-Moment，父母吼娃频率下降47%。",
+    "source": "regulate-emotions"
+  },
+  {
+    "id": "emotion-004",
+    "type": "truefalse",
+    "topic": "emotion",
+    "topicName": "情绪调节",
+    "question": "耶鲁情绪智能中心认为，情绪有好坏之分，负面情绪应该被压制。",
+    "answer": false,
+    "explanation": "原文明确：耶鲁情绪智能中心30年研究得出情绪没有好坏，只有用法。",
+    "source": "regulate-emotions"
+  },
+  {
+    "id": "emotion-005",
+    "type": "choice",
+    "topic": "emotion",
+    "topicName": "情绪调节",
+    "question": "原文提到父母下班回家后，建议先做什么？",
+    "options": [
+      "立刻检查孩子作业",
+      "进门停20秒",
+      "给孩子一个拥抱",
+      "先吃饭再陪孩子"
+    ],
+    "answer": 1,
+    "explanation": "原文列出7件今晚就能做的小事，其中包括\"进门停20秒\"，给自己缓冲时间切换状态。",
+    "source": "regulate-emotions"
+  },
+  {
+    "id": "emotion-006",
+    "type": "truefalse",
+    "topic": "emotion",
+    "topicName": "情绪调节",
+    "question": "原文说，90%的家长把\"压抑/逃避/爆发\"当情绪管理，这些做法是正确的。",
+    "answer": false,
+    "explanation": "原文说90%的家长用这三种方式，并明确标注\"全错\"。",
+    "source": "regulate-emotions"
+  },
+  {
+    "id": "emotion-007",
+    "type": "choice",
+    "topic": "emotion",
+    "topicName": "情绪调节",
+    "question": "原文推荐把哪句话换成\"我陪你\"？",
+    "options": [
+      "\"你要乖\"",
+      "\"别哭了\"",
+      "\"你真棒\"",
+      "\"快点睡\""
+    ],
+    "answer": 1,
+    "explanation": "原文话术示例：把\"别哭了\"换成\"我陪你\"，立刻不一样。",
+    "source": "regulate-emotions"
+  },
+  {
+    "id": "emotion-008",
+    "type": "choice",
+    "topic": "emotion",
+    "topicName": "情绪调节",
+    "question": "原文对网红视频\"扔掉焦虑\"的建议，耶鲁专家如何评价？",
+    "options": [
+      "非常有效，值得推广",
+      "有一定参考价值",
+      "\"那扇门会狠狠拍回她脸上\"",
+      "缺乏科学依据但无害"
+    ],
+    "answer": 2,
+    "explanation": "原文反鸡汤：那些喊\"扔掉焦虑\"的网红视频，耶鲁专家说\"那扇门会狠狠拍回她脸上\"。",
+    "source": "regulate-emotions"
+  },
+  {
+    "id": "emotion-009",
+    "type": "truefalse",
+    "topic": "emotion",
+    "topicName": "情绪调节",
+    "question": "原文建议，父母示范情绪管理一次，比对孩子说教100次更有效。",
+    "answer": true,
+    "explanation": "原文明确：父母示范一次，胜过说教100次。",
+    "source": "regulate-emotions"
+  },
+  {
+    "id": "emotion-010",
+    "type": "choice",
+    "topic": "emotion",
+    "topicName": "情绪调节",
+    "question": "Meta-Moment的\"20秒缝隙\"具体是指什么？",
+    "options": [
+      "深呼吸20秒后再说话",
+      "在冲动反应前给自己暂停20秒思考",
+      "每天冥想20秒",
+      "每次发怒后反思20秒"
+    ],
+    "answer": 1,
+    "explanation": "原文核心方法：在\"刺激\"和\"反应\"之间撑开20秒缝隙，这是避免冲动爆发的关键窗口。",
+    "source": "regulate-emotions"
+  },
+  {
+    "id": "emotion-011",
+    "type": "choice",
+    "topic": "emotion",
+    "topicName": "情绪调节",
+    "question": "原文提到的\"约定暂停手势\"属于哪类情绪管理策略？",
+    "options": [
+      "认知重评",
+      "提前约定信号避免冲突升级",
+      "事后复盘",
+      "情绪压制"
+    ],
+    "answer": 1,
+    "explanation": "原文7件小事中包括\"约定暂停手势\"，这是家庭成员间预设的去激化信号，属于预防冲突升级的策略。",
+    "source": "regulate-emotions"
+  },
+  {
+    "id": "emotion-012",
+    "type": "truefalse",
+    "topic": "emotion",
+    "topicName": "情绪调节",
+    "question": "原文的标题暗示，避免吼娃只需多花21秒（而非20秒）。",
+    "answer": true,
+    "explanation": "原文标题\"多花21秒就能不吼娃\"，比核心方法的\"20秒缝隙\"多1秒，暗示还需要额外的1秒启动意识。",
+    "source": "regulate-emotions"
+  },
+  {
+    "id": "vital-001",
+    "type": "choice",
+    "topic": "vitality",
+    "topicName": "9分钟运动公式",
+    "question": "原文提到的\"9分钟运动公式\"由几次、每次几分钟组成？",
+    "options": [
+      "1次×9分钟",
+      "3次×3分钟",
+      "9次×1分钟",
+      "2次×4.5分钟"
+    ],
+    "answer": 1,
+    "explanation": "原文明确：一天9分钟（3次×3分钟剧烈运动），关联全因死亡率下降40%。",
+    "source": "best-vitality"
+  },
+  {
+    "id": "vital-002",
+    "type": "choice",
+    "topic": "vitality",
+    "topicName": "9分钟运动公式",
+    "question": "每天9分钟剧烈运动关联的全因死亡率下降幅度是多少？",
+    "options": [
+      "约20%",
+      "约30%",
+      "约40%",
+      "约50%"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：一天9分钟，关联全因死亡率↓40%、心血管死亡率↓50%。",
+    "source": "best-vitality"
+  },
+  {
+    "id": "vital-003",
+    "type": "choice",
+    "topic": "vitality",
+    "topicName": "9分钟运动公式",
+    "question": "每天9分钟剧烈运动关联的心血管死亡率下降幅度是多少？",
+    "options": [
+      "约20%",
+      "约30%",
+      "约40%",
+      "约50%"
+    ],
+    "answer": 3,
+    "explanation": "原文同时标注：心血管死亡率↓50%，比全因死亡率下降幅度更大。",
+    "source": "best-vitality"
+  },
+  {
+    "id": "vital-004",
+    "type": "choice",
+    "topic": "vitality",
+    "topicName": "9分钟运动公式",
+    "question": "Rhonda Patrick从追求\"每磅体重1克蛋白质\"改为多少g/kg后，训练效果反而更好？",
+    "options": [
+      "0.8-1.0g/kg",
+      "1.0-1.2g/kg",
+      "1.3-1.4g/kg",
+      "1.6-1.8g/kg"
+    ],
+    "answer": 2,
+    "explanation": "原文说Rhonda降到1.3-1.4g/kg之后，训练效果反而更好，并总结\"训练>蛋白质\"。",
+    "source": "best-vitality"
+  },
+  {
+    "id": "vital-005",
+    "type": "truefalse",
+    "topic": "vitality",
+    "topicName": "9分钟运动公式",
+    "question": "原文认为，睡前3小时必须停止进食，因为进食时身体处于交感激活状态。",
+    "answer": true,
+    "explanation": "原文解释：吃饭时身体在交感激活（紧张），睡觉要副交感激活（修复），两者打架等于\"边修车边踩油门\"。",
+    "source": "best-vitality"
+  },
+  {
+    "id": "vital-006",
+    "type": "choice",
+    "topic": "vitality",
+    "topicName": "9分钟运动公式",
+    "question": "原文说，维生素D3要转化为活性激素，首先需要补充什么？",
+    "options": [
+      "维生素K2",
+      "钙",
+      "镁",
+      "锌"
+    ],
+    "answer": 2,
+    "explanation": "原文指出：半数人镁摄入不足，没镁，D3转不成活性激素，要先把镁补够。",
+    "source": "best-vitality"
+  },
+  {
+    "id": "vital-007",
+    "type": "truefalse",
+    "topic": "vitality",
+    "topicName": "9分钟运动公式",
+    "question": "原文说，玻璃瓶水中微塑料数量比塑料瓶更少，因此更安全。",
+    "answer": false,
+    "explanation": "原文反常识：玻璃瓶水的微塑料数量比塑料瓶更多（来自瓶盖涂料），但颗粒大不易被肠道吸收；真正危险的是塑料瓶里的纳米级微塑料。",
+    "source": "best-vitality"
+  },
+  {
+    "id": "vital-008",
+    "type": "choice",
+    "topic": "vitality",
+    "topicName": "9分钟运动公式",
+    "question": "原文嘉宾Rhonda Patrick的年龄（发布时）是多少岁？",
+    "options": [
+      "37岁",
+      "42岁",
+      "47岁",
+      "52岁"
+    ],
+    "answer": 2,
+    "explanation": "原文明确：Rhonda自己47岁，作为实践者分享蛋白质摄入经验。",
+    "source": "best-vitality"
+  },
+  {
+    "id": "vital-009",
+    "type": "truefalse",
+    "topic": "vitality",
+    "topicName": "9分钟运动公式",
+    "question": "原文说，这种9分钟运动对全因死亡率的效果，有同等效力的药物可以实现。",
+    "answer": false,
+    "explanation": "原文明确：这个效果，没有任何一种药能做到。",
+    "source": "best-vitality"
+  },
+  {
+    "id": "vital-010",
+    "type": "choice",
+    "topic": "vitality",
+    "topicName": "9分钟运动公式",
+    "question": "原文提到该研究来自哪个实验室？",
+    "options": [
+      "哈佛医学院",
+      "斯坦福Huberman实验室",
+      "耶鲁健康研究所",
+      "MIT媒体实验室"
+    ],
+    "answer": 1,
+    "explanation": "原文开篇：斯坦福Huberman实验室最新一期，请来生物医学博士Rhonda Patrick。",
+    "source": "best-vitality"
+  },
+  {
+    "id": "vital-011",
+    "type": "choice",
+    "topic": "vitality",
+    "topicName": "9分钟运动公式",
+    "question": "原文关于蛋白质摄入的核心结论是什么？",
+    "options": [
+      "越多越好",
+      "蛋白质摄入量不重要",
+      "训练效果比蛋白质数量更重要",
+      "只需关注蛋白质质量"
+    ],
+    "answer": 2,
+    "explanation": "原文总结：训练>蛋白质，Rhonda的亲身经历证明过量蛋白质反而可能影响效果。",
+    "source": "best-vitality"
+  },
+  {
+    "id": "vital-012",
+    "type": "truefalse",
+    "topic": "vitality",
+    "topicName": "9分钟运动公式",
+    "question": "原文说塑料瓶中的纳米级微塑料比玻璃瓶更容易被肠道吸收，因此更危险。",
+    "answer": true,
+    "explanation": "原文：真正进身体的，是塑料瓶里的纳米级（微塑料），颗粒小更易被吸收。",
+    "source": "best-vitality"
+  },
+  {
+    "id": "medit-001",
+    "type": "choice",
+    "topic": "meditation",
+    "topicName": "冥想训练",
+    "question": "威斯康星大学教授Richard Davidson研究冥想多少年？",
+    "options": [
+      "20年",
+      "30年",
+      "40年",
+      "50年"
+    ],
+    "answer": 2,
+    "explanation": "原文：威斯康星大学教授Richard Davidson把冥想搬进了核磁共振仪，研究了40年。",
+    "source": "meditation-tools"
+  },
+  {
+    "id": "medit-002",
+    "type": "choice",
+    "topic": "meditation",
+    "topicName": "冥想训练",
+    "question": "根据原文，冥想的真正目的是什么？",
+    "options": [
+      "清空大脑，达到放空状态",
+      "观察念头，而非消除它",
+      "减少睡眠需求",
+      "增强记忆力"
+    ],
+    "answer": 1,
+    "explanation": "原文：冥想的目的不是清空大脑，而是观察念头；越想\"放空\"越烦躁。",
+    "source": "meditation-tools"
+  },
+  {
+    "id": "medit-003",
+    "type": "choice",
+    "topic": "meditation",
+    "topicName": "冥想训练",
+    "question": "原文说每天冥想5分钟，坚持多少天有多项RCT验证效果？",
+    "options": [
+      "14天",
+      "21天",
+      "30天",
+      "60天"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：5分钟×30天=多项RCT验证有效，抑郁、焦虑、压力都显著下降。",
+    "source": "meditation-tools"
+  },
+  {
+    "id": "medit-004",
+    "type": "truefalse",
+    "topic": "meditation",
+    "topicName": "冥想训练",
+    "question": "原文说，冥想中念头乱跑是\"做错了\"的信号，应该重新开始。",
+    "answer": false,
+    "explanation": "原文比喻：冥想中念头乱跑=大脑正在重塑，就像健身后肌肉酸痛是训练有效的信号。",
+    "source": "meditation-tools"
+  },
+  {
+    "id": "medit-005",
+    "type": "choice",
+    "topic": "meditation",
+    "topicName": "冥想训练",
+    "question": "原文中\"心智的乳酸\"比喻的是什么？",
+    "options": [
+      "冥想后的疲劳感",
+      "冥想中出现的烦躁感",
+      "冥想前的焦虑",
+      "冥想结束后的空白感"
+    ],
+    "answer": 1,
+    "explanation": "原文：烦躁就是\"心智的乳酸\"，冥想中感到烦躁，就像健身后肌肉酸痛，说明大脑正在重塑。",
+    "source": "meditation-tools"
+  },
+  {
+    "id": "medit-006",
+    "type": "choice",
+    "topic": "meditation",
+    "topicName": "冥想训练",
+    "question": "原文提到5分钟入门协议中，应该盘腿坐吗？",
+    "options": [
+      "必须盘腿，有助于专注",
+      "必须正坐，保持脊柱挺直",
+      "不用盘腿，怎么舒服怎么坐",
+      "躺下效果更好"
+    ],
+    "answer": 2,
+    "explanation": "原文入门协议第1步：定5分钟闹钟，不用盘腿。",
+    "source": "meditation-tools"
+  },
+  {
+    "id": "medit-007",
+    "type": "truefalse",
+    "topic": "meditation",
+    "topicName": "冥想训练",
+    "question": "原文说冥想第1周焦虑会上升，这是大脑开始训练的好信号。",
+    "answer": true,
+    "explanation": "原文：第1周焦虑会上升，这是好事，不是\"做不来\"，而是大脑开始训练的信号。",
+    "source": "meditation-tools"
+  },
+  {
+    "id": "medit-008",
+    "type": "choice",
+    "topic": "meditation",
+    "topicName": "冥想训练",
+    "question": "Dunedin追踪研究显示，4-5岁自控力前20%的人，到32岁时年薪平均高多少美元？",
+    "options": [
+      "2000美元",
+      "4000美元",
+      "6000美元",
+      "10000美元"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：Dunedin 32年追踪研究——4-5岁自控力前20%的人，32岁时年薪平均高6000美元。",
+    "source": "meditation-tools"
+  },
+  {
+    "id": "medit-009",
+    "type": "choice",
+    "topic": "meditation",
+    "topicName": "冥想训练",
+    "question": "原文提到，Huberman自己的手机管理做法是什么？",
+    "options": [
+      "每天睡前关手机2小时",
+      "每天关掉手机22小时",
+      "只在工作时间使用手机",
+      "把手机放在另一个房间"
+    ],
+    "answer": 1,
+    "explanation": "原文：Huberman自己的做法是每天关掉手机22小时，书房、健身房、卧室、餐桌都是无手机区。",
+    "source": "meditation-tools"
+  },
+  {
+    "id": "medit-010",
+    "type": "truefalse",
+    "topic": "meditation",
+    "topicName": "冥想训练",
+    "question": "原文中\"元认知\"被描述为一切心智训练的总开关。",
+    "answer": true,
+    "explanation": "原文：元认知=一切心智训练的总开关，那个\"我刚才走神了\"的觉察瞬间，就是它在工作。",
+    "source": "meditation-tools"
+  },
+  {
+    "id": "medit-011",
+    "type": "choice",
+    "topic": "meditation",
+    "topicName": "冥想训练",
+    "question": "原文提到，冥想还能降低哪种炎症因子？",
+    "options": [
+      "TNF-α",
+      "CRP",
+      "IL-6",
+      "IL-1β"
+    ],
+    "answer": 2,
+    "explanation": "原文数据：5分钟×30天，抑郁、焦虑、压力都显著下降，连炎症因子IL-6也降了。",
+    "source": "meditation-tools"
+  },
+  {
+    "id": "medit-012",
+    "type": "choice",
+    "topic": "meditation",
+    "topicName": "冥想训练",
+    "question": "原文对大多数人冥想失败的描述是什么？",
+    "options": [
+      "冥想时间太短，没有效果",
+      "90%的人把冥想做反了，目标设错了",
+      "缺乏专业指导",
+      "坚持不了30天"
+    ],
+    "answer": 1,
+    "explanation": "原文：Davidson说90%的人都把冥想做反了，因为以为目标是清空大脑，方向就错了。",
+    "source": "meditation-tools"
+  },
+  {
+    "id": "medit-013",
+    "type": "truefalse",
+    "topic": "meditation",
+    "topicName": "冥想训练",
+    "question": "原文入门协议建议，每天同一时间冥想，连续30天。",
+    "answer": true,
+    "explanation": "原文5分钟入门协议第5步：每天同一时间，连续30天，建立稳定习惯。",
+    "source": "meditation-tools"
   }
 ]

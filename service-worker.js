@@ -1,4 +1,4 @@
-const CACHE = "knowledge-quiz-v2-darktech";
+const CACHE = "knowledge-quiz-v3-fullbank";
 const ASSETS = [
   "./",
   "./index.html",

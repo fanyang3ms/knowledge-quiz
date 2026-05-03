@@ -1,0 +1,1533 @@
+{
+  "topics": [
+    { "id": "parentself", "name": "父母的挑战", "source": "parents-challenge" },
+    { "id": "manipulated", "name": "被手机操控", "source": "manipulated" },
+    { "id": "disliked", "name": "被讨厌的勇气", "source": "courage-disliked" },
+    { "id": "screenage", "name": "屏幕时代的自控", "source": "screen-age" },
+    { "id": "memory", "name": "记忆增强", "source": "improve-memory" },
+    { "id": "dopaserot", "name": "多巴胺与血清素", "source": "dopamine-serotonin" },
+    { "id": "sevenhabits", "name": "高效能七习惯", "source": "seven-habits" }
+  ],
+  "questions": [
+    {
+      "id": "parentself-001",
+      "type": "choice",
+      "topic": "parentself",
+      "topicName": "父母的挑战",
+      "question": "《The Challenge of Parenthood》的作者是谁？",
+      "options": ["Alfred Adler", "Rudolf Dreikurs", "B.F. Skinner", "Jean Piaget"],
+      "answer": 1,
+      "explanation": "原文明确指出此书作者是Rudolf Dreikurs，1948年出版。",
+      "source": "parents-challenge"
+    },
+    {
+      "id": "parentself-002",
+      "type": "choice",
+      "topic": "parentself",
+      "topicName": "父母的挑战",
+      "question": "Dreikurs认为父母对孩子发火的真正原因是什么？",
+      "options": ["孩子真的不听话", "父母自尊受到威胁", "孩子精力太旺盛", "工作压力转移"],
+      "answer": 1,
+      "explanation": "原文明确：你发火的真正原因是你的自尊受到了威胁，非要\"赢\"孩子是在维护\"我说了算\"的幻觉。",
+      "source": "parents-challenge"
+    },
+    {
+      "id": "parentself-003",
+      "type": "choice",
+      "topic": "parentself",
+      "topicName": "父母的挑战",
+      "question": "Dreikurs总结的孩子四大错误目标不包括以下哪一个？",
+      "options": ["寻求关注", "权力斗争", "炫耀成就", "报复"],
+      "answer": 2,
+      "explanation": "原文列出的四大错误目标是：寻求关注、权力斗争、报复、自暴自弃。",
+      "source": "parents-challenge"
+    },
+    {
+      "id": "parentself-004",
+      "type": "truefalse",
+      "topic": "parentself",
+      "topicName": "父母的挑战",
+      "question": "原文认为，惩罚教会孩子害怕，自然后果教会孩子负责。",
+      "answer": true,
+      "explanation": "原文原话：惩罚教会害怕，后果教会负责——不穿外套就让他自己冷。",
+      "source": "parents-challenge"
+    },
+    {
+      "id": "parentself-005",
+      "type": "choice",
+      "topic": "parentself",
+      "topicName": "父母的挑战",
+      "question": "原文说孩子所有问题行为本质上都在表达什么？",
+      "options": ["\"我不爱你\"", "\"请让我觉得我重要\"", "\"我想要更多自由\"", "\"规则太多了\""],
+      "answer": 1,
+      "explanation": "原文：所有问题行为都在说同一句话——\"请让我觉得我重要\"。",
+      "source": "parents-challenge"
+    },
+    {
+      "id": "parentself-006",
+      "type": "choice",
+      "topic": "parentself",
+      "topicName": "父母的挑战",
+      "question": "原文中\"内疚-纵容\"循环指的是？",
+      "options": ["奖励-惩罚交替", "吼完后悔→后悔纵容→纵容孩子又作→又吼", "鼓励-表扬反复", "民主-专制切换"],
+      "answer": 1,
+      "explanation": "原文：吼完就后悔，后悔就纵容，纵容完孩子又作——然后你又吼，这就是Dreikurs诊断的\"内疚-纵容\"循环。",
+      "source": "parents-challenge"
+    },
+    {
+      "id": "parentself-007",
+      "type": "choice",
+      "topic": "parentself",
+      "topicName": "父母的挑战",
+      "question": "鼓励和表扬的根本区别是什么？",
+      "options": ["语气不同", "表扬关注结果和天赋，鼓励关注过程和努力", "鼓励更频繁，表扬更隆重", "对象不同"],
+      "answer": 1,
+      "explanation": "原文：鼓励关注过程和努力，表扬关注结果和天赋——前者培养韧性。",
+      "source": "parents-challenge"
+    },
+    {
+      "id": "parentself-008",
+      "type": "truefalse",
+      "topic": "parentself",
+      "topicName": "父母的挑战",
+      "question": "原文说\"平等\"意味着什么都听孩子的。",
+      "answer": false,
+      "explanation": "原文明确：平等不是什么都听孩子的，那叫放纵。平等是有规矩，但不用恐吓来执行。",
+      "source": "parents-challenge"
+    },
+    {
+      "id": "parentself-009",
+      "type": "choice",
+      "topic": "parentself",
+      "topicName": "父母的挑战",
+      "question": "快要爆发时拉回自己的3步是什么？",
+      "options": ["呼吸→数数→沉默", "觉察→暂停→选择", "走开→喝水→回来", "记录→分析→道歉"],
+      "answer": 1,
+      "explanation": "原文3步法：觉察（\"我在生气\"）→暂停（闭嘴10秒）→选择（解决问题还是发泄情绪）。",
+      "source": "parents-challenge"
+    },
+    {
+      "id": "parentself-010",
+      "type": "choice",
+      "topic": "parentself",
+      "topicName": "父母的挑战",
+      "question": "原文中针对2-5岁孩子推荐的方法是？",
+      "options": ["讲道理", "给选择题", "用自然后果", "少说多听"],
+      "answer": 1,
+      "explanation": "原文：2-5岁给选择题，6-12岁用自然后果，青春期少说多听。",
+      "source": "parents-challenge"
+    },
+    {
+      "id": "parentself-011",
+      "type": "truefalse",
+      "topic": "parentself",
+      "topicName": "父母的挑战",
+      "question": "原文将夫妻关系比喻为家庭的操作系统。",
+      "answer": true,
+      "explanation": "原文原话：夫妻关系是家庭的操作系统。",
+      "source": "parents-challenge"
+    },
+    {
+      "id": "parentself-012",
+      "type": "choice",
+      "topic": "parentself",
+      "topicName": "父母的挑战",
+      "question": "原文建议每周开一次家庭会议，包含哪些固定环节？",
+      "options": ["批评+表扬+计划", "固定时间、轮流主持、先说好事、讨论问题、全家同意", "颁奖+反思+承诺", "祈祷+读经+分享"],
+      "answer": 1,
+      "explanation": "原文明确家庭会议的5个要素：固定时间、轮流主持、先说好事、讨论问题、全家同意。",
+      "source": "parents-challenge"
+    },
+    {
+      "id": "parentself-013",
+      "type": "choice",
+      "topic": "parentself",
+      "topicName": "父母的挑战",
+      "question": "原文关于出生顺序的描述，老大的核心担忧是什么？",
+      "options": ["怕被忽视", "怕被废黜", "习惯依赖", "觉得没人看见"],
+      "answer": 1,
+      "explanation": "原文：老大怕被废黜、老小习惯依赖、中间孩子觉得没人看见。",
+      "source": "parents-challenge"
+    },
+    {
+      "id": "parentself-014",
+      "type": "truefalse",
+      "topic": "parentself",
+      "topicName": "父母的挑战",
+      "question": "原文认为父母替孩子做的每一件事，保护的更多是父母自己的焦虑。",
+      "answer": true,
+      "explanation": "原文原话：你替孩子做的每一件事，保护的不是他，是你自己的焦虑。",
+      "source": "parents-challenge"
+    },
+    {
+      "id": "manip-001",
+      "type": "choice",
+      "topic": "manipulated",
+      "topicName": "被手机操控",
+      "question": "原文指出人们每天在手机上花多少小时？",
+      "options": ["3小时", "5小时", "7小时", "10小时"],
+      "answer": 2,
+      "explanation": "原文明确：你每天在手机上花的7小时里，几乎每一次\"自主选择\"都被精心设计过。",
+      "source": "manipulated"
+    },
+    {
+      "id": "manip-002",
+      "type": "choice",
+      "topic": "manipulated",
+      "topicName": "被手机操控",
+      "question": "《Manipulated》的作者是谁？",
+      "options": ["Nir Eyal", "Liraz Margalit", "Tristan Harris", "Cal Newport"],
+      "answer": 1,
+      "explanation": "原文明确：行为心理学家Liraz Margalit在《Manipulated》中揭秘科技公司的操控手法。",
+      "source": "manipulated"
+    },
+    {
+      "id": "manip-003",
+      "type": "choice",
+      "topic": "manipulated",
+      "topicName": "被手机操控",
+      "question": "Facebook只需多少个赞就能比你的朋友更了解你？",
+      "options": ["10个", "32个", "68个", "150个"],
+      "answer": 2,
+      "explanation": "原文数据：Facebook仅需68个赞就能比你的朋友更了解你。",
+      "source": "manipulated"
+    },
+    {
+      "id": "manip-004",
+      "type": "choice",
+      "topic": "manipulated",
+      "topicName": "被手机操控",
+      "question": "以下哪个不是原文提到的\"暗黑设计\"手法？",
+      "options": ["无限滚动", "通知红点", "可变奖励", "弹窗广告"],
+      "answer": 3,
+      "explanation": "原文列出的暗黑设计是：无限滚动、通知红点、可变奖励、倒计时。",
+      "source": "manipulated"
+    },
+    {
+      "id": "manip-005",
+      "type": "choice",
+      "topic": "manipulated",
+      "topicName": "被手机操控",
+      "question": "青少年大脑的多巴胺系统比成人敏感多少倍？",
+      "options": ["1-2倍", "2-4倍", "5-7倍", "10倍"],
+      "answer": 1,
+      "explanation": "原文数据：青少年大脑的多巴胺系统比成人敏感2-4倍。",
+      "source": "manipulated"
+    },
+    {
+      "id": "manip-006",
+      "type": "choice",
+      "topic": "manipulated",
+      "topicName": "被手机操控",
+      "question": "多少比例的青少年离开手机1小时就焦虑？",
+      "options": ["43%", "58%", "73%", "85%"],
+      "answer": 2,
+      "explanation": "原文数据：73%的青少年离开手机1小时就焦虑。",
+      "source": "manipulated"
+    },
+    {
+      "id": "manip-007",
+      "type": "truefalse",
+      "topic": "manipulated",
+      "topicName": "被手机操控",
+      "question": "原文指出，手机APP的成瘾设计与赌场老虎机使用相同的心理学原理。",
+      "answer": true,
+      "explanation": "原文原话：暗黑设计和赌场的老虎机用的是同一套心理学原理。",
+      "source": "manipulated"
+    },
+    {
+      "id": "manip-008",
+      "type": "truefalse",
+      "topic": "manipulated",
+      "topicName": "被手机操控",
+      "question": "原文认为科技公司的核心目的是为用户提供服务。",
+      "answer": false,
+      "explanation": "原文明确：科技公司不是在\"服务\"你，而是在用心理学原理操控你的注意力、情绪和消费行为。",
+      "source": "manipulated"
+    },
+    {
+      "id": "manip-009",
+      "type": "choice",
+      "topic": "manipulated",
+      "topicName": "被手机操控",
+      "question": "原文推荐的\"购物前等待\"时间是多久？",
+      "options": ["10分钟", "1小时", "24小时", "1周"],
+      "answer": 2,
+      "explanation": "原文行动建议：购物前等24小时，能帮你夺回数字自主权。",
+      "source": "manipulated"
+    },
+    {
+      "id": "manip-010",
+      "type": "choice",
+      "topic": "manipulated",
+      "topicName": "被手机操控",
+      "question": "你的数字足迹包含哪些被记录的行为？",
+      "options": ["只有点击", "只有购买", "每次点击、停留、滑动", "只有搜索"],
+      "answer": 2,
+      "explanation": "原文：每一次点击、停留、滑动都被记录、分析、打包卖给广告商。",
+      "source": "manipulated"
+    },
+    {
+      "id": "manip-011",
+      "type": "truefalse",
+      "topic": "manipulated",
+      "topicName": "被手机操控",
+      "question": "原文认为一旦看清操控的手法，它就没那么管用了。",
+      "answer": true,
+      "explanation": "原文：好消息是一旦你看清了操控的手法，它就没那么管用了。",
+      "source": "manipulated"
+    },
+    {
+      "id": "manip-012",
+      "type": "choice",
+      "topic": "manipulated",
+      "topicName": "被手机操控",
+      "question": "原文给出的夺回数字自主权的方法不包括以下哪一项？",
+      "options": ["关闭通知", "设屏幕时间", "购物前等24小时", "彻底删除所有App"],
+      "answer": 3,
+      "explanation": "原文推荐的是关闭通知、设屏幕时间、购物前等24小时，并未要求彻底删除所有App。",
+      "source": "manipulated"
+    },
+    {
+      "id": "dislike-001",
+      "type": "choice",
+      "topic": "disliked",
+      "topicName": "被讨厌的勇气",
+      "question": "《被讨厌的勇气》基于哪位心理学家的思想？",
+      "options": ["弗洛伊德", "阿德勒", "荣格", "马斯洛"],
+      "answer": 1,
+      "explanation": "原文明确：本书基于阿德勒心理学，\"阿德勒说：你所有的烦恼，100%来自人际关系\"。",
+      "source": "courage-disliked"
+    },
+    {
+      "id": "dislike-002",
+      "type": "choice",
+      "topic": "disliked",
+      "topicName": "被讨厌的勇气",
+      "question": "阿德勒认为人类所有烦恼的来源是什么？",
+      "options": ["金钱不足", "工作压力", "人际关系", "童年创伤"],
+      "answer": 2,
+      "explanation": "原文原话：你所有的烦恼，100%来自人际关系。",
+      "source": "courage-disliked"
+    },
+    {
+      "id": "dislike-003",
+      "type": "choice",
+      "topic": "disliked",
+      "topicName": "被讨厌的勇气",
+      "question": "课题分离的判断标准是什么？",
+      "options": ["谁先提出来的", "谁更聪明", "这件事的后果最终由谁承担", "谁的责任更大"],
+      "answer": 2,
+      "explanation": "原文核心：课题分离的判断标准只有一个，这件事的后果最终由谁承担。",
+      "source": "courage-disliked"
+    },
+    {
+      "id": "dislike-004",
+      "type": "choice",
+      "topic": "disliked",
+      "topicName": "被讨厌的勇气",
+      "question": "弗洛伊德与阿德勒在因果观上的核心差异是什么？",
+      "options": ["弗洛伊德重视意识，阿德勒重视潜意识", "弗洛伊德\"过去决定现在\"，阿德勒\"你选择了现在\"", "都强调过去决定", "都强调当下选择"],
+      "answer": 1,
+      "explanation": "原文：弗洛伊德说\"过去决定现在\"，阿德勒说\"你选择了现在\"。",
+      "source": "courage-disliked"
+    },
+    {
+      "id": "dislike-005",
+      "type": "truefalse",
+      "topic": "disliked",
+      "topicName": "被讨厌的勇气",
+      "question": "课题分离意味着对他人不管不顾。",
+      "answer": false,
+      "explanation": "原文明确：最大的误解就是这个——课题分离不是不管不顾，而是\"我关心你，但不替你做决定\"。",
+      "source": "courage-disliked"
+    },
+    {
+      "id": "dislike-006",
+      "type": "choice",
+      "topic": "disliked",
+      "topicName": "被讨厌的勇气",
+      "question": "原文用什么比喻来描述阿德勒思想中的\"自由\"？",
+      "options": ["你是被过去绑架的囚犯", "你是拿着旧剧本的演员，可以换剧本", "你是机器里的齿轮", "你是大海中的一叶小舟"],
+      "answer": 1,
+      "explanation": "原文比喻：你不是被过去绑架的囚犯，你是拿着旧剧本的演员——而你可以换剧本。",
+      "source": "courage-disliked"
+    },
+    {
+      "id": "dislike-007",
+      "type": "choice",
+      "topic": "disliked",
+      "topicName": "被讨厌的勇气",
+      "question": "《被讨厌的勇气》在豆瓣的评分是多少？",
+      "options": ["7.8分", "8.2分", "8.6分", "9.1分"],
+      "answer": 2,
+      "explanation": "原文数据：这本书豆瓣8.6分，14万人评价，翻译成30多种语言。",
+      "source": "courage-disliked"
+    },
+    {
+      "id": "dislike-008",
+      "type": "choice",
+      "topic": "disliked",
+      "topicName": "被讨厌的勇气",
+      "question": "《被讨厌的勇气》翻译成多少种语言？",
+      "options": ["10多种", "20多种", "30多种", "50多种"],
+      "answer": 2,
+      "explanation": "原文：本书翻译成30多种语言。",
+      "source": "courage-disliked"
+    },
+    {
+      "id": "dislike-009",
+      "type": "truefalse",
+      "topic": "disliked",
+      "topicName": "被讨厌的勇气",
+      "question": "原文建议把\"你真棒\"换成\"谢谢你\"。",
+      "answer": true,
+      "explanation": "原文行动清单：把\"你真棒\"换成\"谢谢你\"。",
+      "source": "courage-disliked"
+    },
+    {
+      "id": "dislike-010",
+      "type": "choice",
+      "topic": "disliked",
+      "topicName": "被讨厌的勇气",
+      "question": "原文中\"被讨厌的勇气\"的含义是什么？",
+      "options": ["故意得罪人", "当一个刺猬", "不再以\"被所有人喜欢\"为活着的目的", "完全不在意他人"],
+      "answer": 2,
+      "explanation": "原文：被讨厌的勇气也不是当刺猬，而是不再以\"被所有人喜欢\"为活着的目的。",
+      "source": "courage-disliked"
+    },
+    {
+      "id": "dislike-011",
+      "type": "choice",
+      "topic": "disliked",
+      "topicName": "被讨厌的勇气",
+      "question": "孩子写不写作业按课题分离原则属于谁的课题？",
+      "options": ["父母的", "老师的", "孩子的", "全家共同的"],
+      "answer": 2,
+      "explanation": "原文举例：孩子写不写作业？那是孩子的课题。",
+      "source": "courage-disliked"
+    },
+    {
+      "id": "dislike-012",
+      "type": "truefalse",
+      "topic": "disliked",
+      "topicName": "被讨厌的勇气",
+      "question": "原文认为勇气是天生的，无法后天培养。",
+      "answer": false,
+      "explanation": "原文明确：勇气不是天生的，是每天练出来的。",
+      "source": "courage-disliked"
+    },
+    {
+      "id": "screen-001",
+      "type": "choice",
+      "topic": "screenage",
+      "topicName": "屏幕时代的自控",
+      "question": "原文指出孩子的前额叶（负责自控）要到多少岁才发育完全？",
+      "options": ["18岁", "21岁", "25�ec", "30岁"],
+      "answer": 2,
+      "explanation": "原文明确：孩子的前额叶（负责自控）要到25岁才发育完全。",
+      "source": "screen-age"
+    },
+    {
+      "id": "screen-002",
+      "type": "choice",
+      "topic": "screenage",
+      "topicName": "屏幕时代的自控",
+      "question": "短视频和游戏使用的心理学机制叫什么？",
+      "options": ["条件反射", "间歇性奖励", "强化训练", "认知失调"],
+      "answer": 1,
+      "explanation": "原文：短视频、游戏用的是和赌场老虎机一样的心理机制——\"间歇性奖励\"。",
+      "source": "screen-age"
+    },
+    {
+      "id": "screen-003",
+      "type": "choice",
+      "topic": "screenage",
+      "topicName": "屏幕时代的自控",
+      "question": "原文推荐的教养方法叫什么？",
+      "options": ["虎妈式", "水母式", "海豚教养法", "狮子教养法"],
+      "answer": 2,
+      "explanation": "原文：哈佛医学博士的\"海豚教养法\"——不是虎妈式全面禁止，也不是水母式放任不管。",
+      "source": "screen-age"
+    },
+    {
+      "id": "screen-004",
+      "type": "truefalse",
+      "topic": "screenage",
+      "topicName": "屏幕时代的自控",
+      "question": "原文认为没收手机是对抗孩子手机成瘾最有效的做法。",
+      "answer": false,
+      "explanation": "原文明确：没收手机是最蠢的做法，孩子学到的不是自控，是\"怎么偷偷用\"。",
+      "source": "screen-age"
+    },
+    {
+      "id": "screen-005",
+      "type": "choice",
+      "topic": "screenage",
+      "topicName": "屏幕时代的自控",
+      "question": "运动主要释放哪种激素来对抗屏幕成瘾？",
+      "options": ["催产素", "内啡肽", "血清素", "多巴胺"],
+      "answer": 1,
+      "explanation": "原文4激素对应：运动→内啡肽，拥抱→催产素，创造→血清素，小目标→健康多巴胺。",
+      "source": "screen-age"
+    },
+    {
+      "id": "screen-006",
+      "type": "choice",
+      "topic": "screenage",
+      "topicName": "屏幕时代的自控",
+      "question": "拥抱主要释放哪种激素？",
+      "options": ["内啡肽", "催产素", "血清素", "肾上腺素"],
+      "answer": 1,
+      "explanation": "原文：拥抱→催产素。",
+      "source": "screen-age"
+    },
+    {
+      "id": "screen-007",
+      "type": "choice",
+      "topic": "screenage",
+      "topicName": "屏幕时代的自控",
+      "question": "原文中创造类活动主要释放哪种激素？",
+      "options": ["内啡肽", "催产素", "血清素", "多巴胺"],
+      "answer": 2,
+      "explanation": "原文：创造→血清素。",
+      "source": "screen-age"
+    },
+    {
+      "id": "screen-008",
+      "type": "choice",
+      "topic": "screenage",
+      "topicName": "屏幕时代的自控",
+      "question": "原文中6周6步计划的第一步是什么？",
+      "options": ["对话", "觉察", "共建规则", "替代活动"],
+      "answer": 1,
+      "explanation": "原文6步：觉察→对话→共建规则→替代活动→建立仪式→复盘调整。",
+      "source": "screen-age"
+    },
+    {
+      "id": "screen-009",
+      "type": "choice",
+      "topic": "screenage",
+      "topicName": "屏幕时代的自控",
+      "question": "原文建议从哪个最小行动开始？",
+      "options": ["完全禁止手机1天", "睡前1小时无屏幕", "卸载所有娱乐App", "每天只用1小时手机"],
+      "answer": 1,
+      "explanation": "原文：先从\"睡前1小时无屏幕\"开始，不用一步到位。",
+      "source": "screen-age"
+    },
+    {
+      "id": "screen-010",
+      "type": "truefalse",
+      "topic": "screenage",
+      "topicName": "屏幕时代的自控",
+      "question": "原文揭示硅谷设计成瘾产品的人，自己家孩子的屏幕时间反而被严格控制。",
+      "answer": true,
+      "explanation": "原文开篇：硅谷那些设计让你孩子上瘾的人，自己家孩子的屏幕时间严格控制，这不是巧合。",
+      "source": "screen-age"
+    },
+    {
+      "id": "screen-011",
+      "type": "choice",
+      "topic": "screenage",
+      "topicName": "屏幕时代的自控",
+      "question": "原文认为最好的\"家长控制软件\"是什么？",
+      "options": ["专业的控制App", "你和孩子之间的关系", "路由器限速", "强制断网"],
+      "answer": 1,
+      "explanation": "原文明确：最好的家长控制软件，是你和孩子之间的关系。",
+      "source": "screen-age"
+    },
+    {
+      "id": "screen-012",
+      "type": "truefalse",
+      "topic": "screenage",
+      "topicName": "屏幕时代的自控",
+      "question": "原文指出，父母一边刷手机一边说\"别玩手机\"，孩子会学到双重标准。",
+      "answer": true,
+      "explanation": "原文：你一边刷手机一边说\"别玩手机\"，孩子只会学到——\"大人可以玩，我不行\"。",
+      "source": "screen-age"
+    },
+    {
+      "id": "screen-013",
+      "type": "choice",
+      "topic": "screenage",
+      "topicName": "屏幕时代的自控",
+      "question": "完成小目标主要释放什么类型的激素？",
+      "options": ["健康多巴胺", "肾上腺素", "皮质醇", "褪黑素"],
+      "answer": 0,
+      "explanation": "原文：小目标→健康多巴胺。",
+      "source": "screen-age"
+    },
+    {
+      "id": "mem-001",
+      "type": "choice",
+      "topic": "memory",
+      "topicName": "记忆增强",
+      "question": "原文认为决定记忆效果的关键化学物质是什么？",
+      "options": ["多巴胺", "肾上腺素", "血清素", "皮质醇"],
+      "answer": 1,
+      "explanation": "原文：决定你能不能记住一件事的，是学完之后大脑里的肾上腺素。",
+      "source": "improve-memory"
+    },
+    {
+      "id": "mem-002",
+      "type": "choice",
+      "topic": "memory",
+      "topicName": "记忆增强",
+      "question": "原文中分享研究的斯坦福神经科学家是谁？",
+      "options": ["Rhonda Patrick", "Andrew Huberman", "Robert Sapolsky", "David Eagleman"],
+      "answer": 1,
+      "explanation": "原文：斯坦福神经科学家Huberman说，决定记忆的是肾上腺素。",
+      "source": "improve-memory"
+    },
+    {
+      "id": "mem-003",
+      "type": "choice",
+      "topic": "memory",
+      "topicName": "记忆增强",
+      "question": "McGaugh的经典实验证明了什么？",
+      "options": ["内容越刺激越好记", "越早学越好记", "学完后肾上腺素飙升的关键", "重复次数决定记忆"],
+      "answer": 2,
+      "explanation": "原文：McGaugh实验——读完无聊文章后把手泡进冰水，记忆效果和读惊心动魄故事一样好，关键是学完后肾上腺素有没有飙升。",
+      "source": "improve-memory"
+    },
+    {
+      "id": "mem-004",
+      "type": "choice",
+      "topic": "memory",
+      "topicName": "记忆增强",
+      "question": "原文建议什么时候喝咖啡记忆效果最好？",
+      "options": ["学习前30分钟", "学习中途", "学完后5-15分钟", "学完后1小时"],
+      "answer": 2,
+      "explanation": "原文：研究显示——学完后5-15分钟喝咖啡，效果才最好。",
+      "source": "improve-memory"
+    },
+    {
+      "id": "mem-005",
+      "type": "truefalse",
+      "topic": "memory",
+      "topicName": "记忆增强",
+      "question": "原文认为大多数人正确地在学习前喝咖啡来提高记忆力。",
+      "answer": false,
+      "explanation": "原文明确：你一直在错误的时间喝咖啡！大多数人先喝咖啡再学习，错了。",
+      "source": "improve-memory"
+    },
+    {
+      "id": "mem-006",
+      "type": "choice",
+      "topic": "memory",
+      "topicName": "记忆增强",
+      "question": "每周多少分钟有氧运动能让骨头释放骨钙素增强海马体？",
+      "options": ["60分钟", "120分钟", "180分钟", "300分钟"],
+      "answer": 2,
+      "explanation": "原文数据：每周180分钟有氧运动，骨头会释放骨钙素，直接增强海马体功能。",
+      "source": "improve-memory"
+    },
+    {
+      "id": "mem-007",
+      "type": "choice",
+      "topic": "memory",
+      "topicName": "记忆增强",
+      "question": "原文中骨钙素由什么器官释放？",
+      "options": ["肝脏", "肌肉", "骨头", "大脑"],
+      "answer": 2,
+      "explanation": "原文：你的骨头会释放骨钙素，直接增强海马体功能。",
+      "source": "improve-memory"
+    },
+    {
+      "id": "mem-008",
+      "type": "choice",
+      "topic": "memory",
+      "topicName": "记忆增强",
+      "question": "\"心理拍照\"技巧的关键动作是什么？",
+      "options": ["写下来再回想", "盯着目标，心里说\"拍！\"然后用力眨眼", "每30秒回看一次", "大声朗读3遍"],
+      "answer": 1,
+      "explanation": "原文：心理拍照——盯着目标，在心里说\"拍！\"然后用力眨眼，研究证明几乎和真拍照一样有效。",
+      "source": "improve-memory"
+    },
+    {
+      "id": "mem-009",
+      "type": "choice",
+      "topic": "memory",
+      "topicName": "记忆增强",
+      "question": "原文推荐每天冥想多少分钟，坚持8周可全面提升认知？",
+      "options": ["5分钟", "13分钟", "20分钟", "30分钟"],
+      "answer": 1,
+      "explanation": "原文：每天13分钟冥想，坚持8周，注意力、记忆力、情绪调节全面提升。",
+      "source": "improve-memory"
+    },
+    {
+      "id": "mem-010",
+      "type": "truefalse",
+      "topic": "memory",
+      "topicName": "记忆增强",
+      "question": "原文建议在睡前进行13分钟冥想以增强记忆。",
+      "answer": false,
+      "explanation": "原文明确：但别在睡前做冥想，会影响睡眠。",
+      "source": "improve-memory"
+    },
+    {
+      "id": "mem-011",
+      "type": "choice",
+      "topic": "memory",
+      "topicName": "记忆增强",
+      "question": "冷水澡为什么能增强记忆？",
+      "options": ["让大脑冷静", "促进肾上腺素分泌", "改善血液循环", "提高代谢率"],
+      "answer": 1,
+      "explanation": "原文：冷水澡让你不舒服但安全的温度就够了——呼吸加快、眼睛瞪大=肾上腺素在工作。",
+      "source": "improve-memory"
+    },
+    {
+      "id": "mem-012",
+      "type": "truefalse",
+      "topic": "memory",
+      "topicName": "记忆增强",
+      "question": "原文认为内容刺激度是决定记忆的关键。",
+      "answer": false,
+      "explanation": "原文：关键不是内容有多刺激，而是学完后肾上腺素有没有飙升。",
+      "source": "improve-memory"
+    },
+    {
+      "id": "mem-013",
+      "type": "choice",
+      "topic": "memory",
+      "topicName": "记忆增强",
+      "question": "在McGaugh实验中，受试者学完无聊文章后做了什么提升记忆？",
+      "options": ["快速跑步", "把手泡进冰水", "听激动人心的音乐", "看恐怖片"],
+      "answer": 1,
+      "explanation": "原文：McGaugh实验——读完无聊文章后把手泡进冰水，效果和读惊心动魄故事一样好。",
+      "source": "improve-memory"
+    },
+    {
+      "id": "dopaser-001",
+      "type": "choice",
+      "topic": "dopaserot",
+      "topicName": "多巴胺与血清素",
+      "question": "脑科学家Read Montague认为多巴胺真正的本质是什么？",
+      "options": ["快乐分子", "学习信号", "动力激素", "压力激素"],
+      "answer": 1,
+      "explanation": "原文：脑科学家Read Montague说——多巴胺根本不是\"快乐分子\"，它是一个学习信号。",
+      "source": "dopamine-serotonin"
+    },
+    {
+      "id": "dopaser-002",
+      "type": "choice",
+      "topic": "dopaserot",
+      "topicName": "多巴胺与血清素",
+      "question": "AlphaGo打败围棋冠军使用的核心算法和大脑中什么的运行算法相同？",
+      "options": ["血清素", "多巴胺", "肾上腺素", "GABA"],
+      "answer": 1,
+      "explanation": "原文：AlphaGo打败围棋世界冠军用的核心算法，和你大脑里多巴胺运行的算法是同一个。",
+      "source": "dopamine-serotonin"
+    },
+    {
+      "id": "dopaser-003",
+      "type": "choice",
+      "topic": "dopaserot",
+      "topicName": "多巴胺与血清素",
+      "question": "在原文比喻中，血清素扮演什么角色？",
+      "options": ["油门", "刹车", "方向盘", "雷达"],
+      "answer": 1,
+      "explanation": "原文：大脑还有一个\"刹车系统\"叫血清素。多巴胺说\"冲！\"，血清素说\"停！\"。",
+      "source": "dopamine-serotonin"
+    },
+    {
+      "id": "dopaser-004",
+      "type": "truefalse",
+      "topic": "dopaserot",
+      "topicName": "多巴胺与血清素",
+      "question": "原文认为真正的平静是多巴胺飙升到最高。",
+      "answer": false,
+      "explanation": "原文：真正的平静不是多巴胺飙高，而是多巴胺与血清素两者平衡。",
+      "source": "dopamine-serotonin"
+    },
+    {
+      "id": "dopaser-005",
+      "type": "choice",
+      "topic": "dopaserot",
+      "topicName": "多巴胺与血清素",
+      "question": "SSRI抗抑郁药的隐藏悖论是什么？",
+      "options": ["多巴胺过低导致的疲劳", "提高血清素同时多余的血清素抑制多巴胺", "增加焦虑感", "导致依赖性"],
+      "answer": 1,
+      "explanation": "原文：SSRI提高血清素，但多出来的血清素会跑到多巴胺的地盘上，抑制你的快乐和动力。",
+      "source": "dopamine-serotonin"
+    },
+    {
+      "id": "dopaser-006",
+      "type": "choice",
+      "topic": "dopaserot",
+      "topicName": "多巴胺与血清素",
+      "question": "为什么很多人吃SSRI抗抑郁药后会\"情绪变平\"？",
+      "options": ["药物副作用过强", "多余的血清素抑制多巴胺", "身体产生了依赖", "心理暗示"],
+      "answer": 1,
+      "explanation": "原文：这就是为什么很多人吃了药后\"情绪变平\"——多余的血清素抑制了多巴胺。",
+      "source": "dopamine-serotonin"
+    },
+    {
+      "id": "dopaser-007",
+      "type": "truefalse",
+      "topic": "dopaserot",
+      "topicName": "多巴胺与血清素",
+      "question": "原文认为多巴胺让你刷一条短视频时大脑在学习\"下一条可能更好\"。",
+      "answer": true,
+      "explanation": "原文：你每刷一条短视频，大脑都在学习\"下一条可能更好\"，然后驱动你继续滑。",
+      "source": "dopamine-serotonin"
+    },
+    {
+      "id": "dopaser-008",
+      "type": "choice",
+      "topic": "dopaserot",
+      "topicName": "多巴胺与血清素",
+      "question": "原文认为焦虑的本质是什么？",
+      "options": ["大脑功能紊乱", "全是坏事", "刹车在保护你", "多巴胺过剩"],
+      "answer": 2,
+      "explanation": "原文7条建议之一：焦虑不全是坏事，那是刹车在保护你。",
+      "source": "dopamine-serotonin"
+    },
+    {
+      "id": "dopaser-009",
+      "type": "choice",
+      "topic": "dopaserot",
+      "topicName": "多巴胺与血清素",
+      "question": "原文推荐的\"最佳平衡训练\"是什么？",
+      "options": ["每天健身房锻炼", "冷水澡训练", "不带手机散步", "正念冥想"],
+      "answer": 2,
+      "explanation": "原文7条建议之一：不带手机散步=最佳平衡训练。",
+      "source": "dopamine-serotonin"
+    },
+    {
+      "id": "dopaser-010",
+      "type": "truefalse",
+      "topic": "dopaserot",
+      "topicName": "多巴胺与血清素",
+      "question": "原文建议吃饭时同时刷手机和听歌效率更高。",
+      "answer": false,
+      "explanation": "原文7条建议之一明确反对：别边吃边刷边听歌。",
+      "source": "dopamine-serotonin"
+    },
+    {
+      "id": "dopaser-011",
+      "type": "choice",
+      "topic": "dopaserot",
+      "topicName": "多巴胺与血清素",
+      "question": "原文中多巴胺算法被描述为什么样的算法？",
+      "options": ["人类发明出来用于AI的算法", "人类已知唯一从大脑\"爬\"进计算机然后超越人类自己的算法", "只能在人脑中运行的算法", "AI独立发现的算法"],
+      "answer": 1,
+      "explanation": "原文：这是人类已知唯一从大脑\"爬\"进计算机然后超越人类自己的算法。",
+      "source": "dopamine-serotonin"
+    },
+    {
+      "id": "dopaser-012",
+      "type": "choice",
+      "topic": "dopaserot",
+      "topicName": "多巴胺与血清素",
+      "question": "原文建议刷手机时先问自己什么问题？",
+      "options": ["\"我在浪费时间吗\"", "\"我在找什么\"", "\"我应该停下吗\"", "\"今天刷多久了\""],
+      "answer": 1,
+      "explanation": "原文7条建议第1条：刷手机时问自己\"我在找什么\"。",
+      "source": "dopamine-serotonin"
+    },
+    {
+      "id": "dopaser-013",
+      "type": "truefalse",
+      "topic": "dopaserot",
+      "topicName": "多巴胺与血清素",
+      "question": "原文建议从努力本身获取奖赏，而非只盯着结果。",
+      "answer": true,
+      "explanation": "原文7条建议第7条：从努力本身获取奖赏。",
+      "source": "dopamine-serotonin"
+    },
+    {
+      "id": "seven-001",
+      "type": "choice",
+      "topic": "sevenhabits",
+      "topicName": "高效能七习惯",
+      "question": "《高效能人士的七个习惯》全球销量约多少册？",
+      "options": ["1000万册", "2000万册", "4000万册", "1亿册"],
+      "answer": 2,
+      "explanation": "原文数据：这本书全球卖了4000万册。",
+      "source": "seven-habits"
+    },
+    {
+      "id": "seven-002",
+      "type": "choice",
+      "topic": "sevenhabits",
+      "topicName": "高效能七习惯",
+      "question": "柯维认为大多数人的根本问题是什么？",
+      "options": ["不够努力", "拿着错误的地图在跑", "缺乏天赋", "起步太晚"],
+      "answer": 1,
+      "explanation": "原文：柯维说——大多数人的问题不是不够努力，而是拿着错误的地图在跑。",
+      "source": "seven-habits"
+    },
+    {
+      "id": "seven-003",
+      "type": "choice",
+      "topic": "sevenhabits",
+      "topicName": "高效能七习惯",
+      "question": "原文将\"思维定式\"比喻为什么？",
+      "options": ["大脑的肌肉", "你的操作系统", "心智的容器", "认知的镜子"],
+      "answer": 1,
+      "explanation": "原文：你的\"思维定式\"就是你的操作系统——系统不升级，装再多App也没用。",
+      "source": "seven-habits"
+    },
+    {
+      "id": "seven-004",
+      "type": "choice",
+      "topic": "sevenhabits",
+      "topicName": "高效能七习惯",
+      "question": "七个习惯中\"先搞定自己\"的三个习惯是什么？",
+      "options": ["积极主动→以终为始→要事第一", "双赢思维→知彼解己→统合综效", "以终为始→知彼解己→不断更新", "积极主动→双赢思维→统合综效"],
+      "answer": 0,
+      "explanation": "原文：先搞定自己（积极主动→以终为始→要事第一）。",
+      "source": "seven-habits"
+    },
+    {
+      "id": "seven-005",
+      "type": "choice",
+      "topic": "sevenhabits",
+      "topicName": "高效能七习惯",
+      "question": "七个习惯中\"搞定关系\"的三个习惯是什么？",
+      "options": ["积极主动→以终为始→要事第一", "双赢思维→知彼解己→统合综效", "以终为始→知彼解己→不断更新", "要事第一→双赢思维→不断更新"],
+      "answer": 1,
+      "explanation": "原文：搞定关系（双赢思维→知彼解己→统合综效）。",
+      "source": "seven-habits"
+    },
+    {
+      "id": "seven-006",
+      "type": "choice",
+      "topic": "sevenhabits",
+      "topicName": "高效能七习惯",
+      "question": "第7个习惯是什么？",
+      "options": ["要事第一", "统合综效", "不断更新", "双赢思维"],
+      "answer": 2,
+      "explanation": "原文：最后持续迭代（不断更新）——这是第7个习惯。",
+      "source": "seven-habits"
+    },
+    {
+      "id": "seven-007",
+      "type": "choice",
+      "topic": "sevenhabits",
+      "topicName": "高效能七习惯",
+      "question": "\"要事第一\"的核心理念是什么？",
+      "options": ["把紧急的事先做完", "把时间留给\"重要但不紧急\"的事", "做最简单的事先建立信心", "做最难的事在精力最好时"],
+      "answer": 1,
+      "explanation": "原文：高效能人士把时间留给\"重要但不紧急\"的事——健康、学习、经营关系。",
+      "source": "seven-habits"
+    },
+    {
+      "id": "seven-008",
+      "type": "choice",
+      "topic": "sevenhabits",
+      "topicName": "高效能七习惯",
+      "question": "大多数人把多少时间花在了\"紧急\"的事上？",
+      "options": ["50%", "60%", "70%", "80%"],
+      "answer": 3,
+      "explanation": "原文数据：大多数人80%的时间花在\"紧急\"的事上。",
+      "source": "seven-habits"
+    },
+    {
+      "id": "seven-009",
+      "type": "choice",
+      "topic": "sevenhabits",
+      "topicName": "高效能七习惯",
+      "question": "\"情感账户\"的核心概念是什么？",
+      "options": ["每月给亲密关系存固定金额", "每次互动都是存款或取款，信任就是余额", "重要他人的纪念日清单", "情绪日记"],
+      "answer": 1,
+      "explanation": "原文：每次互动都是存款或取款，信任就是你的余额。",
+      "source": "seven-habits"
+    },
+    {
+      "id": "seven-010",
+      "type": "truefalse",
+      "topic": "sevenhabits",
+      "topicName": "高效能七习惯",
+      "question": "原文认为大多数关系崩塌是因为一次大事故。",
+      "answer": false,
+      "explanation": "原文：很多关系崩塌，不是一次大事故，而是日常小透支。",
+      "source": "seven-habits"
+    },
+    {
+      "id": "seven-011",
+      "type": "choice",
+      "topic": "sevenhabits",
+      "topicName": "高效能七习惯",
+      "question": "原文建议遇到烦心事先问自己什么？",
+      "options": ["\"谁的错\"", "\"我能控制什么\"", "\"有多严重\"", "\"会持续多久\""],
+      "answer": 1,
+      "explanation": "原文行动建议：今天遇到烦心事问\"我能控制什么\"——这是积极主动的核心。",
+      "source": "seven-habits"
+    },
+    {
+      "id": "seven-012",
+      "type": "choice",
+      "topic": "sevenhabits",
+      "topicName": "高效能七习惯",
+      "question": "原文中\"以终为始\"的实操建议是什么？",
+      "options": ["每天写日记总结", "花10分钟写下你希望退休时被记住什么", "每月制定下月目标", "倒推年度KPI"],
+      "answer": 1,
+      "explanation": "原文行动建议：花10分钟写下你希望退休时被记住什么。",
+      "source": "seven-habits"
+    },
+    {
+      "id": "seven-013",
+      "type": "truefalse",
+      "topic": "sevenhabits",
+      "topicName": "高效能七习惯",
+      "question": "原文建议每周专注练习一个习惯，7周一个循环。",
+      "answer": true,
+      "explanation": "原文：不需要一次全做到，每周专注练一个习惯，7周一个循环。",
+      "source": "seven-habits"
+    },
+    {
+      "id": "seven-014",
+      "type": "choice",
+      "topic": "sevenhabits",
+      "topicName": "高效能七习惯",
+      "question": "原文用\"四象限\"工具来组织哪个习惯？",
+      "options": ["积极主动", "以终为始", "要事第一", "双赢思维"],
+      "answer": 2,
+      "explanation": "原文：最实用的是\"要事第一\"里的四象限。",
+      "source": "seven-habits"
+    }
+  ],
+  "cards": [
+    {
+      "topic": "parentself",
+      "title": "孩子四大错误目标",
+      "displayType": "checklist",
+      "content": "Dreikurs诊断：孩子所有问题行为都在求救，背后是这4种错位需求。",
+      "richData": {
+        "items": [
+          "寻求关注（\"看看我！\"）",
+          "权力斗争（\"你管不住我\"）",
+          "报复（\"我要让你也痛\"）",
+          "自暴自弃（\"反正我做不到\"）"
+        ]
+      },
+      "actionItem": "下次孩子\"作\"的时候，先猜目标再回应。",
+      "source": "parents-challenge"
+    },
+    {
+      "topic": "parentself",
+      "title": "内疚-纵容循环",
+      "displayType": "flow",
+      "content": "Dreikurs 70多年前诊断的家长情绪陷阱。",
+      "richData": {
+        "steps": [
+          "孩子做出问题行为",
+          "父母情绪爆发，吼孩子",
+          "事后内疚，自我谴责",
+          "为弥补内疚，开始纵容",
+          "纵容导致孩子再次\"作\"",
+          "父母再次爆发——循环重启"
+        ]
+      },
+      "actionItem": "打破循环的关键不是忍住不吼，而是搞清楚你为什么要吼。",
+      "source": "parents-challenge"
+    },
+    {
+      "topic": "parentself",
+      "title": "鼓励 vs 表扬",
+      "displayType": "comparison",
+      "content": "一个培养韧性，一个培养脆弱。换句话就能改变孩子的心智。",
+      "richData": {
+        "leftTitle": "❌ 表扬（关注结果/天赋）",
+        "leftItems": ["\"你真棒\"", "\"你真聪明\"", "\"你怎么又错了\""],
+        "rightTitle": "✅ 鼓励（关注过程/努力）",
+        "rightItems": ["\"你花了很多心思\"", "\"我看到你坚持下来了\"", "\"这次比上次进步了\""]
+      },
+      "source": "parents-challenge"
+    },
+    {
+      "topic": "parentself",
+      "title": "情绪3步刹车",
+      "displayType": "flow",
+      "content": "快爆发时拉回自己的3步法。",
+      "richData": {
+        "steps": [
+          "觉察：\"我在生气\"",
+          "暂停：闭嘴10秒",
+          "选择：我想解决问题还是发泄情绪？"
+        ]
+      },
+      "actionItem": "把这3步贴在冰箱上。",
+      "source": "parents-challenge"
+    },
+    {
+      "topic": "parentself",
+      "title": "家庭会议5要素",
+      "displayType": "checklist",
+      "content": "参与制定规则的孩子比被迫服从的孩子更愿意遵守。",
+      "richData": {
+        "items": [
+          "固定时间（每周同一时段）",
+          "轮流主持（孩子也轮）",
+          "先说好事（建立正向氛围）",
+          "讨论问题（家庭议题）",
+          "全家同意（一起决策）"
+        ]
+      },
+      "source": "parents-challenge"
+    },
+    {
+      "topic": "parentself",
+      "title": "分龄教养策略",
+      "displayType": "table",
+      "content": "不同年龄的孩子需要不同的应对方式。",
+      "richData": {
+        "headers": ["年龄段", "核心方法"],
+        "rows": [
+          ["2-5岁", "给选择题（不强迫）"],
+          ["6-12岁", "用自然后果（不惩罚）"],
+          ["青春期", "少说多听（不说教）"]
+        ]
+      },
+      "source": "parents-challenge"
+    },
+    {
+      "topic": "manipulated",
+      "title": "手机操控数据",
+      "displayType": "chart",
+      "content": "原文揭露的手机操控关键数字。",
+      "richData": {
+        "bars": [
+          { "label": "每日手机使用时长", "value": 7, "display": "7小时" },
+          { "label": "Facebook比朋友更懂你所需点赞", "value": 68, "display": "68个赞" },
+          { "label": "青少年多巴胺敏感倍数", "value": 3, "display": "2-4倍" },
+          { "label": "离手机1h焦虑的青少年比例", "value": 73, "display": "73%" }
+        ]
+      },
+      "source": "manipulated"
+    },
+    {
+      "topic": "manipulated",
+      "title": "暗黑设计四件套",
+      "displayType": "checklist",
+      "content": "和老虎机同源的成瘾机制——这些不是功能，是陷阱。",
+      "richData": {
+        "items": [
+          "无限滚动（永远刷不到底）",
+          "通知红点（制造紧迫感）",
+          "可变奖励（间歇性强化，最难戒）",
+          "倒计时（人为稀缺）"
+        ]
+      },
+      "actionItem": "今晚就关闭非必要App的通知。",
+      "source": "manipulated"
+    },
+    {
+      "topic": "manipulated",
+      "title": "夺回数字自主权",
+      "displayType": "checklist",
+      "content": "看清操控手法，简单方法就能反击。",
+      "richData": {
+        "items": [
+          "关闭所有非必要通知",
+          "设置屏幕使用时间限制",
+          "购物前等24小时再下单",
+          "无限滚动App移出主屏",
+          "睡前1小时无屏幕"
+        ]
+      },
+      "source": "manipulated"
+    },
+    {
+      "topic": "manipulated",
+      "title": "服务 vs 操控",
+      "displayType": "comparison",
+      "content": "Liraz Margalit在《Manipulated》中揭穿的真相。",
+      "richData": {
+        "leftTitle": "❌ 你以为",
+        "leftItems": ["App在为你服务", "通知是有用提醒", "你在自主选择内容", "你在免费使用"],
+        "rightTitle": "✅ 真相",
+        "rightItems": ["心理学原理在操控你", "通知是注意力陷阱", "每次\"选择\"都被精心设计", "你的数据被打包卖给广告商"]
+      },
+      "source": "manipulated"
+    },
+    {
+      "topic": "manipulated",
+      "title": "青少年风险更高",
+      "displayType": "bigNumber",
+      "content": "青少年大脑前额叶未成熟，多巴胺系统更敏感。",
+      "richData": {
+        "number": "2-4x",
+        "label": "青少年多巴胺敏感度高于成人"
+      },
+      "actionItem": "孩子的屏幕时间要比成人更严格管理。",
+      "source": "manipulated"
+    },
+    {
+      "topic": "disliked",
+      "title": "课题分离判断法",
+      "displayType": "formula",
+      "content": "阿德勒心理学的核心工具，一句话破解人际内耗。",
+      "richData": {
+        "formula": "判断标准 = 这件事的后果最终由谁承担？"
+      },
+      "actionItem": "今天写下你在意的3件事，问\"这是谁的课题\"。",
+      "source": "courage-disliked"
+    },
+    {
+      "topic": "disliked",
+      "title": "弗洛伊德 vs 阿德勒",
+      "displayType": "comparison",
+      "content": "两位心理学巨擘对\"过去\"的根本分歧。",
+      "richData": {
+        "leftTitle": "弗洛伊德（决定论）",
+        "leftItems": ["\"过去决定现在\"", "你是被童年创伤绑架的囚犯", "改变需要挖掘潜意识"],
+        "rightTitle": "阿德勒（目的论）",
+        "rightItems": ["\"你选择了现在\"", "你是拿着旧剧本的演员", "改变在于换剧本"]
+      },
+      "source": "courage-disliked"
+    },
+    {
+      "topic": "disliked",
+      "title": "课题分离常见误解",
+      "displayType": "comparison",
+      "content": "课题分离不等于冷漠。",
+      "richData": {
+        "leftTitle": "❌ 误解",
+        "leftItems": ["不管不顾", "当一只刺猬", "故意得罪人", "完全不在意他人"],
+        "rightTitle": "✅ 真相",
+        "rightItems": ["\"我关心你，但不替你做决定\"", "不再以\"被所有人喜欢\"为目的", "把后果还给课题主人", "保持关系，但守住边界"]
+      },
+      "source": "courage-disliked"
+    },
+    {
+      "topic": "disliked",
+      "title": "本书数据档案",
+      "displayType": "table",
+      "content": "《被讨厌的勇气》并非鸡汤，而是经过验证的思维操作系统。",
+      "richData": {
+        "headers": ["指标", "数据"],
+        "rows": [
+          ["豆瓣评分", "8.6分"],
+          ["豆瓣评价人数", "14万+"],
+          ["翻译语言", "30多种"],
+          ["心理学基础", "阿德勒心理学"]
+        ]
+      },
+      "source": "courage-disliked"
+    },
+    {
+      "topic": "disliked",
+      "title": "今天就能做的3件事",
+      "displayType": "checklist",
+      "content": "把课题分离从概念变成习惯。",
+      "richData": {
+        "items": [
+          "写下你在意的3件事，逐条问\"这是谁的课题\"",
+          "今天拒绝一件你不想做的小事",
+          "把\"你真棒\"换成\"谢谢你\""
+        ]
+      },
+      "source": "courage-disliked"
+    },
+    {
+      "topic": "screenage",
+      "title": "三种教养方式",
+      "displayType": "comparison",
+      "content": "海豚教养法是哈佛医学博士推荐的中道路线。",
+      "richData": {
+        "leftTitle": "❌ 极端",
+        "leftItems": ["虎妈式：全面禁止手机", "水母式：放任不管", "没收手机当作惩罚"],
+        "rightTitle": "✅ 海豚教养法",
+        "rightItems": ["和孩子一起制定规则", "教会自我管理", "逐步放权", "维护亲子关系"]
+      },
+      "source": "screen-age"
+    },
+    {
+      "topic": "screenage",
+      "title": "四激素替代屏幕",
+      "displayType": "table",
+      "content": "不是不让孩子用手机，是给大脑更好的替代品。",
+      "richData": {
+        "headers": ["活动", "释放激素"],
+        "rows": [
+          ["运动", "内啡肽"],
+          ["拥抱", "催产素"],
+          ["创造", "血清素"],
+          ["完成小目标", "健康多巴胺"]
+        ]
+      },
+      "actionItem": "每天给孩子创造至少一次以上活动。",
+      "source": "screen-age"
+    },
+    {
+      "topic": "screenage",
+      "title": "6周6步计划",
+      "displayType": "flow",
+      "content": "从觉察到迭代，循序渐进重建屏幕规则。",
+      "richData": {
+        "steps": [
+          "第1周：觉察（记录现状）",
+          "第2周：对话（不评判)",
+          "第3周：共建规则（一起定）",
+          "第4周：替代活动（4激素）",
+          "第5周：建立仪式（睡前无屏幕等）",
+          "第6周：复盘调整"
+        ]
+      },
+      "actionItem": "先从睡前1小时无屏幕开始。",
+      "source": "screen-age"
+    },
+    {
+      "topic": "screenage",
+      "title": "前额叶发育时间表",
+      "displayType": "bigNumber",
+      "content": "孩子的自控不是靠意志力，而是大脑结构的成熟。",
+      "richData": {
+        "number": "25岁",
+        "label": "前额叶（自控中心）发育完全的年龄"
+      },
+      "source": "screen-age"
+    },
+    {
+      "topic": "screenage",
+      "title": "最好的家长控制软件",
+      "displayType": "formula",
+      "content": "技术解决不了的问题，关系可以。",
+      "richData": {
+        "formula": "最好的家长控制软件 = 你和孩子之间的关系"
+      },
+      "actionItem": "今晚放下手机，专心听孩子说话5分钟。",
+      "source": "screen-age"
+    },
+    {
+      "topic": "memory",
+      "title": "记忆增强公式",
+      "displayType": "formula",
+      "content": "Huberman揭示的记忆秘密：内容刺激度无关，关键是学完后的肾上腺素。",
+      "richData": {
+        "formula": "强记忆 = 学完之后 + 肾上腺素飙升"
+      },
+      "source": "improve-memory"
+    },
+    {
+      "topic": "memory",
+      "title": "5种记忆增强工具",
+      "displayType": "table",
+      "content": "Huberman实验室总结的零成本工具，按效果和成本对比。",
+      "richData": {
+        "headers": ["方法", "时机/剂量"],
+        "rows": [
+          ["咖啡", "学完后5-15分钟"],
+          ["冷水澡", "学完后立即"],
+          ["有氧运动", "每周180分钟"],
+          ["心理拍照", "盯着目标说\"拍！\"+用力眨眼"],
+          ["冥想", "每天13分钟，避免睡前"]
+        ]
+      },
+      "source": "improve-memory"
+    },
+    {
+      "topic": "memory",
+      "title": "咖啡时机大反转",
+      "displayType": "comparison",
+      "content": "大多数人都把咖啡喝错了时间。",
+      "richData": {
+        "leftTitle": "❌ 错误做法",
+        "leftItems": ["先喝咖啡再学习", "认为提神=提高记忆力", "学习中频繁补咖啡"],
+        "rightTitle": "✅ 正确做法",
+        "rightItems": ["学完后5-15分钟喝咖啡", "用咖啡触发学后肾上腺素", "学习时不依赖咖啡"]
+      },
+      "source": "improve-memory"
+    },
+    {
+      "topic": "memory",
+      "title": "运动→骨钙素→记忆",
+      "displayType": "flow",
+      "content": "有氧运动如何长出新的记忆细胞。",
+      "richData": {
+        "steps": [
+          "每周180分钟有氧运动",
+          "骨头释放骨钙素",
+          "骨钙素到达海马体",
+          "增强海马体功能",
+          "大脑长出新的记忆细胞"
+        ]
+      },
+      "source": "improve-memory"
+    },
+    {
+      "topic": "memory",
+      "title": "13分钟冥想",
+      "displayType": "bigNumber",
+      "content": "每天13分钟，坚持8周，认知全面提升。",
+      "richData": {
+        "number": "13min × 8周",
+        "label": "提升注意力、记忆力、情绪调节"
+      },
+      "actionItem": "选择白天或晚饭后冥想，避免睡前。",
+      "source": "improve-memory"
+    },
+    {
+      "topic": "memory",
+      "title": "McGaugh经典实验",
+      "displayType": "checklist",
+      "content": "证明肾上腺素才是记忆关键，而非内容刺激度。",
+      "richData": {
+        "items": [
+          "实验组A：读惊心动魄的故事",
+          "实验组B：读无聊文章+学完后泡冰水",
+          "结果：B组记忆效果与A组相同",
+          "结论：关键是学完后肾上腺素飙升"
+        ]
+      },
+      "source": "improve-memory"
+    },
+    {
+      "topic": "dopaserot",
+      "title": "多巴胺真相",
+      "displayType": "comparison",
+      "content": "Read Montague颠覆主流认知：多巴胺不是快乐分子。",
+      "richData": {
+        "leftTitle": "❌ 误解",
+        "leftItems": ["\"多巴胺=快乐分子\"", "多巴胺越高越幸福", "刷视频带来的多巴胺=好东西"],
+        "rightTitle": "✅ 真相",
+        "rightItems": ["多巴胺=学习信号", "驱动你\"下一条可能更好\"", "刷越多越空虚"]
+      },
+      "source": "dopamine-serotonin"
+    },
+    {
+      "topic": "dopaserot",
+      "title": "AlphaGo & 多巴胺",
+      "displayType": "bigNumber",
+      "content": "AlphaGo核心算法 = 大脑中多巴胺运行的算法。",
+      "richData": {
+        "number": "1种算法",
+        "label": "唯一从大脑\"爬\"进计算机超越人类的算法"
+      },
+      "source": "dopamine-serotonin"
+    },
+    {
+      "topic": "dopaserot",
+      "title": "多巴胺 vs 血清素",
+      "displayType": "comparison",
+      "content": "两套系统像跷跷板互相制衡，平衡才是平静。",
+      "richData": {
+        "leftTitle": "多巴胺（油门）",
+        "leftItems": ["\"冲！追求！下一个！\"", "学习信号、奖赏预测", "驱动行动和欲望"],
+        "rightTitle": "血清素（刹车）",
+        "rightItems": ["\"停！够了！享受当下\"", "饱足感、平静感", "保护性焦虑"]
+      },
+      "actionItem": "真正的平静=两者平衡，不是多巴胺最高。",
+      "source": "dopamine-serotonin"
+    },
+    {
+      "topic": "dopaserot",
+      "title": "SSRI悖论",
+      "displayType": "flow",
+      "content": "为什么很多人吃抗抑郁药后\"情绪变平\"。",
+      "richData": {
+        "steps": [
+          "SSRI药物抑制血清素回收",
+          "血清素水平上升",
+          "多余的血清素跑到多巴胺地盘",
+          "多巴胺被抑制",
+          "快乐和动力下降，情绪变平"
+        ]
+      },
+      "source": "dopamine-serotonin"
+    },
+    {
+      "topic": "dopaserot",
+      "title": "7条平衡建议",
+      "displayType": "checklist",
+      "content": "重建多巴胺-血清素平衡的日常实操。",
+      "richData": {
+        "items": [
+          "刷手机时问自己\"我在找什么\"",
+          "给信息浏览设终点",
+          "主动延迟满足",
+          "焦虑不全是坏事，那是刹车在保护你",
+          "别边吃边刷边听歌",
+          "不带手机散步=最佳平衡训练",
+          "从努力本身获取奖赏"
+        ]
+      },
+      "actionItem": "今天先选3条执行。",
+      "source": "dopamine-serotonin"
+    },
+    {
+      "topic": "sevenhabits",
+      "title": "七习惯结构",
+      "displayType": "flow",
+      "content": "Covey的层层递进系统：先自己，再关系，最后迭代。",
+      "richData": {
+        "steps": [
+          "第1阶段·搞定自己：积极主动→以终为始→要事第一",
+          "第2阶段·搞定关系：双赢思维→知彼解己→统合综效",
+          "第3阶段·持续迭代：不断更新"
+        ]
+      },
+      "source": "seven-habits"
+    },
+    {
+      "topic": "sevenhabits",
+      "title": "时间四象限",
+      "displayType": "table",
+      "content": "高效能人士把时间留给\"重要但不紧急\"的事。",
+      "richData": {
+        "headers": ["象限", "性质", "应对"],
+        "rows": [
+          ["I", "紧急+重要", "立刻处理（危机）"],
+          ["II", "重要不紧急", "重点投资（健康/学习/关系）"],
+          ["III", "紧急不重要", "尽量委派（别人优先级）"],
+          ["IV", "不紧急不重要", "果断舍弃（时间杀手）"]
+        ]
+      },
+      "actionItem": "列本周待办，标出第二象限的事优先做。",
+      "source": "seven-habits"
+    },
+    {
+      "topic": "sevenhabits",
+      "title": "情感账户",
+      "displayType": "formula",
+      "content": "Covey对人际关系最被低估的洞察。",
+      "richData": {
+        "formula": "信任余额 = Σ(存款互动) − Σ(取款互动)"
+      },
+      "actionItem": "今天主动给一个重要他人\"存款\"——一句肯定、一个倾听。",
+      "source": "seven-habits"
+    },
+    {
+      "topic": "sevenhabits",
+      "title": "全球销量",
+      "displayType": "bigNumber",
+      "content": "《高效能人士的七个习惯》——经典畅销书的硬数据。",
+      "richData": {
+        "number": "4000万册",
+        "label": "全球销量"
+      },
+      "source": "seven-habits"
+    },
+    {
+      "topic": "sevenhabits",
+      "title": "思维定式 = 操作系统",
+      "displayType": "comparison",
+      "content": "为什么\"学技巧\"没用？因为系统不升级。",
+      "richData": {
+        "leftTitle": "❌ 大多数人",
+        "leftItems": ["学\"怎么做事更快\"", "拿着错误的地图在跑", "装更多App（技巧）", "忙的都是别人的优先级"],
+        "rightTitle": "✅ 高效能人士",
+        "rightItems": ["\"先做对的事\"", "升级思维定式", "升级操作系统", "投资重要不紧急的事"]
+      },
+      "source": "seven-habits"
+    },
+    {
+      "topic": "sevenhabits",
+      "title": "今天就能做的3件事",
+      "displayType": "checklist",
+      "content": "从概念到行动，一天就能启动七习惯。",
+      "richData": {
+        "items": [
+          "遇到烦心事问\"我能控制什么\"（积极主动）",
+          "花10分钟写下你希望退休时被记住什么（以终为始）",
+          "列本周待办，标出第二象限的事优先做（要事第一）"
+        ]
+      },
+      "actionItem": "每周专注一个习惯，7周一个循环。",
+      "source": "seven-habits"
+    }
+  ]
+}
